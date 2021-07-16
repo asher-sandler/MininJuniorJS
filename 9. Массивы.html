@@ -1,0 +1,2131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://vladilen.ru/pl/teach/control/lesson/view?id=201179970 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		
+		<title>9. Массивы</title>
+			
+<script async="" src="./9. Массивы_files/tag.js.download"></script><script>
+	
+	window.accountUserId = 176924602;
+	window.requestIp = "87.71.119.248";
+	window.isSublogined = false;
+	window.accountId = 177331;
+	window.gcSessionId = 1728178545;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2021, 6, 16, 16, 44, 05);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.websocketHost = "s163.getcourse.ru";
+		window.websocketHttpPort = 33081;
+	window.websocketHttpsPort = 33443;
+	window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+	window.fileserviceMainHost = "fs03.getcourse.ru";
+    window.fileserviceUploadHost = "fs01.getcourse.ru";
+    window.fileserviceTusFeatureEnabled = true;
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","AED":"AED","POINTS":""};
+window.accountSafeUserName = "\u05d0\u05e9\u05e8 \u05e1\u05e0\u05d3\u05dc\u05e8";
+window.accountUserThumbnail = "<img width='50' class='user-profile-image user-default-profile-image ' src='\/\/getcourse.ru\/public\/img\/default_profile_50.png'>";
+window.language = "ru";
+window.csrfToken = "djhEeWhYbUUgdj07PQg\/LkRzIRMLMQUUFFcMPyFsGBMQTScmKS8aAQ==";
+window.requestTime = 1626443045;
+window.requestSimpleSign = "2d9f0c5c97585ea480f5d429e274d0db";
+window.gcUniqId = "125306979260f18d2571c091.80716933.1626443045.4659";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.globalCheckboxEnabled = false;
+window.globalCheckboxText = "\u042f \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d \u043d\u0430&nbsp;\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043c\u043e\u0438\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432&nbsp;\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438&nbsp;\u0441&nbsp;<a href=\"https:\/\/vladilen.ru\/policy\">\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u043c\u0438<\/a>";
+window.persodataConfirm = 1;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = false;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.webinarWebsocketHost = "ws02.getcourse.ru";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+</script>
+
+<script type="text/javascript">
+
+		    
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+	<link href="./9. Массивы_files/filelist.css" rel="stylesheet">
+<link href="./9. Массивы_files/jquery-ui.css" rel="stylesheet">
+<link href="./9. Массивы_files/bootstrap.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/select2.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/select2-kv.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/videoplayer.css" rel="stylesheet">
+<link href="./9. Массивы_files/uploadifive.css" rel="stylesheet">
+<link href="./9. Массивы_files/superlite-block-367ce03d0a62da6d6e7d92f9e70fddeb.css" rel="stylesheet">
+<link href="./9. Массивы_files/css" rel="stylesheet" async="async">
+<link href="./9. Массивы_files/css(1)" rel="stylesheet" async="async">
+<link href="./9. Массивы_files/bootstrap-datepicker3.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/datepicker-kv.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/datetimepicker-kv.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/tags-a4ffab408734cc692f9c956be7634162.css" rel="stylesheet">
+<link href="./9. Массивы_files/widget.css" rel="stylesheet">
+<link href="./9. Массивы_files/custom-form-dd508755e58e719cfee0f4aa4a2cc48f.css" rel="stylesheet">
+<link href="./9. Массивы_files/jquery.toast.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/jquery.emojiarea.css" rel="stylesheet">
+<link href="./9. Массивы_files/emoji.css" rel="stylesheet">
+<link href="./9. Массивы_files/blueimp-gallery.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/blueimp-gallery-indicator.css" rel="stylesheet">
+<link href="./9. Массивы_files/editor.css" rel="stylesheet">
+<link href="./9. Массивы_files/answers.css" rel="stylesheet">
+<link href="./9. Массивы_files/redactor.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/questions-editor.css" rel="stylesheet">
+<link href="./9. Массивы_files/testing-widget.css" rel="stylesheet">
+<link href="./9. Массивы_files/mission-addfields.css" rel="stylesheet">
+<link href="./9. Массивы_files/colpick.css" rel="stylesheet">
+<link href="./9. Массивы_files/menu.css" rel="stylesheet">
+<link href="./9. Массивы_files/statuses.css" rel="stylesheet">
+<link href="./9. Массивы_files/standard.css" rel="stylesheet">
+<link href="./9. Массивы_files/modal.css" rel="stylesheet">
+<link href="./9. Массивы_files/user-form.css" rel="stylesheet">
+<link href="./9. Массивы_files/global.css" rel="stylesheet">
+<link href="./9. Массивы_files/proxima.css" rel="stylesheet">
+<link href="./9. Массивы_files/font-awesome.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/font-viber.min.css" rel="stylesheet">
+<link href="./9. Массивы_files/main.css" rel="stylesheet">
+<link href="./9. Массивы_files/jquery.toast.min(1).css" rel="stylesheet">
+<link href="./9. Массивы_files/tasks-block.css" rel="stylesheet">
+<link href="./9. Массивы_files/audio-comments.css" rel="stylesheet">
+<link href="./9. Массивы_files/like.css" rel="stylesheet">
+<link href="./9. Массивы_files/subscribe.css" rel="stylesheet">
+<link href="./9. Массивы_files/comments.css" rel="stylesheet">
+<link href="./9. Массивы_files/comment_reply_open.css" rel="stylesheet">
+<link href="./9. Массивы_files/comment_rating_widget.css" rel="stylesheet">
+<link href="./9. Массивы_files/conversation_widget.css" rel="stylesheet">
+<link href="./9. Массивы_files/talks_widget.css" rel="stylesheet">
+<script src="./9. Массивы_files/jquery.min.js.download"></script>
+<script src="./9. Массивы_files/jquery-ui.min.js.download"></script>
+<script src="./9. Массивы_files/yii.js.download"></script>
+<script src="./9. Массивы_files/bootstrap.min.js.download"></script>
+<script src="./9. Массивы_files/jquery.uploadifive.min.js.download"></script>
+<script src="./9. Массивы_files/uploadifive-rewrite.js.download"></script>
+<script src="./9. Массивы_files/JsTrans.min.js.download"></script>
+<script src="./9. Массивы_files/dictionary-gen-27c836229240d299ca36ca553d4377efd88812a6.js.download"></script>
+<script src="./9. Массивы_files/bootstrap-datepicker.min.js.download"></script>
+<script src="./9. Массивы_files/datepicker-kv.min.js.download"></script>
+<script src="./9. Массивы_files/jquery.autosize.min.js.download"></script>
+<script src="./9. Массивы_files/jquery.toast.min.js.download"></script>
+<script src="./9. Массивы_files/jquery.form.min.js.download"></script>
+<script src="./9. Массивы_files/jquery.emojiarea.js.download"></script>
+<script src="./9. Массивы_files/emoji.js.download"></script>
+<script src="./9. Массивы_files/react.min.js.download"></script>
+<script src="./9. Массивы_files/socket.io.slim.js.download"></script>
+<script src="./9. Массивы_files/socket.js.download"></script>
+<script src="./9. Массивы_files/websocket.global.js.download"></script>
+<script src="./9. Массивы_files/modal.js.download"></script>
+<script src="./9. Массивы_files/user-form-def.js.download"></script>
+<script src="./9. Массивы_files/user-form.js.download"></script>
+<script src="./9. Массивы_files/jquery.sticky.js.download"></script>
+<script src="./9. Массивы_files/no-conflict.js.download"></script>
+<script src="./9. Массивы_files/main.js.download"></script>
+<script src="./9. Массивы_files/jquery.inputmask.bundle.js.download"></script>
+<script src="./9. Массивы_files/audio-comments.js.download"></script>
+<script src="./9. Массивы_files/RecordRTC.min.js.download"></script>
+<script src="./9. Массивы_files/like.js.download"></script>
+<script src="./9. Массивы_files/subscribe.js.download"></script>
+<script src="./9. Массивы_files/comments.js.download"></script>
+<script src="./9. Массивы_files/comment_reply_open.js.download"></script>
+<script src="./9. Массивы_files/comment_template_dialog.js.download"></script>
+<script src="./9. Массивы_files/dictionary-gen-e03473f2b8cb5b198fc92541b01d47038a744ca1.js.download"></script>	</head>
+<body class="gc-user-logined">
+	<div id="gcAccountUserMenu"><div class="gc-account-leftbar"><a href="javascript:void(0)" class="toggle-link without-icon"><img src="./9. Массивы_files/bars.png" width="35"></a><div class="gc-account-user-submenu-bar" style="display: none;"></div><ul class="gc-account-user-menu"><li class="menu-item menu-item-profile"><a href="javascript:void(0)" title="Профиль"><img class="menu-item-icon" src="./9. Массивы_files/default_profile_50.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications_button_small"><a href="javascript:void(0)" title=""><img class="menu-item-icon" src="./9. Массивы_files/notifications_button_small.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-teach active"><a href="javascript:void(0)" title="Обучение"><img class="menu-item-icon" src="./9. Массивы_files/teach_active.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications"><a href="javascript:void(0)" title="Сообщения"><img class="menu-item-icon" src="./9. Массивы_files/notifications.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-sales"><a href="javascript:void(0)" title="Покупки"><img class="menu-item-icon" src="./9. Массивы_files/sales.png"><span class="notify-count" style="display: block;">1</span></a></li></ul></div></div>
+
+								<script>
+						window.gcAccountUserMenu = {"items":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/default_profile_50.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/default_profile_50.png","subitems":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/service\/profile.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/profile_active.png","subitems":[],"url":"\/user\/my\/profile","params":{},"target":null},{"id":"notifications","label":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[],"url":"\/pl\/notifications\/settings\/my","params":{},"target":null},{"id":"change_password","label":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","iconUrl":"\/public\/img\/service\/change_password.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/change_password_active.png","subitems":[],"url":"\/user\/my\/changePassword","params":{},"target":null},{"id":"logout","label":"\u0412\u044b\u0439\u0442\u0438","iconUrl":"\/public\/img\/service\/logout.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/logout_active.png","subitems":[],"url":"\/user\/my\/logout","params":{},"target":null},{"id":"myAccounts","label":"\u041c\u043e\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","iconUrl":"\/public\/img\/service\/myAccounts.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/myAccounts_active.png","subitems":[],"url":"\/pl\/help\/launcher","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications_button_small","label":"","iconUrl":"\/public\/img\/service\/notifications_button_small.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_button_small_active.png","subitems":[],"url":null,"params":{},"target":null},{"id":"teach","label":"\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/teach.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/teach_active.png","subitems":[{"id":"trainings","label":"\u0422\u0440\u0435\u043d\u0438\u043d\u0433\u0438","iconUrl":"\/public\/img\/service\/trainings.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/trainings_active.png","subitems":[],"url":"\/teach\/control\/stream","params":{},"target":null},{"id":"schedule","label":"\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/schedule.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/schedule_active.png","subitems":[],"url":"\/teach\/control\/schedule","params":{},"target":null},{"id":"answers","label":"\u041b\u0435\u043d\u0442\u0430 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","iconUrl":"\/public\/img\/service\/answers.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/answers_active.png","subitems":[],"url":"\/teach\/control\/answers\/my","params":{},"target":null},{"id":"questionary","label":"\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/questionary.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/questionary_active.png","subitems":[],"url":"\/user\/control\/user\/questionary","params":{},"target":null},{"id":"search","label":"\u041f\u043e\u0438\u0441\u043a","iconUrl":"\/public\/img\/service\/search.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/search_active.png","subitems":[],"url":"\/c\/s\/search","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications","label":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[{"id":"my","label":"\u041c\u043e\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/my.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_active.png","subitems":[],"url":"\/pl\/talks\/conversation","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"sales","label":"\u041f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/sales.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/sales_active.png","subitems":[{"id":"my_deals","label":"\u041c\u043e\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/my_deals.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_deals_active.png","subitems":[],"url":"\/sales\/control\/userProduct\/my","params":{},"target":null}],"url":null,"params":{},"target":null}],"activeItem":"teach","navMenuItems":null};
+					</script>
+					
+
+	<div class="gc-main-content gc-both-main-content no-menu  account-page-content with-left-menu gc-user-logined gc-user-user">
+		
+
+<div class="container">
+
+	<div class="standard-logo">
+		<a href="https://vladilen.ru/" class="logo-link">
+							<span class="logo-text">
+					Vladilen Inc				</span>
+					</a>
+	</div>
+
+	
+
+	<div class="standard-page-content">
+					<ul class="breadcrumb"><li><a href="https://vladilen.ru/teach/control/stream/index">Список тренингов</a></li>
+<li><a href="https://vladilen.ru/teach/control/stream/view?id=374179241">JavaScript Junior Frontend Developer</a></li>
+</ul>				<link rel="stylesheet" type="text/css" href="./9. Массивы_files/common.css">
+
+<script>
+    window.defenceEnabled = 'true';
+    window.totalAllowedSize = '250 ГБ';
+    window.usedSize = '101,602 ГБ';
+    window.usedSizePercent = '41 %';
+</script>
+<style>
+
+	
+    /*
+	.block-set .container  {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	*/
+
+	.block-set {
+		font-size: 14px;
+        font-weight: normal;
+		font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+	}
+    .block-set .f-text {
+        font-family: inherit;
+        font-weight: inherit;
+    }
+    .questionary-title-wrapper {
+        display: none;
+    }
+    .question-number {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .testing-widget  .question .question-title-big {
+        font-size: 24px;
+
+    }
+    .testing-widget .before-start-block h3 {
+        display: none;
+    }
+    .lesson-mission-text {
+        border-bottom: 1px solid #eee;
+    }
+
+	.gc-main-content.with-left-menu .container .container {
+				width: 100% !important;
+				margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="page-header">
+					<div class="page-actions" style="float: right">
+				
+			</div>
+				<h1>
+			<a href="https://vladilen.ru/teach/control/stream/view/id/374179244">Модуль 1. База JavaScript</a>			
+		</h1>
+	</div>
+	<div class="center-block " style="max-width: 870px;margin-left: 0px; margin-bottom: 60px;width: auto;">
+		<div class="lesson-header-block row-section" style="background: #FAFAFA;border-bottom: 1px solid #ddd;padding: 0px 15px;">
+
+			<div class="row header-view">
+				<div class="col-md-12 text-center" style="padding-top: 20px;">
+					<h2 class="lesson-title-value">9. Массивы</h2>
+					<span class="lesson-description-value"></span>
+									</div>
+			</div>
+
+
+			
+
+				<div class="row lesson-navigation" style="padding-top: 20px; padding-bottom: 10px; overflow: hidden; ">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tbody><tr>
+							<td width="25%" class="" style="padding-left: 19px;">
+																																													<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179968"><span class="fui fui-arrow-left"></span> Предыдущий урок</a>
+										<div class="hidden-xs" style="font-weight: normal; font-size: 1em; line-height: 16px "> 8. Функции</div>
+																											</td>
+							<td width="50%" class="text-center hidden-xs">
+								<span>
+									12 из 24 уроков								</span>
+								<div class="user-state-reached">
+									<div style="font-weight: normal; font-size: 1.2em" class="user-state-label">Доступен</div>
+								</div>
+							</td>
+							<td width="25%" class="text-right" style="padding-right:17px;">
+																																														<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179972">Следующий урок <span class="fui fui-arrow-right"></span> </a>
+											<div class="hidden-xs" style="font-size: 1em; line-height: 16px; font-weight: normal">10. Объекты</div>
+																											</td>
+						</tr>
+					</tbody></table>
+				</div>
+					</div>
+
+
+
+					
+<div class="lite-page block-set">
+				<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2589" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-feedback-block" data-block-id="1095162637">
+
+<style>
+	#ltBlock1095162637 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1095162637" data-block-id="1095162637" class="lt-block lt-view lesson-feedback-block-1 lt-lesson lt-lesson-feedback-block" data-code="ltBlock1095162637">
+	<div class="lt-block-wrapper">
+	
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2589');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1095162637', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1095162637-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626358285" id="lite-block-live-wrapper-1626443045-2627" class="lite-block-live-wrapper o-lt-raw o-lt-raw-css o-lt-system-block o-lt-invisible-block" data-block-id="1103344949">
+
+<style>
+	#ltBlock1103344949 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103344949" data-block-id="1103344949" class="lt-block lt-view raw-css lt-raw lt-raw-css lt-system-block lt-invisible-block" data-code="b-4e8e9">
+	<div class="lt-block-wrapper">
+	<style id="rawCss4775555">/*Заголовок*/
+.z p{
+	font-size: 18px;
+    color: #0f141e;
+    text-align: left;
+}
+/*Основной текст*/
+.text-normal.f-text {
+    font-size: 18px;
+    color: #686B71;
+}
+.black .text-normal.f-text {
+    color: black;
+}</style>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2627');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103344949', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103344949-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2672" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-image" data-block-id="1092686063">
+
+<style>
+	#ltBlock1092686063 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1092686063" data-block-id="1092686063" class="lt-block lt-view lessonImg01 lt-lesson lt-lesson-image" data-code="b-596f1">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div class="image-box image-style-">
+	<div data-main-class="image-wrapper" class="image-wrapper">
+		<img data-main-class="lt-image-common" data-hash="7ac2454591442fdf7bd281d9dc0d3be0.png" data-image-editable="true" data-param="image" class="lt-image-common" src="./9. Массивы_files/237">
+	</div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2672');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092686063', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092686063-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2716" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1090790507">
+
+<style>
+	#ltBlock1090790507 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1090790507" data-block-id="1090790507" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-a2642">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><p><br></p>
+<hr>
+<p><br></p>
+<div style="font-size: 18px; color: #686B71;">
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Цель урока:&nbsp;</strong><br>Вы научитесь выполнять базовые действия с массивами: удаление, добавление, изменение элементов. Также мы разберем такие темы, как перебор массива, сортировка массива разными способами, объединение нескольких массивов в один.</p>
+<p><br></p>
+<p><strong style="color: #0f141e;">Содержание урока:</strong></p>
+<p><span style="font-family: inherit; font-weight: inherit;">1. Что такое массивы и как их создавать?</span></p><p><span style="font-family: inherit; font-weight: inherit;">2.&nbsp;Добавление, удаление и изменение элементов массива.&nbsp;</span></p><p><span style="font-family: inherit; font-weight: inherit;">3.&nbsp;Перебор массивов с помощью for, for of и forEach</span></p><p><span style="font-family: inherit; font-weight: inherit;">4. Работа с методами массивов: map, filter, find, findIndex, some, every&nbsp;</span></p><p><span style="font-family: inherit; font-weight: inherit;">5. Метод массивов reduce&nbsp;</span></p><p><span style="font-family: inherit; font-weight: inherit;">6. Метод массивов sort&nbsp;</span></p><p><span style="font-family: inherit; font-weight: inherit;">7. Методы массивов: splice, slice, indexOf, includes, join, reverse</span></p><p><span style="font-family: inherit; font-weight: inherit;">8. Объединение нескольких массивов в один</span></p>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Дополнительные материалы:</strong></p>
+<p><span style="font-family: inherit; font-weight: inherit;">1.&nbsp;S</span><span style="font-family: inherit; font-weight: inherit;">pread-оператор в JavaScript (...): </span><a href="https://habr.com/ru/post/348718/" style="background-color: rgba(0, 0, 0, 0.05); font-family: inherit; font-weight: inherit;">https://habr.com/ru/post/34871...</a></p><p><span style="font-family: inherit; font-weight: inherit;">2. Массивы и их методы: </span><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array" style="background-color: rgba(0, 0, 0, 0.05); font-family: inherit; font-weight: inherit;">https://developer.mozilla.org/...</a></p><p><span style="font-family: inherit; font-weight: inherit;">3. Как работает reduce в javascript: </span><a href="https://medium.com/@stasonmars/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-reduce-%D0%B2-javascript-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%B5%D0%B3%D0%BE-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C-%D0%B8-%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%BA%D1%80%D1%83%D1%82%D1%8B%D0%B5-%D0%B2%D0%B5%D1%89%D0%B8-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D1%81-%D0%BD%D0%B8%D0%BC-b650c397bee6" style="background-color: rgba(0, 0, 0, 0.05); font-family: inherit; font-weight: inherit;">https://medium.com/@stasonmars...</a></p><p><span style="font-family: inherit; font-weight: inherit;">4. Метод sort в JavaScript: </span><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort" style="background-color: rgba(0, 0, 0, 0.05); font-family: inherit; font-weight: inherit;">https://developer.mozilla.org/...</a></p><p><span style="font-family: inherit; font-weight: inherit;">5. Методы массивов (forEach, map, filter, reduce, find, findIndex):&nbsp;</span><a href="https://youtu.be/nEabP9CYCAQ" target="_blank" style="background-color: rgba(0, 0, 0, 0.05); font-family: inherit; font-weight: inherit;">https://youtu.be/nEabP9CYCAQ</a></p>
+</div>
+<p><br></p></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2716');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090790507', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090790507-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2757" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091266291">
+
+<style>
+	#ltBlock1091266291 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091266291" data-block-id="1091266291" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-99fb2">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><strong>Что такое массивы и как их создавать? Добавление, удаление и изменение элементов массива</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2757');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266291', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266291-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2816" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096723256">
+
+<style>
+	#ltBlock1096723256 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096723256" data-block-id="1096723256" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-6b472">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573094541.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2816');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096723256', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096723256-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2858" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091266339">
+
+<style>
+	#ltBlock1091266339 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091266339" data-block-id="1091266339" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-7276c">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p>
+<p><strong>Перебор массивов с помощью for, for of и forEach</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2858');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266339', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266339-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2901" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096723657">
+
+<style>
+	#ltBlock1096723657 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096723657" data-block-id="1096723657" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-9d02c">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573096888.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2901');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096723657', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096723657-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2945" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091266423">
+
+<style>
+	#ltBlock1091266423 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091266423" data-block-id="1091266423" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-6f041">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p>
+<p><strong>Работа с методами массивов: map, filter, find, findIndex, some, every</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2945');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266423', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266423-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-2987" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096725225">
+
+<style>
+	#ltBlock1096725225 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096725225" data-block-id="1096725225" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-412eb">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573098538.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-2987');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096725225', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096725225-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3028" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091266448">
+
+<style>
+	#ltBlock1091266448 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091266448" data-block-id="1091266448" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-853d6">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p>
+<p><strong>Метод массивов reduce</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3028');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266448', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091266448-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3075" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096726450">
+
+<style>
+	#ltBlock1096726450 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096726450" data-block-id="1096726450" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-4a6f4">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573103103.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3075');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096726450', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096726450-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3114" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091267639">
+
+<style>
+	#ltBlock1091267639 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091267639" data-block-id="1091267639" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-20004">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p>
+<p><strong>Метод массивов sort</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3114');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091267639', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091267639-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3158" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096726890">
+
+<style>
+	#ltBlock1096726890 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096726890" data-block-id="1096726890" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-66c33">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573107638.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3158');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096726890', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096726890-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3199" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091267700">
+
+<style>
+	#ltBlock1091267700 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091267700" data-block-id="1091267700" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-f26a7">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p>
+<p><strong>Методы массивов: splice, slice, indexOf, includes, join, reverse:</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3199');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091267700', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091267700-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3243" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096727448">
+
+<style>
+	#ltBlock1096727448 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096727448" data-block-id="1096727448" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-bdc31">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573109301.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3243');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096727448', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096727448-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3284" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1101402803">
+
+<style>
+	#ltBlock1101402803 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1101402803" data-block-id="1101402803" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-b3986">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><p style="font-size: 18px;">UPD: метод&nbsp;<strong>splice</strong> вторым параметром принемает <u>количество удаляемых элементов</u>!<br><a target="_blank" href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Описание метода splice</a></p></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3284');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1101402803', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1101402803-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3326" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1091267714">
+
+<style>
+	#ltBlock1091267714 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1091267714" data-block-id="1091267714" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-bb9bc">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p>
+<p><strong>Объединение нескольких массивов в один</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3326');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091267714', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1091267714-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3371" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096730186">
+
+<style>
+	#ltBlock1096730186 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 30px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096730186" data-block-id="1096730186" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-f9a65">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./9. Массивы_files/573114524.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3371');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096730186', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096730186-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-342" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1092999717">
+
+<style>
+	#ltBlock1092999717 .lt-block-wrapper {
+		padding-top: 60px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1092999717" data-block-id="1092999717" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-e9661">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder9950132" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field40749" data-item-name="field40749" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-image ">
+	
+<div id="image4885861" class="image-box" data-img-title="" data-img-src="//fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/74758a10e3bba5573f93664bb536acf3.png/s/s1200x/a/177331/sc/147">
+	<img class="lazyload" src="./9. Массивы_files/147" data-param="items/parts/field40749/inner/image" data-hash="74758a10e3bba5573f93664bb536acf3.png" data-image-editable="true" title="" alt="" style="">
+	<div data-editable="true" data-param="items/parts/field40749/inner/image/caption" class="lt-image-caption">
+			</div>
+</div>
+
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder9950132 input[type="radio"]').length == 1 && $('#builder9950132 input[type="radio"]').prop('checked') ) {
+			$('#builder9950132 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-342');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092999717', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092999717-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626417475" id="lite-block-live-wrapper-1626443045-3498" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1103345135">
+
+<style>
+	#ltBlock1103345135 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103345135" data-block-id="1103345135" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-16925">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder8697413" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field36192" data-item-name="field36192" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192/inner/text" class="f-header f-header-36"><p>Задание 1</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1" data-item-name="text1" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1/inner/text" data-editable="true"><p>Вам необходимо создать функцию getSumOfSequence, которая принимает в себя один параметра number. Данная функция должна создавать массив из чисел от 0 до number. То есть, если бы передан number равный 5, то массив должен выглядеть следующим образом: [1, 2, 3, 4, 5]. Для заполнения массива элементами используйте цикл for.</p>
+
+<p><br></p>
+
+<p>Функция getSumOfSequence должна возвращать сумму первого и последнего элементов итогового массива.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_84" data-item-name="field36192_87_84" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_84/inner/text" class="f-header f-header-36"><p>Задание 2</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1_43" data-item-name="text1_43" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1_43/inner/text" data-editable="true"><p>Представьте, что мы разрабатываем систему очередей для какого-либо заведения. Например, для почты. Для этого мы создали массив peopleWaiting, который отображает текущий статус очереди.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1_43_24" data-item-name="text1_43_24" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; color: #000000; border-radius: ; " data-setting-editable="true" class="builder-item part-text  black">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1_43_24/inner/text" data-editable="true"><p>const peopleWaiting = ['Кристина', 'Олег', 'Кирилл', 'Мария', 'Светлана', 'Артем', 'Глеб'];</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1_43_53" data-item-name="text1_43_53" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1_43_53/inner/text" data-editable="true"><p>По логике, следующую посылку по почте получит Кристина, после нее уже 1-м в очереди будет Олег.<br>Сейчас вам необходимо реализовать следующую логику в коде шаг за шагом:</p><ol><li>Кристина и Олег получили посылки и ушли из очереди. Вам необходимо удалить их из массива.</li><li>Теперь подошла очередь к Кириллу. И неожиданно сотрудница почты говорит, что скоро у них обеденный перерыв и она успеет обслужить только Кирилла. Поэтому все остальные люди, стоящие за Кириллом, решили не ждать, когда закончится обед, и просто ушли из отделения почты. Вам необходимо сначала удалить Кирилла из массива peopleWaiting, а затем удалить людей, которые не успели получить посылки.</li></ol>
+
+
+
+<p>Когда какой либо человек получает посылку, необходимо вывести в модальном окне сообщение “name получил(а) посылку. В очереди осталось length человек.” (Замените name на имя человека, получившего посылку, а length - на количество человек, которые остались в очереди).</p>
+
+
+
+<p><br></p>
+
+<p>Если же человек не получил посылку и ушел из очереди, то выведите в модальном окне через alert сообщение “name не получил(а) посылку и ушел(ла) из очереди”.</p>
+
+
+
+<p><br></p>
+
+<p>Рекомендуется создать 2 функции: giveParcel - для выдачи посылки и удаления клиента из начала массива, leaveQueueWithoutParcel - для удаления клиента, который не получил посылку, из конца списка.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_76" data-item-name="field36192_87_76" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_76/inner/text" class="f-header f-header-36"><p>Задание 3</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field41074" data-item-name="field41074" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field41074/inner/text" data-editable="true"><p>Вам дан массив чисел.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field37232" data-item-name="field37232" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text  black">
+	<div style="" class="text-normal f-text" data-param="items/parts/field37232/inner/text" data-editable="true"><p>const numbers = [10, 4, 100, -5, 54, 2];</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569" data-item-name="field46569" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569/inner/text" data-editable="true"><p>Необходимо посчитать сумму кубов всех чисел в массиве. Например, для массива [1, 5, 9] должен быть следующий результат:</p>
+
+<p><em>1^3 + 5^3 + 9^3 = 1 + 125 + 729 = <strong>855</strong></em></p><p><em></em></p><p><em></em></p><p>Решите данную задачу 4-мя способами:</p>
+
+<ol><li>Через цикл for</li><li>Через цикл for of</li><li>Через метод forEach</li><li>Через метод reduce</li></ol>
+
+<p>Для данного массива numbers сумма кубов должна равняться 1158411.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87" data-item-name="field36192_87" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87/inner/text" class="f-header f-header-36"><p>Задание 4</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_70" data-item-name="field46569_61_70" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_70/inner/text" data-editable="true"><p>Представьте, что у вас есть друг Алексей, который является владельцем кофейни. Он хочет сделать сайт для этой кофейни, чтобы люди могли заказывать доставку кофе на дом. Самая главная функция, которую хочет видеть Алексей, это поиск кофе по названию. Ваш друг просит вас помочь ему с разработкой сайта.<br>Изначально у вас есть массив coffees, в котором хранятся все виды кофе, которые есть в кофейне у Алексея. Напитки распределены в порядке популярности среди клиентов. Т.е. кофе “Latte” - самый популярный.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field37232_83" data-item-name="field37232_83" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text  black">
+	<div style="" class="text-normal f-text" data-param="items/parts/field37232_83/inner/text" data-editable="true"><p>const coffees = ['Latte', 'Cappuccino', 'Americano'];</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61" data-item-name="field46569_61" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61/inner/text" data-editable="true"><p>С помощью функции prompt вам необходимо запрашивать название кофе. Передайте в prompt сообщение “Поиск кофе по названию:”. Сохраните значение, которое ввел пользователь, в переменную coffeeName.</p><p><br></p>
+
+<p>Если введенное пользователем название кофе существует, то отобразите сообщение с помощью alert “Держите ваш любимый кофе coffee. Он number-й по популярности в нашей кофейне.”, где coffee - название найденного кофе, number - номер найденного кофе в массиве coffees. Если же кофе не был найден, то отобразите сообщение “К сожалению, такого вида кофе нет в наличии”.</p><p><br></p>
+
+Условия:<br><ol><li>Название кофе должно быть регистронезависимым. Т.е. если пользователь напечатает “lATte”, то должен показаться результат с кофе “Latte”</li><li>Необходимо использовать findIndex.&nbsp;</li></ol>
+
+</div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_52_86" data-item-name="field36192_87_52_86" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_52_86/inner/text" class="f-header f-header-36"><p>Задание 5</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90" data-item-name="field46569_61_90" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90/inner/text" data-editable="true"><p>Вы разработали главную функциональность, которую хотел видеть Алексей на своем сайте. Он говорит вам большое спасибо, потому что благодаря сайту в кофейне увеличилось количество продаж. Теперь Алексей захотел поднять цену на кофе, чтобы прибыли было еще больше.</p>
+
+<p><br></p><p>У вас изначально есть 2 массива: coffees (хранит названия кофе) и prices (хранит цены на кофе). Индексы для названий кофе и цен взаимосвязаны. Т.е. “Latte” стоит 1.5 евро, “Cappuccino” - 1 евро, и т.д.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field37232_83_88" data-item-name="field37232_83_88" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text  black">
+	<div style="" class="text-normal f-text" data-param="items/parts/field37232_83_88/inner/text" data-editable="true"><p>const coffees = ['Latte', 'Cappuccino', 'Americano'];<br>const prices = [1.5, 1, 2];</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74_35" data-item-name="field46569_61_90_74_35" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74_35/inner/text" data-editable="true"><p>Вам необходимо создать новый массив updatedPrices, который будет содержать те же числа из массива prices, но только увеличенные на 0.5.</p>
+
+<p><br></p><p>После подъема цен вам необходимо уведомить об этом клиентов кофейни, поэтому выведите для каждого типа кофе сообщение через alert “Кофе name сейчас стоит price евро”, где name - название кофе, а price - обновленная цена на кофе.</p><p><br></p>
+
+Условия:<br><ol><li>Необходимо использовать методы массивов map и forEach</li></ol></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_52" data-item-name="field36192_87_52" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_52/inner/text" class="f-header f-header-36"><p>Задание 6</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74" data-item-name="field46569_61_90_74" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74/inner/text" data-editable="true"><p>Последнее, что хочет видеть Алексей на своем сайте - это система оценок работы кофейни. Владельцу необходимо знать мнение клиентов, чтобы исправлять недочеты в своей работе.</p>
+
+<p><br></p><p>Для начала вам необходимо создать пустой массив clientsEstimations, в котором будут хранится оценки клиентов кофейни. Также создайте функцию askClientToGiveEstimation, которая должна выводить сообщение&nbsp; “Как вы оцениваете нашу кофейню от 1 до 10?” через prompt. Конечный результат, который введет пользователь, должен быть типом данных number. Если было введено число от 1 до 10, то добавьте эту оценку в массив clientsEstimations, иначе же никаких действий не совершайте.</p>
+
+<p><br></p><p>Для добавления оценок вызовите функцию askClientToGiveEstimation 5 раз. Рекомендуется это сделать через цикл for.</p>
+
+<p><br></p><p>После того, как оценки будут добавлены, вам необходимо посчитать положительные и отрицательных оценки. Положительной оценкой является число больше 5, отрицательной - число, меньшее за 5 либо равное 5. Выведите через alert сообщение “Всего положительных оценок: goodEstimations; Всего отрицательных оценок: notGoodEstimations”, где goodEstimations - количество положительных оценок, а notGoodEstimations - количество отрицательных оценок.</p>
+
+<p><br></p>Условия:<br><ol><li>В решение должен быть использован метод массивов filter.</li></ol></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_52_32" data-item-name="field36192_87_52_32" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_52_32/inner/text" class="f-header f-header-36"><p>Задание 7</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74_40" data-item-name="field46569_61_90_74_40" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74_40/inner/text" data-editable="true"><p>Представьте, что ваш друг - владелец любительского футбольного клуба. Игроки команды забивают много голов и сотрудникам клуба надоело каждый раз после матча считать всю статистику. Поэтому они решили попросить вас как веб-разработчика помочь решить эту проблему. Вам требуется оптимизировать задачу подсчета статистики с помощью языка программирования JavaScript.</p>
+
+<p><br></p><p>У вас есть массив goals, в котором каждый индекс означает сыгранный матч, а число под индексом - количество голов забитых в конкретном матче.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field37232_83_88_65" data-item-name="field37232_83_88_65" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text  black">
+	<div style="" class="text-normal f-text" data-param="items/parts/field37232_83_88_65/inner/text" data-editable="true"><p>const goals = [8, 1, 1, 3, 2, -1, 5];</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74_40_18" data-item-name="field46569_61_90_74_40_18" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74_40_18/inner/text" data-editable="true"><p>То есть в 1-м матче команда забила 8 мячей, во 2-м - один и т.д. Если в массиве есть отрицательное число, то значит, что команде было засчитано автоматическое поражение.</p><p><br></p>
+
+Используя данный массив goals вам необходимо вывести следующую статистику за весь сезон.<br><ol><li>Самый результативный матч по количеству голов. Выведите в модальном окне через alert сообщение “Самый результативный матч был под номером number. В нем было забито numberOfGoals гол(ов).” (замените number на порядковый номер матча, а numberOfGoals - на количество голов в самом результативном матче).</li><li>Самые нерезультативные игры. Их в массиве несколько, поэтому вам требуется вывести через alert сообщение “Самые не результативные матчи были под номерами numbers. В каждом из них было забито по numberOfGoals мячу(а).” (замените numbers на порядковые номера матчей и отобразите их через запятую, а numberOfGoals - на количество голов в самом не результативном матче). Не берите в учет игры с автоматическим поражением.</li><li>Общее количество голов за сезон. Не берите в учет игры с автоматическим поражением. Выведите сообщение через alert “Общее количество голов за сезон равно numberOfGoals” (замените numberOfGoals на число общее количества голов за сезон).</li><li>Были ли автоматические поражения. Если были, то выведите сообщение через alert “Были автоматические поражения: да”, иначе&nbsp; “Были автоматические поражения: нет”.</li><li>Среднее количество голов за матч. Выведите сообщение через alert “Среднее количество голов за матч равно numberOfGoals” (замените numberOfGoals на среднее количество голов за матч).</li><li>Отсортируйте голы в порядке возрастания и выведите все результаты через запятую в модальном окне alert. Массив goals не должен быть изменен.</li></ol>
+
+
+
+
+
+
+
+
+
+</div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_52_32_78" data-item-name="field36192_87_52_32_78" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_52_32_78/inner/text" class="f-header f-header-36"><p>Дополнительное задание 1</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74_40_18_15_45" data-item-name="field46569_61_90_74_40_18_15_45" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74_40_18_15_45/inner/text" data-editable="true"><p>Ваша задача состоит в том, чтобы написать функцию, которая будет работать как мини-калькулятор математических выражений. Назовите данную функцию getMathResult. getMathResult принимает в себя 1 параметр expression, который является массивов и всегда состоит из должен состоять из 3-х элементов.</p><p><br></p>
+
+<p>Первый и 3-й элементы в массиве expression - это числа, которые могут записывать как тип данных number либо string (например, 100 или ‘100’). 2-й элемент - это математический знак, который является типом данных string. Математический знак может быть исключительно следующими строками: “&gt;”, “&lt;”, “=”, “+”, “-”, “*”, “/”. Если был знак, которого не существует в данной последовательности, то функция getMathResult должна возвращать ошибку в виде строки “Ошибка”.</p><p><br></p>
+
+<p>Примеры результатов функции getMathResult:<br>getMathResult([‘200’, ‘+’, 300]); // 500</p>
+
+<p>getMathResult([‘20’, ‘-’, ‘5’]); // 15</p>
+
+<p>getMathResult([100, ‘/’, 100]); // 1</p>
+
+<p>getMathResult([2, ‘-’, 2]); // 0</p>
+
+<p>getMathResult([‘5’, ‘&gt;’, ‘10’]); // false</p>
+
+<p>getMathResult([‘5’, ‘&lt;’, ‘10’]); // true</p>
+
+<p>getMathResult([‘1’, ‘=’, 1]); // true</p>
+
+<p>getMathResult([‘1’, ‘**’, 1]); // ‘Ошибка’</p><p><br></p>
+
+<p>Также учтите, что в массив expression иногда может быть передано больше 3-х параметров, и это конечно же неверно. Но если все же такое было сделано, вам необходимо удалить лишние элементы в массиве, которые нельзя преобразовать к числу, которые являются ложными. Если же длина массива expression меньше 3, то функция getMathResult должна возвращать ошибку в виде строки “Ошибка”.<br>Например, если expression был передан как данный массив:<br><em class="redactor-inline-converted">['100', 'hello', 'javascript', , 'help200', '+', 4]</em><br>то в итоге он должен быть преобразован к<br><em>['100', '+', 4]</em></p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_52_32_78_0" data-item-name="field36192_87_52_32_78_0" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_52_32_78_0/inner/text" class="f-header f-header-36"><p>Дополнительное задание 2</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74_40_18_15_56" data-item-name="field46569_61_90_74_40_18_15_56" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74_40_18_15_56/inner/text" data-editable="true"><p>С помощью циклов for вам необходимо создать матрицу 3x5. В итоге она должна выглядеть следующим образом:</p>
+
+<p><img src="./9. Массивы_files/Screenshot 2021-06-20 at 3.44.42 PM.png"></p>
+
+<p>Подсказка: как видите, в итоге получился массив из 3-х элементов, внутри которого хранятся массивы, каждый из которых имеет по 5 элементов. Это можно реализовать с помощью 2-х циклов for. Внутрь одного цикла for необходимо поместить еще один цикл.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_52_32_78_0_35" data-item-name="field36192_87_52_32_78_0_35" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_52_32_78_0_35/inner/text" class="f-header f-header-36"><p>Дополнительное задание 3</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field46569_61_90_74_40_18_15" data-item-name="field46569_61_90_74_40_18_15" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field46569_61_90_74_40_18_15/inner/text" data-editable="true"><p>Вам дан массив, элементами которого являются массивы.</p>
+
+<p><br><span class="redactor-inline-converted">const matrix = [<br>&nbsp;&nbsp;&nbsp;[ 1, 2, 3 ],<br>&nbsp;&nbsp;&nbsp;[ 4, 5, 6 ],<br>&nbsp;&nbsp;&nbsp;[ 7, 8, 9 ],<br>];</span></p>
+
+<p>Вам необходимо сделать из элементов вложенных массивов один массив. Итоговый результат должен выглядеть следующим образом: [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ].</p>
+
+<p><br></p>
+
+<p>Условия:</p>
+
+<ol><li>Нельзя использовать метод массивов flat.</li><li>Необходимо, чтобы в решение использовался метод concat либо spread-оператор</li></ol></div></div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder8697413 input[type="radio"]').length == 1 && $('#builder8697413 input[type="radio"]').prop('checked') ) {
+			$('#builder8697413 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3498');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103345135', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103345135-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-3892" class="lite-block-live-wrapper o-lt-form o-lt-form-survey" data-block-id="1093132663">
+	<style>
+		#ltBlock1093132663 .btn1 button{background: #EB5F84!important;
+    border-radius: 10px!important;
+    font-size: 14px!important;
+    text-transform: uppercase!important;
+    box-shadow: 0 0 15px 1px #EB5F84!important;
+    transition: all 0.3s;
+}	</style>
+
+<style>
+	#ltBlock1093132663 .lt-block-wrapper {
+		padding-top: 75px; padding-bottom: 75px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1093132663" data-block-id="1093132663" data-has-css="true" class="lt-block lt-view survey01 lt-form lt-form-survey" data-code="b-e4399">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-8 col-md-offset-2" style="">
+			
+<form id="ltForm3779732" class="lt-normal-form lt-form-inner lt-form   " action="https://vladilen.ru/pl/lite/block-public/process?id=1093132663" method="post" data-open-new-window="0">
+	<input type="hidden" name="formParams[setted_offer_id]" class="external-value offer_id">
+		
+	<div class="form-result-block"></div>
+
+	<div class="form-content">
+		
+<div id="builder2731837" class="builder " data-path="form/items">
+	
+			<div data-param="form/items/parts/field88593" data-item-name="field88593" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  text-center">
+	<div data-editable="true" data-param="form/items/parts/field88593/inner/text" class="f-header f-header-20"><p>Ваша оценка урока</p></div></div>
+<style>
+	</style>			<div data-param="form/items/parts/field12845" data-item-name="field12845" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-surveyFields ">
+	<div id="surveyFields1833446">
+							
+
+<div class="custom-form without-help-elems" id="widget2820">
+	
+	<input type="hidden" name="surveyData" id="widgetValue6902" value="{&quot;714834&quot;:&quot;1. Hello World&quot;,&quot;714835&quot;:&quot;10&quot;,&quot;714836&quot;:&quot;&quot;,&quot;726029&quot;:null}">
+	<div class="fields"><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-714834"><span class="label-value">Урок</span><span class="required-sign">*</span></label><div class="field-input-block"><select id="field-input-714834" class="form-control"><option value="1. Hello World">1. Hello World</option><option value="2. Синтаксис">2. Синтаксис</option><option value="3. Типы Данных">3. Типы Данных</option><option value="4. Приведение типов в JavaScript">4. Приведение типов в JavaScript</option><option value="5. Работа со строками">5. Работа со строками</option><option value="6. Введение в основы JavaScript">6. Введение в основы JavaScript</option><option value="7. Debug">7. Debug</option><option value="8. Функции">8. Функции</option><option value="9. Массивы">9. Массивы</option><option value="10. Объекты">10. Объекты</option><option value="Как дойти до намеченной цели">Как дойти до намеченной цели</option><option value="11. Дата и Время в JavaScript">11. Дата и Время в JavaScript</option><option value="12. Ключевое слово «this»">12. Ключевое слово «this»</option><option value="13. Классы + ООП">13. Классы + ООП</option><option value="14. Работа с DOM">14. Работа с DOM</option><option value="15. Асинхронность (Promise + fetch)">15. Асинхронность (Promise + fetch)</option><option value="16. Асинхронность (Async Await)">16. Асинхронность (Async Await)</option><option value="17. Callback + Event Loop">17. Callback + Event Loop</option><option value="18. Webpack, rollup">18. Webpack, rollup</option><option value="19. Es6 import export">19. Es6 import export</option><option value="20. GIT">20. GIT</option></select></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-714835"><span class="label-value">Пожалуйста оцените данный урок от 1 до 10</span><span class="required-sign">*</span></label><div class="field-input-block"><select id="field-input-714835" class="form-control"><option value="10">10</option><option value="9">9</option><option value="8">8</option><option value="7">7</option><option value="6">6</option><option value="5">5</option><option value="4">4</option><option value="3">3</option><option value="2">2</option><option value="1">1</option><option value="0">0</option></select></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-726029"><span class="label-value">Порекомендовали бы Вы этот урок? </span><span class="required-sign">*</span></label><div class="field-input-block"><label><input type="radio" name="field-value-726029" value="Да">Да</label><label><input type="radio" name="field-value-726029" value="Нет">Нет</label></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-text"><label class="field-label" for="field-input-714836"><span class="label-value">Напишите свои пожелания к уроку. Что-то нужно добавить/изменить?</span><span class="required-sign">*</span></label><div class="field-input-block"><textarea id="field-input-714836" placeholder="" class="form-control" rows="3"></textarea></div><div class="field-description-block" style="display: none;"></div></div></div></div>
+</div>
+<script>
+	$( function() {
+		$('#widget2820').customForm({
+			form: {"fields":[{"id":714834,"label":"\u0423\u0440\u043e\u043a","type":"select","required":true,"settings":{"valueList":"1. Hello World\n2. \u0421\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\n3. \u0422\u0438\u043f\u044b \u0414\u0430\u043d\u043d\u044b\u0445\n4. \u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0442\u0438\u043f\u043e\u0432 \u0432 JavaScript\n5. \u0420\u0430\u0431\u043e\u0442\u0430 \u0441\u043e \u0441\u0442\u0440\u043e\u043a\u0430\u043c\u0438\n6. \u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043e\u0441\u043d\u043e\u0432\u044b JavaScript\n7. Debug\n8. \u0424\u0443\u043d\u043a\u0446\u0438\u0438\n9. \u041c\u0430\u0441\u0441\u0438\u0432\u044b\n10. \u041e\u0431\u044a\u0435\u043a\u0442\u044b\n\u041a\u0430\u043a \u0434\u043e\u0439\u0442\u0438 \u0434\u043e \u043d\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u043e\u0439 \u0446\u0435\u043b\u0438\n11. \u0414\u0430\u0442\u0430 \u0438 \u0412\u0440\u0435\u043c\u044f \u0432 JavaScript\n12. \u041a\u043b\u044e\u0447\u0435\u0432\u043e\u0435 \u0441\u043b\u043e\u0432\u043e \u00abthis\u00bb\n13. \u041a\u043b\u0430\u0441\u0441\u044b + \u041e\u041e\u041f\n14. \u0420\u0430\u0431\u043e\u0442\u0430 \u0441 DOM\n15. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0441\u0442\u044c (Promise + fetch)\n16. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0441\u0442\u044c (Async Await)\n17. Callback + Event Loop\n18. Webpack, rollup\n19. Es6 import export\n20. GIT","showAllValues":false,"emptyValueText":""},"description":"","show_in_table":true},{"id":714835,"label":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u043e\u0446\u0435\u043d\u0438\u0442\u0435 \u0434\u0430\u043d\u043d\u044b\u0439 \u0443\u0440\u043e\u043a \u043e\u0442 1 \u0434\u043e 10","type":"select","required":true,"settings":{"valueList":"10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0","showAllValues":false,"emptyValueText":""},"description":"","show_in_table":true},{"id":726029,"label":"\u041f\u043e\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043b\u0438 \u0431\u044b \u0412\u044b \u044d\u0442\u043e\u0442 \u0443\u0440\u043e\u043a? ","type":"select","required":true,"settings":{"valueList":"\u0414\u0430\n\u041d\u0435\u0442","showAllValues":true,"emptyValueText":""},"description":"","show_in_table":true},{"id":714836,"label":"\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0441\u0432\u043e\u0438 \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f \u043a \u0443\u0440\u043e\u043a\u0443. \u0427\u0442\u043e-\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c\/\u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c?","type":"text","required":false,"settings":{"placeholder":"","cols":"49","rows":"3"},"description":"","show_in_table":false}]},
+			valueSet: null,
+			valueEl: $('#widgetValue6902')
+					});
+	});
+</script>
+			</div>
+
+</div>
+<style>
+	</style>			<div data-param="form/items/parts/field67222" data-item-name="field67222" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-button  btn1 text-center">
+	
+
+<button type="submit" id="button8637012" class="btn f-btn  button-md btn-success" style="color: ; background-color: ; ">
+	Отправить</button>
+
+<style>
+	.btn.f-btn.button-sm {
+		padding-left: 35px;
+		padding-right: 35px;
+		font-size: 14px;
+		min-height: 46px;
+	}
+
+	.btn.f-btn.button-lg {
+		padding-left: 70px;
+		padding-right: 70px;
+		min-height: 74px;
+		font-size: 20px;
+	}
+
+	.btn.f-btn.button-md {
+		padding-left: 60px;
+		padding-right: 60px;
+		min-height: 60px;
+		font-size: 16px;
+	}
+
+	.lt-menu .btn.f-btn.button-md {
+		padding-left: 10px;
+		padding-right: 10px;
+		min-height: 20px;
+		font-size: 14px;
+	}
+
+	.lt-menu .btn.f-btn.button-sm {
+		padding-left: 8px;
+		padding-right: 8px;
+		font-size: 12px;
+		min-height: 18px;
+	}
+
+	.lt-menu .btn.f-btn.button-lg {
+		padding-left: 40px;
+		padding-right: 40px;
+		min-height: 47px;
+		font-size: 18px;
+	}
+</style>
+
+<script>
+$( function() {
+	var disableButton = function (e) {
+		if (window['prsbutton8637012']) {
+			e.preventDefault();
+			return false;
+		} else {
+			$('#button8637012').addClass('disabled');
+			window['prsbutton8637012'] = true;
+			setTimeout(function(){window['prsbutton8637012'] = false;$('#button8637012').removeClass('disabled');}, 6000);
+		}
+		return true;
+	};
+	$( '#button8637012' ).click( function(e) {
+		//disableButton(e);
+			} );
+});
+</script>
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder2731837 input[type="radio"]').length == 1 && $('#builder2731837 input[type="radio"]').prop('checked') ) {
+			$('#builder2731837 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+	</div>
+
+	<div class="common-setting-link box-setting-link" data-icon-class="fa fa-adjust" data-param="form/formBox" data-title="Стиль блока" data-setting-editable="true"></div>
+	<div class="common-setting-link form-setting-link" data-icon-class="fa fa-wpforms" data-param="form/handler" data-title="Что делать после заполнения" data-setting-editable="true"></div>
+</form>
+<script>
+	$( function() {
+		$('#ltForm3779732').liteForm();
+	} );
+</script>
+
+
+
+	<style>
+		#ltForm3779732 {
+		;		}
+	</style>
+
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-3892');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1093132663', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1093132663-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-4441" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-mission-block" data-block-id="1043068492">
+
+<style>
+	#ltBlock1043068492 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068492" data-block-id="1043068492" class="lt-block lt-view lmb1 lt-lesson lt-lesson-mission-block" data-code="ltBlock1043068492">
+	<div class="lt-block-wrapper">
+	
+
+
+
+
+	<div class="container">
+		<div class="row row-section">
+			<div class="col-md-12">
+
+
+				
+
+
+<div>
+	<h3>Задание </h3>
+	<div class="lesson-mission-wrapper">
+					<div class="lesson-mission-text" style="padding: 20px 20px; font-size: 16px">
+				<p>Пройдите тест и вставьте ссылку на выполненное задание</p>			</div>
+		
+		<div class="self-answers">
+											</div>
+
+					
+									<div style="padding-left: 20px; padding-bottom: 20px; padding-top: 20px;">
+						
+<div id="testingWidget1064734" class="testing-widget">
+	<div class="testing-content">
+		
+	<div class="before-start-block" id="startBlock" data-start-questionary-id="4483308">
+		<h3>9. Массивы</h3>
+		<div class="before-start-text">
+					</div>
+		<button class="btn start-btn btn-restart" data-questionary-id="4483308">Начать тест</button>
+	</div>
+
+<script>
+	console.log('1');
+</script>
+	</div>
+</div>
+
+<script>
+	$( function() {
+		if (jQuery().testingWidget) {
+			$('#testingWidget1064734').testingWidget({
+				questionaryId:4483308,
+				objectTypeId: 79,
+				objectId: 201179970,
+				showRestartBtnAlways: 0,
+				onQuestion: "$(\".lesson-send-answer-block\").hide(); $(\".lesson-send-answer-block .errorSummary\").hide();",
+				onFinish: "$(\".lesson-send-answer-block\").show()",
+				limitTimeAnswer: 0,
+				scrollToQuestionary: 0			});
+		}
+	});
+</script>					</div>
+				
+				<div class="lesson-send-answer-block">
+					<form id="lessonAnswerForm" action="https://vladilen.ru/pl/teach/control/lesson/view?id=201179970#lessonAnswerForm" method="post">
+<div class="answer-form">
+	<div style="float: left; margin-right: 10px"><img width="50" class="user-profile-image user-default-profile-image " src="./9. Массивы_files/default_profile_50(1).png"></div>
+	<div class="answer-form-inner">
+		<div style="margin-left: 0px; overflow: hidden">
+
+			
+							<div class="answer-textarea-container">
+					<div class="form-group field-lessonanswer-answer_text">
+						<div class="emoji-container">
+							<div class="emoji-container"><textarea id="lessonanswer-answer_text" class="emoji-textarea" name="LessonAnswer[answer_text]" placeholder="ваш ответ" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 100px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+						</div>
+													<div id="queue"></div>
+
+
+
+<div style="overflow: hidden">
+	<div id="uploadifive-file_upload35721" class="uploadifive-button" style="height: 30px; line-height: 30px; overflow: hidden; position: relative; text-align: center; width: 170px;">Добавить файлы<input id="file_upload35721" name="file_upload" type="file" multiple="true" style="display: none;"><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div><div id="uploadifive-file_upload35721-queue" class="uploadifive-queue"></div>
+	<input class="LessonAnswer-fileList--add-file" name="LessonAnswer[fileList][add_files]" type="hidden" multiple="true">
+	<span class="text-muted small">максимальный размер файла - 100мб</span>
+</div>
+
+<script type="text/javascript">
+	    $(function() {
+        $('#file_upload35721').uploadifive({
+            auto: true,
+            width: 170,
+            buttonText: "Добавить файлы",
+            fileSizeLimit: "100MB",
+            multi: true,
+            formData     : {
+                timestamp : '1626443045',
+                userId: '176924602',
+                token     : '62515cf80432642cc24ba0c67248392e'
+            },
+            uploadScript : '/fileservice/widget/upload',
+            onUploadError: function( file, errorCode, errorMsg ) {
+                alert("ERROR");
+            },
+            onUploadComplete: function( e,res  ) {
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                if ( newVal.length > 0 ) {
+                    newVal += ",";
+                }
+                newVal += res;
+                e.res = res;
+
+                $hiddenInputEl.val( newVal );
+                //location.href = location.href;
+            },
+            onCancel: function( e ) {
+
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                newVal = newVal.replace(e.res, "");
+
+                $hiddenInputEl.val( newVal );
+            }
+        });
+    });
+</script>											</div>
+					<div class="form-group field-lessonanswer-lesson_id required">
+
+<input type="hidden" id="lessonanswer-lesson_id" class="form-control" name="LessonAnswer[lesson_id]" value="201179970">
+
+<div class="help-block"></div>
+</div>				</div>
+			
+						
+			<input type="hidden" name="abc" value="true" class="send-answer-value">
+													<button name="send-answer" class="btn btn-send-answer btn-primary btn-lg">Отправить ответ</button>
+				<button name="send-answer" class="btn btn-link btn-save-draft ">Сохранить черновик</button>
+										<div class="small" style="margin-top:10px;">
+					80 монет за выполнение этого урока 				</div>
+						<br><br>
+		</div>
+	</div>
+
+	</div></form>
+<script>
+	$( function() {
+		$('.answer-form textarea').autosize();
+		$('#lessonAnswerForm').submit( function() {
+			$('.send-answer-value').attr('name', 'send-answer');
+			$('.btn-send-answer, .btn-save-draft').attr('disabled','disabled');
+			return true;
+		});
+		$('.btn-save-draft').click(function() {
+			let isBeforeTestingStage = $('.before-start-block').first().length > 0;
+				if (isBeforeTestingStage) {
+					return false;
+				}
+			$('#lessonAnswerForm').append('<input type="hidden" name="is-draft" value="1" />');
+				return true;
+			});
+	})
+</script>
+
+<style>
+	.answer-form .answer-textarea-container {
+		padding-bottom: 0;
+	}
+</style>
+				</div>
+								
+		
+	</div>
+
+</div>
+
+			</div>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-4441');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068492', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068492-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626357924" id="lite-block-live-wrapper-1626443045-4533" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-comment-block" data-block-id="1043068493">
+
+<style>
+	#ltBlock1043068493 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068493" data-block-id="1043068493" class="lt-block lt-view lesson-comment-block-1 lt-lesson lt-lesson-comment-block" data-code="ltBlock1043068493">
+	<div class="lt-block-wrapper">
+	
+
+
+
+<div class="container">
+	<div class="row row-section">
+		<div class="col-md-12">
+
+			
+			
+								<div class="simple-answer user-answer" data-answers-list-selector=".other-answers" data-lesson-id="201179970">
+		<div class="new-comment new-answer">
+			<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./9. Массивы_files/default_profile_50(1).png"></div>
+			<div class="answer-comment textarea-block">
+				<div class="emoji-container"><textarea placeholder="добавить комментарий к уроку (ответ на задание здесь давать не нужно)" class="new-comment-textarea emoji-textarea" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 40px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+				<button class="btn btn-primary btn-send">Отправить</button>
+			</div>
+		</div>
+	</div>
+
+																
+
+
+
+
+
+<div class="other-answers answers-list">
+
+		</div>
+
+
+
+
+<script>
+    window.startAnswers = 10;
+    window.answersCount = 0;
+    window.lessonId = 201179970;
+    window.answersPerPage = 10;
+</script>		</div>
+	</div>
+</div></div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1626443045-4533');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068493', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068493-user-176924602', handler);
+		}
+			});
+</script>
+	</div>
+
+
+<style>
+
+	.content-row > div {
+		padding: 0px;
+	}
+
+	.content-row > div {
+		padding-top: 20px;
+	}
+
+	.content-row > div p, .content-row > div ol, .content-row > div ul, .content-row > div h1, .content-row > div h2, .content-row > div h3, .content-row > div h4 {
+		margin-left: 20px;
+	}
+
+	.files-row > div {
+		padding-top: 20px;
+	}
+
+</style>			</div>
+
+</div>
+	</div>
+</div>
+
+
+	</div>
+
+			<script src="./9. Массивы_files/gccounter.js.download"></script><img style="position: absolute; left:0;top:0" width="1" height="1" id="gccounterImg" src="./9. Массивы_files/counter">
+	
+<style>
+.talks-widget-window {
+ color: #000;
+}
+.lesson-list li.user-state-not_reached .info {
+  background: none !important;
+}
+</style>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(82175713, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/82175713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div id="w2012" class="talks-widget activated-talks-widget"></div>
+
+<script>
+	$( function() {
+		$('#w2012').talksWidget({
+			fullMode: false,
+			allowGuest: false,
+			openedConversationId: null,
+		});
+	} );
+</script>
+
+
+<script src="./9. Массивы_files/select2.min.js.download"></script>
+<script src="./9. Массивы_files/select2-kv.min.js.download"></script>
+<script src="./9. Массивы_files/select2_locale_ru.js.download"></script>
+<script src="./9. Массивы_files/replace.js.download"></script>
+<script src="./9. Массивы_files/cdnfeedback.js.download"></script>
+<script src="./9. Массивы_files/videoplayer.js.download"></script>
+<script src="./9. Массивы_files/superlite-block-297e12f47a66cd797c0fad21b2c45ce7.js.download"></script>
+<script src="./9. Массивы_files/bootstrap-datetimepicker.min.js.download"></script>
+<script src="./9. Массивы_files/tags-3aa0609a20b00cc7e41f55385c6b7d97.js.download"></script>
+<script src="./9. Массивы_files/widget.js.download"></script>
+<script src="./9. Массивы_files/checkbox.js.download"></script>
+<script src="./9. Массивы_files/date.js.download"></script>
+<script src="./9. Массивы_files/numeric.js.download"></script>
+<script src="./9. Массивы_files/select.js.download"></script>
+<script src="./9. Массивы_files/select_object.js.download"></script>
+<script src="./9. Массивы_files/string.js.download"></script>
+<script src="./9. Массивы_files/dateshift.js.download"></script>
+<script src="./9. Массивы_files/custom-form-7732a6796257c2ff5ec921774c5788d0.js.download"></script>
+<script src="./9. Массивы_files/blueimp-gallery.min.js.download"></script>
+<script src="./9. Массивы_files/jquery.blueimp-gallery.min.js.download"></script>
+<script src="./9. Массивы_files/blueimp-gallery-indicator.js.download"></script>
+<script src="./9. Массивы_files/fabric.min.js.download"></script>
+<script src="./9. Массивы_files/editor.js.download"></script>
+<script src="./9. Массивы_files/clappr.min.js.download"></script>
+<script src="./9. Массивы_files/level-selector.min.js.download"></script>
+<script src="./9. Массивы_files/answers.js.download"></script>
+<script src="./9. Массивы_files/file_widget.js.download"></script>
+<script src="./9. Массивы_files/redactor.js.download"></script>
+<script src="./9. Массивы_files/ru.js.download"></script>
+<script src="./9. Массивы_files/p2br.js.download"></script>
+<script src="./9. Массивы_files/source.js.download"></script>
+<script src="./9. Массивы_files/typograph.js.download"></script>
+<script src="./9. Массивы_files/iconic.js.download"></script>
+<script src="./9. Массивы_files/inlinestyle.js.download"></script>
+<script src="./9. Массивы_files/table.js.download"></script>
+<script src="./9. Массивы_files/fontcolor.js.download"></script>
+<script src="./9. Массивы_files/questions-editor.js.download"></script>
+<script src="./9. Массивы_files/questions-editor-button.js.download"></script>
+<script src="./9. Массивы_files/testing-widget.js.download"></script>
+<script src="./9. Массивы_files/yii.validation.js.download"></script>
+<script src="./9. Массивы_files/yii.activeForm.js.download"></script>
+<script src="./9. Массивы_files/mission-addfields.js.download"></script>
+<script src="./9. Массивы_files/colpick.js.download"></script>
+<script src="./9. Массивы_files/light-menu.js.download"></script>
+<script src="./9. Массивы_files/tasks-block.js.download"></script>
+<script src="./9. Массивы_files/comment_rating_widget.js.download"></script>
+<script src="./9. Массивы_files/conversation_widget.js.download"></script>
+<script src="./9. Массивы_files/conversation_controls.js.download"></script>
+<script src="./9. Массивы_files/talks_widget.js.download"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#lessonAnswerForm').yiiActiveForm([{"id":"lessonanswer-lesson_id","name":"lesson_id","container":".field-lessonanswer-lesson_id","input":"#lessonanswer-lesson_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Не заполнено поле «Lesson»."});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Lesson должен быть целым числом.","skipOnEmpty":1});}}], []);
+});</script>
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;"><div class="slides next-click"></div><h3 class="title"></h3><a class="prev">‹</a><a class="next next-click">›</a><a class="play-pause"></a><ol class="indicator"></ol></div><textarea tabindex="-1" style="position: absolute; inset: -999px auto auto 0px; border: 0px; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; overflow: hidden; transition: none 0s ease 0s; height: 0px !important; min-height: 0px !important; font-family: proxima-nova, Lato, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 21.7px; width: 614.005px;" class="autosizejs"></textarea><div class="talks-widget-button"><span class="fa comments-icon fa-comments"></span><div class="conversations-counter" style="display: none;">0</div></div><div class="gc-fade-wrapper" style="display: none;"><div class="gc-fade"></div></div><div></div></body></html>
