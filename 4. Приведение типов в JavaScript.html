@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://vladilen.ru/pl/teach/control/lesson/view?id=201179961 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		
+		<title>4. Приведение типов в JavaScript</title>
+			
+<script async="" src="./4. Приведение типов в JavaScript_files/tag.js.download"></script><script>
+	
+	window.accountUserId = 176924602;
+	window.requestIp = "87.71.119.248";
+	window.isSublogined = false;
+	window.accountId = 177331;
+	window.gcSessionId = 1728178545;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2021, 6, 09, 16, 08, 33);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.websocketHost = "s163.getcourse.ru";
+		window.websocketHttpPort = 33081;
+	window.websocketHttpsPort = 33443;
+	window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+	window.fileserviceMainHost = "fs03.getcourse.ru";
+    window.fileserviceUploadHost = "fs01.getcourse.ru";
+    window.fileserviceTusFeatureEnabled = true;
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","POINTS":""};
+window.accountSafeUserName = "\u05d0\u05e9\u05e8 \u05e1\u05e0\u05d3\u05dc\u05e8";
+window.accountUserThumbnail = "<img width='50' class='user-profile-image user-default-profile-image ' src='\/\/getcourse.ru\/public\/img\/default_profile_50.png'>";
+window.language = "ru";
+window.csrfToken = "N19XLTNPbGtmHC18Swg.IQE1HGADDg0IeS4nQ0sKAy5ZODZnHg4DNA==";
+window.requestTime = 1625836113;
+window.requestSimpleSign = "0062f34c7cfa84f098db5dbf98951bfd";
+window.gcUniqId = "174385290960e84a518b7cf7.00182182.1625836113.5713";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.globalCheckboxEnabled = false;
+window.globalCheckboxText = "\u042f \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d \u043d\u0430&nbsp;\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043c\u043e\u0438\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432&nbsp;\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438&nbsp;\u0441&nbsp;<a href=\"https:\/\/vladilen.ru\/policy\">\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u043c\u0438<\/a>";
+window.persodataConfirm = 1;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = false;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.webinarWebsocketHost = "ws02.getcourse.ru";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+</script>
+
+<script type="text/javascript">
+
+		    
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+	<link href="./4. Приведение типов в JavaScript_files/filelist.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/jquery-ui.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/bootstrap.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/select2.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/select2-kv.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/videoplayer.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/uploadifive.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/superlite-block-367ce03d0a62da6d6e7d92f9e70fddeb.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/css" rel="stylesheet" async="async">
+<link href="./4. Приведение типов в JavaScript_files/css(1)" rel="stylesheet" async="async">
+<link href="./4. Приведение типов в JavaScript_files/jquery.toast.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/jquery.emojiarea.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/emoji.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/blueimp-gallery.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/blueimp-gallery-indicator.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/editor.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/answers.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/redactor.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/questions-editor.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/testing-widget.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/mission-addfields.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/colpick.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/tags-a4ffab408734cc692f9c956be7634162.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/like-and-subscribe-notifications.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/like.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/subscribe.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/audio-comments.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/proxima.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/user-form.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/comments.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/comment_reply_open.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/bootstrap-social.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/modal.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/object-front-popup.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/menu.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/statuses.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/standard.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/bootstrap-datepicker3.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/datepicker-kv.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/global.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/font-awesome.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/font-viber.min.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/main.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/jquery.toast.min(1).css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/tasks-block.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/comment_rating_widget.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/conversation_widget.css" rel="stylesheet">
+<link href="./4. Приведение типов в JavaScript_files/talks_widget.css" rel="stylesheet">
+<script src="./4. Приведение типов в JavaScript_files/jquery.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery-ui.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/yii.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/bootstrap.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.uploadifive.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/uploadifive-rewrite.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.autosize.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.toast.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.form.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.emojiarea.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/emoji.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/JsTrans.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/dictionary-gen-4ed6041fbada20a5e8b498bfcdda745f2a76d618.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/user-form-def.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/like.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/subscribe.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/dictionary-gen-e03473f2b8cb5b198fc92541b01d47038a744ca1.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/audio-comments.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/RecordRTC.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/react.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/user-form.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/socket.io.slim.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/socket.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/websocket.global.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/comments.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/comment_reply_open.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/comment_template_dialog.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/modal.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.sticky.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/no-conflict.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/bootstrap-datepicker.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/datepicker-kv.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/main.js(1).download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.inputmask.bundle.js.download"></script>	</head>
+<body class="gc-user-logined">
+	<div id="gcAccountUserMenu"><div class="gc-account-leftbar"><a href="javascript:void(0)" class="toggle-link without-icon"><img src="./4. Приведение типов в JavaScript_files/bars.png" width="35"></a><div class="gc-account-user-submenu-bar" style="display: none;"></div><ul class="gc-account-user-menu"><li class="menu-item menu-item-profile"><a href="javascript:void(0)" title="Профиль"><img class="menu-item-icon" src="./4. Приведение типов в JavaScript_files/default_profile_50.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications_button_small"><a href="javascript:void(0)" title=""><img class="menu-item-icon" src="./4. Приведение типов в JavaScript_files/notifications_button_small.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-teach active"><a href="javascript:void(0)" title="Обучение"><img class="menu-item-icon" src="./4. Приведение типов в JavaScript_files/teach_active.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications"><a href="javascript:void(0)" title="Сообщения"><img class="menu-item-icon" src="./4. Приведение типов в JavaScript_files/notifications.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-sales"><a href="javascript:void(0)" title="Покупки"><img class="menu-item-icon" src="./4. Приведение типов в JavaScript_files/sales.png"><span class="notify-count" style="display: block;">1</span></a></li></ul></div></div>
+
+								<script>
+						window.gcAccountUserMenu = {"items":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/default_profile_50.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/default_profile_50.png","subitems":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/service\/profile.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/profile_active.png","subitems":[],"url":"\/user\/my\/profile","params":{},"target":null},{"id":"notifications","label":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[],"url":"\/pl\/notifications\/settings\/my","params":{},"target":null},{"id":"change_password","label":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","iconUrl":"\/public\/img\/service\/change_password.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/change_password_active.png","subitems":[],"url":"\/user\/my\/changePassword","params":{},"target":null},{"id":"logout","label":"\u0412\u044b\u0439\u0442\u0438","iconUrl":"\/public\/img\/service\/logout.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/logout_active.png","subitems":[],"url":"\/user\/my\/logout","params":{},"target":null},{"id":"myAccounts","label":"\u041c\u043e\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","iconUrl":"\/public\/img\/service\/myAccounts.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/myAccounts_active.png","subitems":[],"url":"\/pl\/help\/launcher","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications_button_small","label":"","iconUrl":"\/public\/img\/service\/notifications_button_small.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_button_small_active.png","subitems":[],"url":null,"params":{},"target":null},{"id":"teach","label":"\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/teach.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/teach_active.png","subitems":[{"id":"trainings","label":"\u0422\u0440\u0435\u043d\u0438\u043d\u0433\u0438","iconUrl":"\/public\/img\/service\/trainings.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/trainings_active.png","subitems":[],"url":"\/teach\/control\/stream","params":{},"target":null},{"id":"schedule","label":"\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/schedule.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/schedule_active.png","subitems":[],"url":"\/teach\/control\/schedule","params":{},"target":null},{"id":"answers","label":"\u041b\u0435\u043d\u0442\u0430 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","iconUrl":"\/public\/img\/service\/answers.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/answers_active.png","subitems":[],"url":"\/teach\/control\/answers\/my","params":{},"target":null},{"id":"questionary","label":"\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/questionary.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/questionary_active.png","subitems":[],"url":"\/user\/control\/user\/questionary","params":{},"target":null},{"id":"search","label":"\u041f\u043e\u0438\u0441\u043a","iconUrl":"\/public\/img\/service\/search.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/search_active.png","subitems":[],"url":"\/c\/s\/search","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications","label":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[{"id":"my","label":"\u041c\u043e\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/my.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_active.png","subitems":[],"url":"\/pl\/talks\/conversation","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"sales","label":"\u041f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/sales.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/sales_active.png","subitems":[{"id":"my_deals","label":"\u041c\u043e\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/my_deals.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_deals_active.png","subitems":[],"url":"\/sales\/control\/userProduct\/my","params":{},"target":null}],"url":null,"params":{},"target":null}],"activeItem":"teach","navMenuItems":null};
+					</script>
+					
+
+	<div class="gc-main-content gc-both-main-content no-menu  account-page-content with-left-menu gc-user-logined gc-user-user">
+		
+
+<div class="container">
+
+	<div class="standard-logo">
+		<a href="https://vladilen.ru/" class="logo-link">
+							<span class="logo-text">
+					Vladilen Inc				</span>
+					</a>
+	</div>
+
+	
+
+	<div class="standard-page-content">
+					<ul class="breadcrumb"><li><a href="https://vladilen.ru/teach/control/stream/index">Список тренингов</a></li>
+<li><a href="https://vladilen.ru/teach/control/stream/view?id=374179241">JavaScript Junior Frontend Developer</a></li>
+</ul>				<link rel="stylesheet" type="text/css" href="./4. Приведение типов в JavaScript_files/common.css">
+
+<script>
+    window.defenceEnabled = 'true';
+    window.totalAllowedSize = '250 ГБ';
+    window.usedSize = '101,553 ГБ';
+    window.usedSizePercent = '41 %';
+</script>
+<style>
+
+	
+    /*
+	.block-set .container  {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	*/
+
+	.block-set {
+		font-size: 14px;
+        font-weight: normal;
+		font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+	}
+    .block-set .f-text {
+        font-family: inherit;
+        font-weight: inherit;
+    }
+    .questionary-title-wrapper {
+        display: none;
+    }
+    .question-number {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .testing-widget  .question .question-title-big {
+        font-size: 24px;
+
+    }
+    .testing-widget .before-start-block h3 {
+        display: none;
+    }
+    .lesson-mission-text {
+        border-bottom: 1px solid #eee;
+    }
+
+	.gc-main-content.with-left-menu .container .container {
+				width: 100% !important;
+				margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="page-header">
+					<div class="page-actions" style="float: right">
+				
+			</div>
+				<h1>
+			<a href="https://vladilen.ru/teach/control/stream/view/id/374179244">Модуль 1. База JavaScript</a>			
+		</h1>
+	</div>
+	<div class="center-block " style="max-width: 870px;margin-left: 0px; margin-bottom: 60px;width: auto;">
+		<div class="lesson-header-block row-section" style="background: #FAFAFA;border-bottom: 1px solid #ddd;padding: 0px 15px;">
+
+			<div class="row header-view">
+				<div class="col-md-12 text-center" style="padding-top: 20px;">
+					<h2 class="lesson-title-value">4. Приведение типов в JavaScript</h2>
+					<span class="lesson-description-value"></span>
+									</div>
+			</div>
+
+
+			
+
+				<div class="row lesson-navigation" style="padding-top: 20px; padding-bottom: 10px; overflow: hidden; ">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tbody><tr>
+							<td width="25%" class="" style="padding-left: 19px;">
+																																													<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179959"><span class="fui fui-arrow-left"></span> Предыдущий урок</a>
+										<div class="hidden-xs" style="font-weight: normal; font-size: 1em; line-height: 16px "> 3. Типы данных</div>
+																											</td>
+							<td width="50%" class="text-center hidden-xs">
+								<span>
+									7 из 23 уроков								</span>
+								<div class="user-state-reached">
+									<div style="font-weight: normal; font-size: 1.2em" class="user-state-label">Доступен</div>
+								</div>
+							</td>
+							<td width="25%" class="text-right" style="padding-right:17px;">
+																																														<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179962">Следующий урок <span class="fui fui-arrow-right"></span> </a>
+											<div class="hidden-xs" style="font-size: 1em; line-height: 16px; font-weight: normal">5. Работа со строками</div>
+																											</td>
+						</tr>
+					</tbody></table>
+				</div>
+					</div>
+
+
+
+					
+<div class="lite-page block-set">
+				<div data-updated="1625732841" id="lite-block-live-wrapper-1625836113-4236" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-feedback-block" data-block-id="1095081219">
+
+<style>
+	#ltBlock1095081219 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1095081219" data-block-id="1095081219" class="lt-block lt-view lesson-feedback-block-1 lt-lesson lt-lesson-feedback-block" data-code="ltBlock1095081219">
+	<div class="lt-block-wrapper">
+	
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4236');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1095081219', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1095081219-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444530" id="lite-block-live-wrapper-1625836113-4254" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-image" data-block-id="1092333514">
+
+<style>
+	#ltBlock1092333514 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1092333514" data-block-id="1092333514" class="lt-block lt-view lessonImg01 lt-lesson lt-lesson-image" data-code="b-3596c">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div class="image-box image-style-">
+	<div data-main-class="image-wrapper" class="image-wrapper">
+		<img data-main-class="lt-image-common" data-hash="38561b45f63e9de335f62bcf434741f5.png" data-image-editable="true" data-param="image" class="lt-image-common" src="./4. Приведение типов в JavaScript_files/110">
+	</div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4254');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092333514', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092333514-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444530" id="lite-block-live-wrapper-1625836113-4269" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1085970343">
+
+<style>
+	#ltBlock1085970343 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1085970343" data-block-id="1085970343" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-0d145">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><p><strong class="redactor-inline-converted"><br></strong></p>
+
+<hr>
+
+
+
+<p><strong class="redactor-inline-converted"><br></strong></p>
+
+
+
+<div style="font-size: 18px; color: #686B71;"> 
+<p><strong style="color: #0f141e;" class="redactor-inline-converted">Цель урока:</strong><br>Вы узнаете принцип работы не строго типизированных языков программирования (как JavaScript) и научитесь конвертировать один тип данных в другой (например, строку в число).</p>
+<p><strong class="redactor-inline-converted"><br></strong></p>
+<p><strong style="color: #0f141e;" class="redactor-inline-converted">Содержание урока:</strong><br>1. Явное и неявное приведение типов к строке.<br>2. Явное и неявное приведение типов к числу.<br>3. Явное и неявное приведение типов к булевому значению.</p><p><br></p><p><strong style="color: #0f141e;">Дополнительные материалы:&nbsp;</strong></p>
+<p>Неявное преобразование типов в JavaScript:&nbsp;<a href="https://habr.com/ru/company/ruvds/blog/347866/">https://habr.com/ru/company/ruvds/blog/347866/</a> &nbsp;</p><p><br></p>
+</div>
+
+
+
+<p><strong class="redactor-inline-converted"><br></strong></p></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4269');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1085970343', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1085970343-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444530" id="lite-block-live-wrapper-1625836113-4356" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="1043068438">
+
+<style>
+	#ltBlock1043068438 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068438" data-block-id="1043068438" class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence" data-code="b-1da54">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<style>
+	.vhi-root {
+		width: 100%;
+		max-width: 100vw;
+		padding-top: 52.26%;
+		position: relative;
+	}
+
+	@media screen and (orientation: portrait) {
+		.vhi-root--vertical {
+			padding-top: 177%;
+		}
+	}
+
+	.vhi-iframe {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	:hover .clickable {
+		background: #000;
+	}
+</style>
+<!--    <div class="vph-root vph-root--in-progress js--vph-root">-->
+<!--        <div>Видео ещё готовится. Обновите страницу чуть позже.</div>-->
+<!--        <div class="vph-debug js--vph-debug">VideoID: --><!--</div>-->
+<!--    </div>-->
+<!--    --><div id="vhi-root-dec459e2726c9844d26a40562628c8ca" class="vhi-root" data-place="new-player">
+	<iframe id="vhplayeriframe-dec459e2726c9844d26a40562628c8ca" src="./4. Приведение типов в JavaScript_files/saved_resource.html" class="vhi-iframe" allow="autoplay; encrypted-media" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
+</div>
+    <div class="vhe-cdn-change" data-video-hash="dec459e2726c9844d26a40562628c8ca" data-feedback-status="noFeedback" data-current-cdn="default" style="display: block;">
+        <a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179961#" class="feedback" id="close"><span class="glyphicon glyphicon-remove"></span></a>
+        <a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179961#" class="disclaimer-url">Вернуться на основной плеер</a>
+        
+        
+    </div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4356');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068438', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068438-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444840" id="lite-block-live-wrapper-1625836113-4377" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1092333533">
+
+<style>
+	#ltBlock1092333533 .lt-block-wrapper {
+		padding-top: 60px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1092333533" data-block-id="1092333533" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-51b83">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder4056397" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field40749" data-item-name="field40749" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-image ">
+	
+<div id="image3642952" class="image-box" data-img-title="" data-img-src="//fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/74758a10e3bba5573f93664bb536acf3.png/s/s1200x/a/177331/sc/147">
+	<img class=" lazyloaded" src="./4. Приведение типов в JavaScript_files/147" data-param="items/parts/field40749/inner/image" data-hash="74758a10e3bba5573f93664bb536acf3.png" data-image-editable="true" title="" alt="" style="">
+	<div data-editable="true" data-param="items/parts/field40749/inner/image/caption" class="lt-image-caption">
+			</div>
+</div>
+
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder4056397 input[type="radio"]').length == 1 && $('#builder4056397 input[type="radio"]').prop('checked') ) {
+			$('#builder4056397 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4377');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092333533', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092333533-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625721233" id="lite-block-live-wrapper-1625836113-4392" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1085970271">
+
+<style>
+	#ltBlock1085970271 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1085970271" data-block-id="1085970271" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-5415a">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><div>
+<p><strong class="redactor-inline-converted">Задание 1.</strong><br></p>
+<p>Мы с вами уже обсуждали, что JavaScript имеет динамическую типизацию. В данном языке программирования мы можем преобразовывать данные только к 3-м типам: к number, boolean и string.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Для начала</strong>, создайте новые файлы: index.html и index.js. Не забудьте подключить index.js в index.html при помощи тега script.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Сейчас ваша задача состоит в том</strong>, чтобы создать 8 переменных с помощью let, которые будут представлять 8 разных типов данных. Каждую из этих переменных требуется явно преобразовать к 3-м типам: к number, boolean и string. Конечные значения выведите в консоль.</p>
+<p><br></p>
+<p>Пример:<br><em class="redactor-inline-converted">let age = 18;&nbsp;</em></p><p><em class="redactor-inline-converted">console.log(Number(age), Boolean(age), String(age));</em></p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Обязательно после каждого console.log посмотрите</strong>, что у вас выводится в консоль и подумайте, почему получилось именно такое значение, которое было выведено.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Примечание:</strong> Symbol вы не сможете преобразовать к типу данных number. Если вы попробуете это сделать, то у вас будет ошибка.</p>
+<p><strong class="redactor-inline-converted"><br></strong></p>
+<hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Задание 2.</strong></p>
+<p><strong class="redactor-inline-converted">В JavaScript существует 2 вида преобразований типов: явное и неявное.</strong><br></p><p><span>Пример:</span></p><p><em class="redactor-inline-converted">console.log(Number(‘18’)); // явное<br>console.log(+’18’); // неявное</em></p>
+<p>Из них стоит использовать явное, так как оно уменьшает количество случайных багов.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Для начала</strong>, создайте новые файлы: task-2.html и task-2.js. Не забудьте подключить task-2.js в task-2.html при помощи тега script.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Ваша задача состоит в следующем.</strong> Вам даны 10 примеров явного и неявного преобразования типов. Необходимо определить, какое преобразование явное, а какое неявное.</p>
+<p><br></p>
+<p>Если преобразование является явным, то напишите напротив примера комментарий “явное”, если неявным, то исправьте его на явное по шаблону ниже.&nbsp;</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Шаблон ответа на пример console.log(+’1’):<br></strong><br><em class="redactor-inline-converted">// console.log(+’1’); неявное<br>console.log(Number(‘1’));<br></em></p>
+<p><strong class="redactor-inline-converted">Также для каждого значения выведете его typeof.&nbsp;</strong></p><p>Пример:<br><em>console.log(Number(‘10’), typeof Number(‘10’)); // явное</em></p>
+<ol><li>console.log(+’50’);</li><li>console.log(Number(‘100’));</li><li>console.log(‘’ + 1);</li><li>console.log(String(1));</li><li>console.log(Boolean(0));</li><li>console.log(+’001’);</li><li>console.log(1 + ‘’);</li><li>console.log(Boolean(1));</li><li>console.log(String(001));</li><li>console.log(Number(‘Hello World’));</li></ol>
+<p><br></p>
+<hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Задание 3.</strong></p>
+<p>Когда мы пытаемся преобразовать к другим типам данных не совсем стандартные сущности, то у нас получаются иногда необычные значения.<br>Например, если мы преобразуем к строке функцию alert, то мы увидим следующее:</p><p><br></p>
+<figure><img src="./4. Приведение типов в JavaScript_files/32240ccf8a785ff1e32daedaf5ffc5e8.png"></figure>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Сейчас ваша задача состоит в том</strong>, чтобы преобразовать явно к string, number и boolean следующие сущности, посмотреть на результат и проанализировать его:</p>
+<ol><li>console.log</li><li>{ name: ‘Maxim’ }</li><li>Symbol(‘key’)</li><li>Number</li><li>‘’</li><li>0</li><li>-10</li><li>‘-105’</li></ol>
+<p><br></p>
+<hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Задание 4.</strong></p>
+<p>Вам даны 10 примеров явного преобразования типов.&nbsp;</p><p><br></p><p><strong>Ваша задача понять</strong>, что будет выведено в консоль в каждом примере. Сначала запишите свои ответы в заметки, а только потом уже запускайте код и сверьтесь с ответами.</p><p><br></p>
+<figure><img src="./4. Приведение типов в JavaScript_files/73a3c2b08272e6809b37d8f1c5963b6d.png"></figure>
+<p><br></p>
+</div></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4392');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1085970271', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1085970271-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444530" id="lite-block-live-wrapper-1625836113-4464" class="lite-block-live-wrapper o-lt-form o-lt-form-survey" data-block-id="1090791029">
+	<style>
+		#ltBlock1090791029 .btn1 button{background: #EB5F84!important;
+    border-radius: 10px!important;
+    font-size: 14px!important;
+    text-transform: uppercase!important;
+    box-shadow: 0 0 15px 1px #EB5F84!important;
+    transition: all 0.3s;
+}	</style>
+
+<style>
+	#ltBlock1090791029 .lt-block-wrapper {
+		padding-top: 75px; padding-bottom: 75px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1090791029" data-block-id="1090791029" data-has-css="true" class="lt-block lt-view survey01 lt-form lt-form-survey" data-code="b-4928e">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-8 col-md-offset-2" style="">
+			
+<form id="ltForm8037204" class="lt-normal-form lt-form-inner lt-form   " action="https://vladilen.ru/pl/lite/block-public/process?id=1090791029" method="post" data-open-new-window="0">
+	<input type="hidden" name="formParams[setted_offer_id]" class="external-value offer_id">
+		
+	<div class="form-result-block"></div>
+
+	<div class="form-content">
+		
+<div id="builder3958929" class="builder " data-path="form/items"><div class="has_answer">Ваш ответ на анкету уже сохранен</div></div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder3958929 input[type="radio"]').length == 1 && $('#builder3958929 input[type="radio"]').prop('checked') ) {
+			$('#builder3958929 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+	</div>
+
+	<div class="common-setting-link box-setting-link" data-icon-class="fa fa-adjust" data-param="form/formBox" data-title="Стиль блока" data-setting-editable="true"></div>
+	<div class="common-setting-link form-setting-link" data-icon-class="fa fa-wpforms" data-param="form/handler" data-title="Что делать после заполнения" data-setting-editable="true"></div>
+</form>
+<script>
+	$( function() {
+		$('#ltForm8037204').liteForm();
+	} );
+</script>
+
+
+
+	<style>
+		#ltForm8037204 {
+		;		}
+	</style>
+
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4464');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090791029', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090791029-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444530" id="lite-block-live-wrapper-1625836113-4885" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-mission-block" data-block-id="1043068439">
+
+<style>
+	#ltBlock1043068439 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068439" data-block-id="1043068439" class="lt-block lt-view lmb1 lt-lesson lt-lesson-mission-block" data-code="ltBlock1043068439">
+	<div class="lt-block-wrapper">
+	
+
+
+
+
+	<div class="container">
+		<div class="row row-section">
+			<div class="col-md-12">
+
+
+				
+
+
+<div>
+	<h3>Задание </h3>
+	<div class="lesson-mission-wrapper">
+					<div class="lesson-mission-text" style="padding: 20px 20px; font-size: 16px">
+				<p>Пройдите тест и вставьте ссылку на выполненное задание</p>			</div>
+		
+		<div class="self-answers">
+											</div>
+
+					
+									<div style="padding-left: 20px; padding-bottom: 20px; padding-top: 20px;">
+						
+<div id="testingWidget7516203" class="testing-widget">
+	<div class="testing-content">
+		
+	<div class="before-start-block" id="startBlock" data-start-questionary-id="4477328">
+		<h3>4. Приведение типов в JavaScript</h3>
+		<div class="before-start-text">
+					</div>
+		<button class="btn start-btn btn-restart" data-questionary-id="4477328">Начать тест</button>
+	</div>
+
+<script>
+	console.log('1');
+</script>
+	</div>
+</div>
+
+<script>
+	$( function() {
+		if (jQuery().testingWidget) {
+			$('#testingWidget7516203').testingWidget({
+				questionaryId:4477328,
+				objectTypeId: 79,
+				objectId: 201179961,
+				showRestartBtnAlways: 0,
+				onQuestion: "$(\".lesson-send-answer-block\").hide(); $(\".lesson-send-answer-block .errorSummary\").hide();",
+				onFinish: "$(\".lesson-send-answer-block\").show()",
+				limitTimeAnswer: 0,
+				scrollToQuestionary: 0			});
+		}
+	});
+</script>					</div>
+				
+				<div class="lesson-send-answer-block">
+					<form id="lessonAnswerForm" action="https://vladilen.ru/pl/teach/control/lesson/view?id=201179961#lessonAnswerForm" method="post">
+<div class="answer-form">
+	<div style="float: left; margin-right: 10px"><img width="50" class="user-profile-image user-default-profile-image " src="./4. Приведение типов в JavaScript_files/default_profile_50(1).png"></div>
+	<div class="answer-form-inner">
+		<div style="margin-left: 0px; overflow: hidden">
+
+			
+							<div class="answer-textarea-container">
+					<div class="form-group field-lessonanswer-answer_text">
+						<div class="emoji-container">
+							<div class="emoji-container"><textarea id="lessonanswer-answer_text" class="emoji-textarea" name="LessonAnswer[answer_text]" placeholder="ваш ответ" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 100px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+						</div>
+													<div id="queue"></div>
+
+
+
+<div style="overflow: hidden">
+	<div id="uploadifive-file_upload17021" class="uploadifive-button" style="height: 30px; line-height: 30px; overflow: hidden; position: relative; text-align: center; width: 170px;">Добавить файлы<input id="file_upload17021" name="file_upload" type="file" multiple="true" style="display: none;"><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div><div id="uploadifive-file_upload17021-queue" class="uploadifive-queue"></div>
+	<input class="LessonAnswer-fileList--add-file" name="LessonAnswer[fileList][add_files]" type="hidden" multiple="true">
+	<span class="text-muted small">максимальный размер файла - 100мб</span>
+</div>
+
+<script type="text/javascript">
+	    $(function() {
+        $('#file_upload17021').uploadifive({
+            auto: true,
+            width: 170,
+            buttonText: "Добавить файлы",
+            fileSizeLimit: "100MB",
+            multi: true,
+            formData     : {
+                timestamp : '1625836113',
+                userId: '176924602',
+                token     : '80f52b59378dca9d5bcb5e47f6135bbd'
+            },
+            uploadScript : '/fileservice/widget/upload',
+            onUploadError: function( file, errorCode, errorMsg ) {
+                alert("ERROR");
+            },
+            onUploadComplete: function( e,res  ) {
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                if ( newVal.length > 0 ) {
+                    newVal += ",";
+                }
+                newVal += res;
+                e.res = res;
+
+                $hiddenInputEl.val( newVal );
+                //location.href = location.href;
+            },
+            onCancel: function( e ) {
+
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                newVal = newVal.replace(e.res, "");
+
+                $hiddenInputEl.val( newVal );
+            }
+        });
+    });
+</script>											</div>
+					<div class="form-group field-lessonanswer-lesson_id required">
+
+<input type="hidden" id="lessonanswer-lesson_id" class="form-control" name="LessonAnswer[lesson_id]" value="201179961">
+
+<div class="help-block"></div>
+</div>				</div>
+			
+						
+			<input type="hidden" name="abc" value="true" class="send-answer-value">
+													<button name="send-answer" class="btn btn-send-answer btn-primary btn-lg">Отправить ответ</button>
+				<button name="send-answer" class="btn btn-link btn-save-draft ">Сохранить черновик</button>
+										<div class="small" style="margin-top:10px;">
+					20 монет за выполнение этого урока 				</div>
+						<br><br>
+		</div>
+	</div>
+
+	</div></form>
+<script>
+	$( function() {
+		$('.answer-form textarea').autosize();
+		$('#lessonAnswerForm').submit( function() {
+			$('.send-answer-value').attr('name', 'send-answer');
+			$('.btn-send-answer, .btn-save-draft').attr('disabled','disabled');
+			return true;
+		});
+		$('.btn-save-draft').click(function() {
+			let isBeforeTestingStage = $('.before-start-block').first().length > 0;
+				if (isBeforeTestingStage) {
+					return false;
+				}
+			$('#lessonAnswerForm').append('<input type="hidden" name="is-draft" value="1" />');
+				return true;
+			});
+	})
+</script>
+
+<style>
+	.answer-form .answer-textarea-container {
+		padding-bottom: 0;
+	}
+</style>
+				</div>
+								
+		
+	</div>
+
+</div>
+
+			</div>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-4885');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068439', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068439-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625444530" id="lite-block-live-wrapper-1625836113-5652" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-comment-block" data-block-id="1043068440">
+
+<style>
+	#ltBlock1043068440 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068440" data-block-id="1043068440" class="lt-block lt-view lesson-comment-block-1 lt-lesson lt-lesson-comment-block" data-code="ltBlock1043068440">
+	<div class="lt-block-wrapper">
+	
+
+
+
+<div class="container">
+	<div class="row row-section">
+		<div class="col-md-12">
+
+			
+							<div class="lesson-answers-title">
+					<div class="pull-right" id="answers">
+
+													<b>старые ответы</b> /
+								<a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179961&amp;sort=desc&amp;mode=answers#answers">новые ответы</a>
+												сначала
+					</div>
+					<h3 style="margin-bottom: 20px;">
+													Комментарии к уроку						
+											</h3>
+				</div>
+			
+								<div class="simple-answer user-answer" data-answers-list-selector=".other-answers" data-lesson-id="201179961">
+		<div class="new-comment new-answer">
+			<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./4. Приведение типов в JavaScript_files/default_profile_50(1).png"></div>
+			<div class="answer-comment textarea-block">
+				<div class="emoji-container"><textarea placeholder="добавить комментарий к уроку (ответ на задание здесь давать не нужно)" class="new-comment-textarea emoji-textarea" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 40px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+				<button class="btn btn-primary btn-send">Отправить</button>
+			</div>
+		</div>
+	</div>
+
+																									
+
+
+
+
+
+<div class="other-answers answers-list">
+
+						
+
+
+	
+
+	<div class=" has-quote-images-settings-container user-answer  lesson-related-data type-free_comment  status-viewed " data-id="145426028" data-object-type-id="8" data-user-id="176681983" data-lesson-id="201179961" data-lesson-name="JavaScript Junior Frontend Developer. Модуль 1. База JavaScript. 4. Приведение типов в JavaScript" data-lesson-ugc-default-tags="">
+		<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+		
+
+		<a class="anchor" name="answer145426028">test</a>
+		<div class="user-image"><img loading="lazy" width="50" class="user-profile-image " src="./4. Приведение типов в JavaScript_files/131"></div>
+
+		<div class="answer-content ">
+
+			
+			
+			<div class="title">
+				<div class="user-image"><img loading="lazy" width="50" class="user-profile-image " src="./4. Приведение типов в JavaScript_files/131"></div>
+				<a href="https://vladilen.ru/pl/176681983" data-user-id="176681983" class="user-profile-link"><span class="text">Евгений Бобков</span></a>								<span class="answer-date">
+				•
+				<a style="white-space: nowrap" href="https://vladilen.ru/teach/control/lesson/view/id/201179961?showAnswer=145426028#answer145426028" title="Время обновления ответа 2021-07-08 13:29:47">вчера 13:29</a>
+				<small class="text-muted pl-3" style="font-weight: normal;"> • Ответ создан Ср 07 Июл 02:16</small>				</span>
+			</div>
+
+			
+
+
+			<div class="answer-main-content user-related-data" data-user-id="176681983">
+				<div class="main" data-object-id="145426028" data-object-type-id="8" data-converter-type-id="174" data-to-review-converted="0">
+											<div class="answer-text emoji-text">
+							Чтобы не переписывать код с картинки: <br><br>
+// 1<br>
+console.log(Number(' 1 2 3 4 5'));<br><br>
+// 2<br>
+console.log(Number('1234 5'));<br><br>
+// 3<br>
+console.log(Number(`12345`));<br><br>
+// 4<br>
+console.log(String(false));<br><br>
+// 5<br>
+console.log(Boolean(0000000));<br><br>
+// 6<br>
+console.log(Boolean(0.0000001));<br><br>
+// 7<br>
+console.log(String(undefined));<br><br>
+// 8<br>
+console.log(Number('100f'));<br><br>
+// 9<br>
+console.log(Number('100'));<br><br>
+// 10<br>
+console.log(Number('000001'));						</div>
+					
+					
+
+									</div>
+				<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-145426028-8" id="likes-145426028-8">
+	<span class="positive-count " "="" style="cursor:pointer" data-object-id="145426028" data-object-type-id="8">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list">13</a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="145426028" data-object-type-id="8"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-145426028-8 ">
+	<span class="button  " data-object-id="145426028" data-object-type-id="8" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>			</div>
+
+			<div class="comments">
+				<div class="comment-list">
+															
+
+<div class=" comments-tree-wrapper">
+	
+	<div class="comments-tree  comments-177331-145426028-8- comments-tree-live   " id="comments-177331-145426028-8--1625836113-5305" data-tree-id="comments-177331-145426028-8-" data-scroll-to-bottom="">
+		<div class="comments-container">
+
+			<div style="">
+						</div>
+												<div class="comments-top-level comments comments-8-145426028-0">
+				<div class="hide settings settings-level-1">
+					<textarea>{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+				</div>
+
+									<p><a onclick="return window.GcCommentsTreeWidget.moreComments(this);" class="level-1 more-comments" href="javascript:void(0);">Показать еще комментарии (<span class="count">4</span>)</a></p>
+				
+												                    					<div class="gc-comment gc-comment-uniq-class-1625836113-5344 comment-level hide  level-1 comment266636968top gc-user-comment-137424656" data-timestamp="1625633648" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266636968" data-object-id="266636968" data-user-id="137424656" data-id="266636968">
+			<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"4587ee5048539fea14a189e9dfd64289","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266636968,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img width="50" class="user-profile-image user-default-profile-image " src="./4. Приведение типов в JavaScript_files/default_profile_50(1).png"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/137424656" data-user-id="137424656" class="user-profile-link"><span class="text">Рыбников Андрей Анатольевич</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266636968" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266636968" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Вот молодец! хороший пример :)											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">Вот молодец! хороший пример :)</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">Ср 07 Июл 07:54 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266636968-10" id="likes-266636968-10">
+	<span class="positive-count " "="" style="cursor:pointer" data-object-id="266636968" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list">2</a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266636968" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266636968-10 ">
+	<span class="button  " data-object-id="266636968" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266636968-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625836113-5344'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625836113-5427 comment-level hide  level-1 comment266773384top gc-user-comment-176732603" data-timestamp="1625656600" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266773384" data-object-id="266773384" data-user-id="176732603" data-id="266773384">
+			<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"d0c88fb3284af3ba1ee60c68d7b6828b","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266773384,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./4. Приведение типов в JavaScript_files/402"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176732603" data-user-id="176732603" class="user-profile-link"><span class="text">Виталий Компаниец</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266773384" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266773384" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Спасибо за помощь!)											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">Спасибо за помощь!)</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">Ср 07 Июл 14:16 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266773384-10" id="likes-266773384-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="266773384" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266773384" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266773384-10 ">
+	<span class="button  " data-object-id="266773384" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266773384-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625836113-5427'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625836113-5473 comment-level hide  level-1 comment266853265top gc-user-comment-142817424" data-timestamp="1625670277" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266853265" data-object-id="266853265" data-user-id="142817424" data-id="266853265">
+			<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"2d64c3eb58e1a8cf8c8e853df5fb82a9","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266853265,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img width="50" class="user-profile-image user-default-profile-image " src="./4. Приведение типов в JavaScript_files/default_profile_50(1).png"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/142817424" data-user-id="142817424" class="user-profile-link"><span class="text">Liudmyla Duvivier</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266853265" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266853265" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Спасибо тебе добрый чел Евгений											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">Спасибо тебе добрый чел Евгений</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">Ср 07 Июл 18:04 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266853265-10" id="likes-266853265-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="266853265" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266853265" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266853265-10 ">
+	<span class="button  " data-object-id="266853265" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266853265-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625836113-5473'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625836113-5512 comment-level hide  level-1 comment266949219top gc-user-comment-176740239" data-timestamp="1625689935" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266949219" data-object-id="266949219" data-user-id="176740239" data-id="266949219">
+			<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"53934f739e6a8b8e25e491e142898a0f","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266949219,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./4. Приведение типов в JavaScript_files/131(1)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176740239" data-user-id="176740239" class="user-profile-link"><span class="text">Andrii Antoniuk</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266949219" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266949219" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						блин.. переписывать нужно, что бы кривые пальцы пыврямить и привыкнуть к коду.. вообще всем рекомендую пройти соло на клавиатуре и Работать вслепую											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 41.0435px;">блин.. переписывать нужно, что бы кривые пальцы пыврямить и привыкнуть к коду.. вообще всем рекомендую пройти соло на клавиатуре и Работать вслепую</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">Ср 07 Июл 23:32 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266949219-10" id="likes-266949219-10">
+	<span class="positive-count " "="" style="cursor:pointer" data-object-id="266949219" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list">3</a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266949219" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266949219-10 ">
+	<span class="button  " data-object-id="266949219" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266949219-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625836113-5512'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625836113-5559 comment-level  level-1 comment266969491top gc-user-comment-149358829" data-timestamp="1625700712" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266969491" data-object-id="266969491" data-user-id="149358829" data-id="266969491">
+			<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"f2fe6a0372dd94038a547a7efd23322a","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266969491,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./4. Приведение типов в JavaScript_files/304"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/149358829" data-user-id="149358829" class="user-profile-link"><span class="text">Валерий Харламов</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266969491" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266969491" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Спасибо! Но я уже всё переписал )) Вообще стараюсь всё руками писать — это мелкая моторика программера, надо тренироваться.											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 41.0435px;">Спасибо! Но я уже всё переписал )) Вообще стараюсь всё руками писать — это мелкая моторика программера, надо тренироваться.</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 02:31 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266969491-10" id="likes-266969491-10">
+	<span class="positive-count " "="" style="cursor:pointer" data-object-id="266969491" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list">1</a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266969491" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266969491-10 ">
+	<span class="button  " data-object-id="266969491" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266969491-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625836113-5559'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625836113-559 comment-level  level-1 comment267094674top gc-user-comment-117549920" data-timestamp="1625740187" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267094674" data-object-id="267094674" data-user-id="117549920" data-id="267094674">
+			<div class="hide comment-user-settings-json">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"8ff2bf2eaa412222f2ce0378c5c44cdc","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267094674,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./4. Приведение типов в JavaScript_files/131(2)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/117549920" data-user-id="117549920" class="user-profile-link"><span class="text">Василий Шевчук</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267094674" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267094674" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Thanks!😉											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">Thanks!😉</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 13:29 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267094674-10" id="likes-267094674-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267094674" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267094674" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267094674-10 ">
+	<span class="button  " data-object-id="267094674" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267094674-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625836113-559'));
+	});
+</script>												</div>
+						
+			</div>
+
+					
+	<div id="commentReplyForm-145426028-8" class="gc-comment-form comment-form-wrapper" data-access="account" data-submit-on-enter="0">
+		<div class="new-comment contains-uploadify ">
+							<form data-level="1" method="post" enctype="multipart/form-data" action="https://vladilen.ru/cms/comment/add">
+					<div class="user-image-wrapper"><a href="https://vladilen.ru/user/my/profile" target="_blank" style="color: #000000;position: relative;"><span style="">
+<img width="50" class="user-profile-image user-default-profile-image " src="./4. Приведение типов в JavaScript_files/default_comment_profile_50.png">
+<span style="position: absolute; top: 30%; font-size: 0.7em;left:5%;line-height: 0.7em;">загрузить аватарку</span>
+</span></a></div>
+										<textarea class="hide settings-value" name="GetCourseComment[settings]">{"signature":"eebd46bb94c3551aec113c87a9f917b6","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145426028","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145426028","user-id":"176681983"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+					<div class="textarea-block" style="position: relative">
+						<div class="emoji-container"><textarea placeholder="добавить комментарий к ответу" class="new-comment-textarea new-comment-textarea-level-1 emoji-textarea" name="GetCourseComment[comment_text]" style="max-height: 400px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 28px; min-height: 28px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+
+						
+																			<div class="attach-file-button-container"><div id="uploadifive-comment-upload-button0" class="uploadifive-button" style="height: 20px; line-height: 20px; overflow: hidden; position: relative; text-align: center; width: 15px; background: transparent; color: rgb(153, 153, 153); padding: 0px; font-size: 1em;"><i class="glyphicon glyphicon-paperclip"></i><div class="upload-button" id="comment-upload-button0" style="display: none;"></div><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div></div>
+							<span class="comment-attach-file-link"></span>
+						
+													
+						<button class="btn btn-primary btn-send">
+														<span class="fa fa-send"></span>
+														<span class="text">Отправить</span>
+						</button><div class="file-uploader"><div id="uploadifive-comment-upload-button0-queue" class="uploadifive-queue"></div><input type="hidden" class="upload-value" name="GetCourseComment[files]"></div>
+																													</div>
+				</form>
+					</div>
+	</div>
+
+	
+</div>
+<script>
+	$(function(){
+		GcCommentsTreeWidget.create($('#comments-177331-145426028-8--1625836113-5305'));
+
+					});
+</script>
+</div>
+
+
+
+				</div>
+			</div>
+							<div>
+					
+					
+					
+							</div>
+	
+	</div>
+
+	</div>
+	</div>
+
+
+
+
+<script>
+    window.startAnswers = 10;
+    window.answersCount = 1;
+    window.lessonId = 201179961;
+    window.answersPerPage = 10;
+</script>		</div>
+	</div>
+</div></div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625836113-5652');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068440', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068440-user-176924602', handler);
+		}
+			});
+</script>
+	</div>
+
+
+<style>
+
+	.content-row > div {
+		padding: 0px;
+	}
+
+	.content-row > div {
+		padding-top: 20px;
+	}
+
+	.content-row > div p, .content-row > div ol, .content-row > div ul, .content-row > div h1, .content-row > div h2, .content-row > div h3, .content-row > div h4 {
+		margin-left: 20px;
+	}
+
+	.files-row > div {
+		padding-top: 20px;
+	}
+
+</style>			</div>
+
+</div>
+	</div>
+</div>
+
+
+	</div>
+
+			<script src="./4. Приведение типов в JavaScript_files/gccounter.js.download"></script><img style="position: absolute; left:0;top:0" width="1" height="1" id="gccounterImg" src="./4. Приведение типов в JavaScript_files/counter">
+	
+<style>
+.talks-widget-window {
+ color: #000;
+}
+.lesson-list li.user-state-not_reached .info {
+  background: none !important;
+}
+</style>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(82175713, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/82175713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div id="w42468" class="talks-widget activated-talks-widget"></div>
+
+<script>
+	$( function() {
+		$('#w42468').talksWidget({
+			fullMode: false,
+			allowGuest: false,
+			openedConversationId: null,
+		});
+	} );
+</script>
+
+
+<script src="./4. Приведение типов в JavaScript_files/select2.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/select2-kv.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/select2_locale_ru.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/replace.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/cdnfeedback.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/videoplayer.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/superlite-block-297e12f47a66cd797c0fad21b2c45ce7.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/blueimp-gallery.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/jquery.blueimp-gallery.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/blueimp-gallery-indicator.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/fabric.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/editor.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/clappr.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/level-selector.min.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/answers.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/file_widget.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/redactor.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/ru.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/p2br.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/source.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/typograph.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/iconic.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/inlinestyle.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/table.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/fontcolor.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/questions-editor.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/questions-editor-button.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/testing-widget.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/yii.validation.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/yii.activeForm.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/mission-addfields.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/colpick.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/tags-3aa0609a20b00cc7e41f55385c6b7d97.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/share.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/object-front-popup.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/light-menu.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/tasks-block.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/comment_rating_widget.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/conversation_widget.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/conversation_controls.js.download"></script>
+<script src="./4. Приведение типов в JavaScript_files/talks_widget.js.download"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#lessonAnswerForm').yiiActiveForm([{"id":"lessonanswer-lesson_id","name":"lesson_id","container":".field-lessonanswer-lesson_id","input":"#lessonanswer-lesson_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Не заполнено поле «Lesson»."});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Lesson должен быть целым числом.","skipOnEmpty":1});}}], []);
+});</script>
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;"><div class="slides next-click"></div><h3 class="title"></h3><a class="prev">‹</a><a class="next next-click">›</a><a class="play-pause"></a><ol class="indicator"></ol></div><textarea tabindex="-1" style="position: absolute; inset: -999px auto auto 0px; border: 0px; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; overflow: hidden; transition: none 0s ease 0s; height: 0px !important; min-height: 0px !important; font-family: proxima-nova, Lato, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 18px; width: 614.009px;" class="autosizejs"></textarea><div class="talks-widget-button"><span class="fa comments-icon fa-comments"></span><div class="conversations-counter" style="display: none;">0</div></div><div class="gc-fade-wrapper" style="display: none;"><div class="gc-fade"></div></div><div></div></body></html>

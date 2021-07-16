@@ -1,0 +1,2120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://vladilen.ru/pl/teach/control/lesson/view?id=201179962 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		
+		<title>5. Работа со строками</title>
+			
+<script async="" src="./5. Работа со строками_files/tag.js.download"></script><script>
+	
+	window.accountUserId = 176924602;
+	window.requestIp = "87.71.119.248";
+	window.isSublogined = false;
+	window.accountId = 177331;
+	window.gcSessionId = 1728178545;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2021, 6, 09, 16, 24, 26);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.websocketHost = "s163.getcourse.ru";
+		window.websocketHttpPort = 33081;
+	window.websocketHttpsPort = 33443;
+	window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+	window.fileserviceMainHost = "fs01.getcourse.ru";
+    window.fileserviceUploadHost = "fs01.getcourse.ru";
+    window.fileserviceTusFeatureEnabled = true;
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","POINTS":""};
+window.accountSafeUserName = "\u05d0\u05e9\u05e8 \u05e1\u05e0\u05d3\u05dc\u05e8";
+window.accountUserThumbnail = "<img width='50' class='user-profile-image user-default-profile-image ' src='\/\/getcourse.ru\/public\/img\/default_profile_50.png'>";
+window.language = "ru";
+window.csrfToken = "M1IzNFFDTEFyBQEHARAYJktrA1sHdAkxYioHbRkELiQACAFfNwUaNA==";
+window.requestTime = 1625837066;
+window.requestSimpleSign = "7044245090d1ddef765ca8f0c9f7b288";
+window.gcUniqId = "355211733860e84e0aa97fc5.08126701.1625837066.6943";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.globalCheckboxEnabled = false;
+window.globalCheckboxText = "\u042f \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d \u043d\u0430&nbsp;\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043c\u043e\u0438\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432&nbsp;\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438&nbsp;\u0441&nbsp;<a href=\"https:\/\/vladilen.ru\/policy\">\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u043c\u0438<\/a>";
+window.persodataConfirm = 1;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = false;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.webinarWebsocketHost = "ws02.getcourse.ru";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+</script>
+
+<script type="text/javascript">
+
+		    
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+	<link href="./5. Работа со строками_files/filelist.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/jquery-ui.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/bootstrap.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/select2.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/select2-kv.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/videoplayer.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/uploadifive.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/superlite-block-367ce03d0a62da6d6e7d92f9e70fddeb.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/css" rel="stylesheet" async="async">
+<link href="./5. Работа со строками_files/css(1)" rel="stylesheet" async="async">
+<link href="./5. Работа со строками_files/jquery.toast.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/jquery.emojiarea.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/emoji.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/blueimp-gallery.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/blueimp-gallery-indicator.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/editor.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/answers.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/redactor.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/questions-editor.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/testing-widget.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/mission-addfields.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/colpick.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/tags-a4ffab408734cc692f9c956be7634162.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/like-and-subscribe-notifications.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/like.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/subscribe.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/audio-comments.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/proxima.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/user-form.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/comments.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/comment_reply_open.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/bootstrap-social.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/modal.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/object-front-popup.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/menu.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/statuses.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/standard.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/bootstrap-datepicker3.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/datepicker-kv.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/global.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/font-awesome.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/font-viber.min.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/main.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/jquery.toast.min(1).css" rel="stylesheet">
+<link href="./5. Работа со строками_files/tasks-block.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/comment_rating_widget.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/conversation_widget.css" rel="stylesheet">
+<link href="./5. Работа со строками_files/talks_widget.css" rel="stylesheet">
+<script src="./5. Работа со строками_files/jquery.min.js.download"></script>
+<script src="./5. Работа со строками_files/jquery-ui.min.js.download"></script>
+<script src="./5. Работа со строками_files/yii.js.download"></script>
+<script src="./5. Работа со строками_files/bootstrap.min.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.uploadifive.min.js.download"></script>
+<script src="./5. Работа со строками_files/uploadifive-rewrite.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.autosize.min.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.toast.min.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.form.min.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.emojiarea.js.download"></script>
+<script src="./5. Работа со строками_files/emoji.js.download"></script>
+<script src="./5. Работа со строками_files/JsTrans.min.js.download"></script>
+<script src="./5. Работа со строками_files/dictionary-gen-4ed6041fbada20a5e8b498bfcdda745f2a76d618.js.download"></script>
+<script src="./5. Работа со строками_files/user-form-def.js.download"></script>
+<script src="./5. Работа со строками_files/like.js.download"></script>
+<script src="./5. Работа со строками_files/subscribe.js.download"></script>
+<script src="./5. Работа со строками_files/dictionary-gen-e03473f2b8cb5b198fc92541b01d47038a744ca1.js.download"></script>
+<script src="./5. Работа со строками_files/audio-comments.js.download"></script>
+<script src="./5. Работа со строками_files/RecordRTC.min.js.download"></script>
+<script src="./5. Работа со строками_files/react.min.js.download"></script>
+<script src="./5. Работа со строками_files/user-form.js.download"></script>
+<script src="./5. Работа со строками_files/socket.io.slim.js.download"></script>
+<script src="./5. Работа со строками_files/socket.js.download"></script>
+<script src="./5. Работа со строками_files/websocket.global.js.download"></script>
+<script src="./5. Работа со строками_files/comments.js.download"></script>
+<script src="./5. Работа со строками_files/comment_reply_open.js.download"></script>
+<script src="./5. Работа со строками_files/comment_template_dialog.js.download"></script>
+<script src="./5. Работа со строками_files/modal.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.sticky.js.download"></script>
+<script src="./5. Работа со строками_files/no-conflict.js.download"></script>
+<script src="./5. Работа со строками_files/bootstrap-datepicker.min.js.download"></script>
+<script src="./5. Работа со строками_files/datepicker-kv.min.js.download"></script>
+<script src="./5. Работа со строками_files/main.js(1).download"></script>
+<script src="./5. Работа со строками_files/jquery.inputmask.bundle.js.download"></script>	</head>
+<body class="gc-user-logined">
+	<div id="gcAccountUserMenu"><div class="gc-account-leftbar"><a href="javascript:void(0)" class="toggle-link without-icon"><img src="./5. Работа со строками_files/bars.png" width="35"></a><div class="gc-account-user-submenu-bar" style="display: none;"></div><ul class="gc-account-user-menu"><li class="menu-item menu-item-profile"><a href="javascript:void(0)" title="Профиль"><img class="menu-item-icon" src="./5. Работа со строками_files/default_profile_50.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications_button_small"><a href="javascript:void(0)" title=""><img class="menu-item-icon" src="./5. Работа со строками_files/notifications_button_small.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-teach active"><a href="javascript:void(0)" title="Обучение"><img class="menu-item-icon" src="./5. Работа со строками_files/teach_active.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications"><a href="javascript:void(0)" title="Сообщения"><img class="menu-item-icon" src="./5. Работа со строками_files/notifications.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-sales"><a href="javascript:void(0)" title="Покупки"><img class="menu-item-icon" src="./5. Работа со строками_files/sales.png"><span class="notify-count" style="display: block;">1</span></a></li></ul></div></div>
+
+								<script>
+						window.gcAccountUserMenu = {"items":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/default_profile_50.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/default_profile_50.png","subitems":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/service\/profile.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/profile_active.png","subitems":[],"url":"\/user\/my\/profile","params":{},"target":null},{"id":"notifications","label":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[],"url":"\/pl\/notifications\/settings\/my","params":{},"target":null},{"id":"change_password","label":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","iconUrl":"\/public\/img\/service\/change_password.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/change_password_active.png","subitems":[],"url":"\/user\/my\/changePassword","params":{},"target":null},{"id":"logout","label":"\u0412\u044b\u0439\u0442\u0438","iconUrl":"\/public\/img\/service\/logout.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/logout_active.png","subitems":[],"url":"\/user\/my\/logout","params":{},"target":null},{"id":"myAccounts","label":"\u041c\u043e\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","iconUrl":"\/public\/img\/service\/myAccounts.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/myAccounts_active.png","subitems":[],"url":"\/pl\/help\/launcher","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications_button_small","label":"","iconUrl":"\/public\/img\/service\/notifications_button_small.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_button_small_active.png","subitems":[],"url":null,"params":{},"target":null},{"id":"teach","label":"\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/teach.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/teach_active.png","subitems":[{"id":"trainings","label":"\u0422\u0440\u0435\u043d\u0438\u043d\u0433\u0438","iconUrl":"\/public\/img\/service\/trainings.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/trainings_active.png","subitems":[],"url":"\/teach\/control\/stream","params":{},"target":null},{"id":"schedule","label":"\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/schedule.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/schedule_active.png","subitems":[],"url":"\/teach\/control\/schedule","params":{},"target":null},{"id":"answers","label":"\u041b\u0435\u043d\u0442\u0430 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","iconUrl":"\/public\/img\/service\/answers.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/answers_active.png","subitems":[],"url":"\/teach\/control\/answers\/my","params":{},"target":null},{"id":"questionary","label":"\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/questionary.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/questionary_active.png","subitems":[],"url":"\/user\/control\/user\/questionary","params":{},"target":null},{"id":"search","label":"\u041f\u043e\u0438\u0441\u043a","iconUrl":"\/public\/img\/service\/search.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/search_active.png","subitems":[],"url":"\/c\/s\/search","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications","label":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[{"id":"my","label":"\u041c\u043e\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/my.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_active.png","subitems":[],"url":"\/pl\/talks\/conversation","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"sales","label":"\u041f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/sales.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/sales_active.png","subitems":[{"id":"my_deals","label":"\u041c\u043e\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/my_deals.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_deals_active.png","subitems":[],"url":"\/sales\/control\/userProduct\/my","params":{},"target":null}],"url":null,"params":{},"target":null}],"activeItem":"teach","navMenuItems":null};
+					</script>
+					
+
+	<div class="gc-main-content gc-both-main-content no-menu  account-page-content with-left-menu gc-user-logined gc-user-user">
+		
+
+<div class="container">
+
+	<div class="standard-logo">
+		<a href="https://vladilen.ru/" class="logo-link">
+							<span class="logo-text">
+					Vladilen Inc				</span>
+					</a>
+	</div>
+
+	
+
+	<div class="standard-page-content">
+					<ul class="breadcrumb"><li><a href="https://vladilen.ru/teach/control/stream/index">Список тренингов</a></li>
+<li><a href="https://vladilen.ru/teach/control/stream/view?id=374179241">JavaScript Junior Frontend Developer</a></li>
+</ul>				<link rel="stylesheet" type="text/css" href="./5. Работа со строками_files/common.css">
+
+<script>
+    window.defenceEnabled = 'true';
+    window.totalAllowedSize = '250 ГБ';
+    window.usedSize = '101,553 ГБ';
+    window.usedSizePercent = '41 %';
+</script>
+<style>
+
+	
+    /*
+	.block-set .container  {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	*/
+
+	.block-set {
+		font-size: 14px;
+        font-weight: normal;
+		font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+	}
+    .block-set .f-text {
+        font-family: inherit;
+        font-weight: inherit;
+    }
+    .questionary-title-wrapper {
+        display: none;
+    }
+    .question-number {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .testing-widget  .question .question-title-big {
+        font-size: 24px;
+
+    }
+    .testing-widget .before-start-block h3 {
+        display: none;
+    }
+    .lesson-mission-text {
+        border-bottom: 1px solid #eee;
+    }
+
+	.gc-main-content.with-left-menu .container .container {
+				width: 100% !important;
+				margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="page-header">
+					<div class="page-actions" style="float: right">
+				
+			</div>
+				<h1>
+			<a href="https://vladilen.ru/teach/control/stream/view/id/374179244">Модуль 1. База JavaScript</a>			
+		</h1>
+	</div>
+	<div class="center-block " style="max-width: 870px;margin-left: 0px; margin-bottom: 60px;width: auto;">
+		<div class="lesson-header-block row-section" style="background: #FAFAFA;border-bottom: 1px solid #ddd;padding: 0px 15px;">
+
+			<div class="row header-view">
+				<div class="col-md-12 text-center" style="padding-top: 20px;">
+					<h2 class="lesson-title-value">5. Работа со строками</h2>
+					<span class="lesson-description-value"></span>
+									</div>
+			</div>
+
+
+			
+
+				<div class="row lesson-navigation" style="padding-top: 20px; padding-bottom: 10px; overflow: hidden; ">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tbody><tr>
+							<td width="25%" class="" style="padding-left: 19px;">
+																																													<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179961"><span class="fui fui-arrow-left"></span> Предыдущий урок</a>
+										<div class="hidden-xs" style="font-weight: normal; font-size: 1em; line-height: 16px "> 4. Приведение типов в JavaScript</div>
+																											</td>
+							<td width="50%" class="text-center hidden-xs">
+								<span>
+									8 из 23 уроков								</span>
+								<div class="user-state-reached">
+									<div style="font-weight: normal; font-size: 1.2em" class="user-state-label">Доступен</div>
+								</div>
+							</td>
+							<td width="25%" class="text-right" style="padding-right:17px;">
+																																														<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179964">Следующий урок <span class="fui fui-arrow-right"></span> </a>
+											<div class="hidden-xs" style="font-size: 1em; line-height: 16px; font-weight: normal">6. Введение в основы JavaScript</div>
+																											</td>
+						</tr>
+					</tbody></table>
+				</div>
+					</div>
+
+
+
+					
+<div class="lite-page block-set">
+				<div data-updated="1625445129" id="lite-block-live-wrapper-1625837066-5219" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-image" data-block-id="1092333600">
+
+<style>
+	#ltBlock1092333600 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1092333600" data-block-id="1092333600" class="lt-block lt-view lessonImg01 lt-lesson lt-lesson-image" data-code="b-f4b6b">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div class="image-box image-style-">
+	<div data-main-class="image-wrapper" class="image-wrapper">
+		<img data-main-class="lt-image-common" data-hash="2392f7884da0fd72dfb54225a6d44d92.png" data-image-editable="true" data-param="image" class="lt-image-common" src="./5. Работа со строками_files/153">
+	</div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-5219');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092333600', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1092333600-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625732794" id="lite-block-live-wrapper-1625837066-5309" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-feedback-block" data-block-id="1095078876">
+
+<style>
+	#ltBlock1095078876 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1095078876" data-block-id="1095078876" class="lt-block lt-view lesson-feedback-block-1 lt-lesson lt-lesson-feedback-block" data-code="ltBlock1095078876">
+	<div class="lt-block-wrapper">
+	
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-5309');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1095078876', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1095078876-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625445236" id="lite-block-live-wrapper-1625837066-5326" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1086291314">
+
+<style>
+	#ltBlock1086291314 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1086291314" data-block-id="1086291314" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-83089">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><p><br></p>
+<hr>
+<p><br></p>
+<div style="font-size: 18px; color: #686B71;">
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Цель урока:&nbsp;</strong><br>Вы научитесь осуществлять базовые операции над строками. Например, конкатенацию (объединение) строк, обрезку строки, поиск нужных символов и фраз.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Содержание урока:</strong><br>1. Конкатенация строк<br>2. Спецсимволы<br>3. Доступ к символам и длина строки<br>4. Методы строк</p><p><br></p><p><strong style="color: #0f141e;">Дополнительные материалы:</strong><br>Все методы строк в JavaScript:&nbsp;<a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String#methods_of_string_instance">https://developer.mozilla.org/...</a></p><p><br></p>
+<div></div>
+</div><p><br></p></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-5326');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1086291314', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1086291314-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625445116" id="lite-block-live-wrapper-1625837066-548" class="lite-block-live-wrapper o-lt-video o-lt-video-hosting-with-defence" data-block-id="1043068449">
+
+<style>
+	#ltBlock1043068449 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068449" data-block-id="1043068449" class="lt-block lt-view vid03 lt-video lt-video-hosting-with-defence" data-code="b-1af93">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+	<div>
+<style>
+	.vhi-root {
+		width: 100%;
+		max-width: 100vw;
+		padding-top: 52.26%;
+		position: relative;
+	}
+
+	@media screen and (orientation: portrait) {
+		.vhi-root--vertical {
+			padding-top: 177%;
+		}
+	}
+
+	.vhi-iframe {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	:hover .clickable {
+		background: #000;
+	}
+</style>
+<!--    <div class="vph-root vph-root--in-progress js--vph-root">-->
+<!--        <div>Видео ещё готовится. Обновите страницу чуть позже.</div>-->
+<!--        <div class="vph-debug js--vph-debug">VideoID: --><!--</div>-->
+<!--    </div>-->
+<!--    --><div id="vhi-root-36164dc0c1fc577547a7bb58b1ec8042" class="vhi-root" data-place="new-player">
+	<iframe id="vhplayeriframe-36164dc0c1fc577547a7bb58b1ec8042" src="./5. Работа со строками_files/saved_resource.html" class="vhi-iframe" allow="autoplay; encrypted-media" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
+</div>
+    <div class="vhe-cdn-change" data-video-hash="36164dc0c1fc577547a7bb58b1ec8042" data-feedback-status="noFeedback" data-current-cdn="default" style="display: block;">
+        <a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179962#" class="feedback" id="close"><span class="glyphicon glyphicon-remove"></span></a>
+        <a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179962#" class="disclaimer-url">Вернуться на основной плеер</a>
+        
+        
+    </div>
+	</div>
+			</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-548');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068449', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068449-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625584910" id="lite-block-live-wrapper-1625837066-5499" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1086298967">
+
+<style>
+	#ltBlock1086298967 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1086298967" data-block-id="1086298967" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-ef9dc">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><div style="font-size: 18px; color: #686B71;">
+<p><strong class="redactor-inline-converted" style="font-family: inherit;">Задание 1.</strong><br></p>
+<p>В JavaScript есть 2 основных способа конкатенации (объединения) строк. Первый реализуется с помощью оператора +, второй - с помощью следующей конструкции `${}`.</p>
+<p><br></p>
+<p>Примеры:</p>
+<figure><img src="./5. Работа со строками_files/d4e449195d203d34fcd501c9d15f61a3.png"></figure>
+<p><br></p><p>Из этих 2-х способов рекомендуется использовать 2-й, потому что он более удобен и благодаря ему код становится более сжатым.</p>
+<p><br></p>
+<p><strong>Сейчас вам требуется создать 5 переменных с помощью const:</strong></p>
+<ol><li>myName - ваше имя</li><li>programmingLanguage - язык програамирования</li><li>courseCreatorName - создатель данного курса</li><li>reasonText - причина, почему вы хотите стать веб-разработчиком</li><li>numberOfMonth - количество месяцев, которое вы уделили изучению JavaScript до начала курса</li></ol>
+<p><strong class="redactor-inline-converted">Подставьте их с помощь 2-го способа конкатенации строк в данный текст.</strong></p>
+<p><br></p>
+<p><em class="redactor-inline-converted">Всем привет! Меня зовут, myName. Сейчас я изучаю язык программирования programmingLanguage на курсе по programmingLanguage у courseCreatorName.&nbsp;</em></p>
+<p><br></p>
+<p><em class="redactor-inline-converted">Я хочу стать веб-разработчиком, потому что reasonText. До этого я изучал(а) programmingLanguage numberOfMonth месяцев. Я уверен(а), что пройду данный курс до конца!</em></p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Выведите конечный текст в консоль</strong> и посмотрите на результат в браузере.</p>
+<p><br></p>
+<hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 2.</strong></p>
+<p><span style="font-family: inherit; font-weight: inherit;">В прошлом задании вы написали текст и подставили в него ваши данные. Сейчас вы продолжите работу с этим текстом, поэтому сохраните его в переменную с let под названием “myInfoText”.</span><br></p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Вам требуется выполнить следующие шаги по порядку:</strong></p><ol><li>C помощью метода replaceAll и toUpperCase вам необходимо изменить в переменной myInfoText все слова “JavaScript” на те же слова, только с прописными буквами (“JAVASCRIPT”). Присвойте переменной myInfoText новое значение с измененными словами “JavaScript”.</li><li>Выведите итоговую строку myInfoText в консоль.</li><li>Выведите в консоль длину строки myInfoText.</li><li>Выведите в консоль первый и последний символы строки myInfoText. Чтобы получить индекс последнего символа, требуется от длины строки вычесть единицу.</li></ol>
+<p><br></p>
+<hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 3.</strong></p>
+<p>В предыдущем задании вы научились форматировать строку, которая уже заранее определена. Но в современных веб-приложениях большинство данных вводит сам пользователь в текстовые поля. И часто пользователи могут напечатать строку неправильного формата. Веб-разработчики должны брать это в учет и поэтому сейчас мы с вами поработаем с такими случаями.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Мы будем использовать функцию prompt.</strong> До этого мы уже работали с ней. Prompt показывает модальное окно с сообщением и текстовым полем. Данные, введенные пользователем в текстовое поле, мы можем сохранять в переменную.&nbsp;</p><p><br></p>
+<p>Пример:</p>
+<p><em style="font-family: inherit; font-weight: inherit;">const userAnswer = prompt(‘Введите ваш ответ’);</em><br></p>
+<p><strong class="redactor-inline-converted">Сейчас ваша задача состоит в том</strong>, чтобы с помощью prompt запросить у пользователя его имя. Передайте в prompt строку “Как вас зовут?” и введенный пользователем результат сохраните в переменную <strong class="redactor-inline-converted">userName</strong>. Какое бы значение пользователь не ввел, вам требуется отформатировать строку <strong class="redactor-inline-converted">userName</strong> по следующим условиям:</p><ol><li>Все буквы должны быть строчными</li><li>В начале и в конце строки не должно быть лишних пробелов</li></ol>
+<p><strong class="redactor-inline-converted">После выведите в модальное окно с помощью alert</strong> <strong class="redactor-inline-converted">строку</strong> “Вас зовут userName” (замените userName на отформатированный текст, введенный пользователем).</p>
+<p><br></p><hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 4.</strong></p>
+<p>Действительно, текст, который вводит пользователь, иногда может быть совсем непредсказуемым. И вы научились с этим работать. Поздравляю!</p><p><br>Но в современных веб-приложениях обычно есть не одно текстовое поле. Вспомните любую форму регистрации. Там минимум 2 текстовых поля (например, логин и пароль) и для каждого из них нужно форматировать строку по особенному.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Сейчас в коде из задания 3 вам необходимо</strong> создать еще одно модальное окно, в котором будет запрашиваться возраст пользователя. Передайте в prompt строку “Сколько вам лет?” и введенный пользователем результат сохраните в переменную userAge. Конечный результат должен удовлетворять следующим условиям:</p>
+<ol><li>Значение должно быть преобразовано к типу данных number.</li><li>В начале и в конце строки не должно быть лишних пробелов.</li></ol>
+<p><strong class="redactor-inline-converted">После выведите в модальное окно с помощью alert </strong>строку “Вас зовут userName и вам userAge лет” (замените userName и userAge на отформатированный текст, введенный пользователем).&nbsp;</p>
+<p><br></p><hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 5.</strong></p>
+<p>Вам необходимо создать программу, которая по введенным пользователем числам и строке будет обрезать эту строку.</p>
+<p><strong class="redactor-inline-converted">Через prompt требуется запросить следующие данные:</strong></p><ol><li>Строка, которую нужно обрезать. Сохраните ее в переменную userString. Также учтите, что в строке не должно быть лишних пробелов в начале и в конце (используйте trim). В prompt передавайте сообщение “Введите текст для обрезки”.</li><li>Число, которое будет обозначать индекс, с которого начнется обрезка строки. В prompt передавайте сообщение “Введите индекс, с которого нужно начать обрезку строки”. Сохраните это значение в переменную startSliceIndex.</li><li>Число, которое будет обозначать индекс, с которого закончится обрезка строки. В prompt передавайте сообщение “Введите индекс, которым нужно закончить обрезку строки”. Сохраните это значение в переменную endSliceIndex.</li></ol>
+<p><strong class="redactor-inline-converted">После выведите через alert сообщение</strong> “Результат: string”, где string - итоговая обрезанная строка.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Примечание:</strong> учтите, что prompt всегда возвращает тип данных string.</p>
+<p><br></p><hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 6.</strong></p>
+<p>Вам необходимо реализовать программу, которая будет запрашивать у пользователя 2 значения через <strong class="redactor-inline-converted">prompt</strong>:</p><ol><li>Любой текст. В prompt передавайте сообщение “Введите текст”. Сохраните это значение в переменную userText.&nbsp;</li><li>Слово, которое нужно найти в тексте userText. В prompt передавайте сообщение “Введите слово из текста”. Сохраните значение, которое напишет пользователь, в переменную wordFromText.&nbsp;</li></ol>
+<p><strong class="redactor-inline-converted">Также учтите</strong>, что в строках не должно быть лишних пробелов в начале и в конце (используйте trim).</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Вам требуется</strong> найти индекс слова <strong class="redactor-inline-converted">wordFromText</strong> в строке <strong class="redactor-inline-converted">userText</strong> и сохранить этот индекс в переменную <strong class="redactor-inline-converted">indexOfWord</strong>. После обрежьте строку <strong class="redactor-inline-converted">userText</strong> начиная с нулевого индекса и заканчивая индексом, хранящимся в переменной<strong class="redactor-inline-converted"> indexOfWord</strong>.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">С помощью alert отобразите сообщение</strong> “Результат: string”, где string - итоговая обрезанная строка.</p>
+<p><br></p><hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Дополнительное задание</strong></p>
+<p>Вам дан следующий текст, взятый из Википедии.<br>“JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений.”</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Вам требуется</strong> сохранить его в переменную javaScriptDescription и выполнить над этой строкой следующие действия:</p><ol><li>Обрежьте строку наполовину с 1-го символа по символ, который находится посередине строки. Если число получается не целым, то используйте функцию Math.floor, чтобы округлить его к меньшему числу.</li><li>В обрезанной строке необходимо заменить все прописные буквы “а” на строчные “А”.</li><li>Удалите все пробелы в строке.</li><li>Продублируйте итоговую строку 3 раза.</li><li>В конечной строке выведите символ, который находится посередине. Если число получается не целым, то используйте функцию Math.floor, чтобы округлить его к меньшему числу</li><li>Выведите конечную строку в консоль.</li></ol>
+<p><br></p>
+</div></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-5499');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1086298967', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1086298967-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625445116" id="lite-block-live-wrapper-1625837066-559" class="lite-block-live-wrapper o-lt-form o-lt-form-survey" data-block-id="1090970733">
+	<style>
+		#ltBlock1090970733 .btn1 button{background: #EB5F84!important;
+    border-radius: 10px!important;
+    font-size: 14px!important;
+    text-transform: uppercase!important;
+    box-shadow: 0 0 15px 1px #EB5F84!important;
+    transition: all 0.3s;
+}	</style>
+
+<style>
+	#ltBlock1090970733 .lt-block-wrapper {
+		padding-top: 75px; padding-bottom: 75px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1090970733" data-block-id="1090970733" data-has-css="true" class="lt-block lt-view survey01 lt-form lt-form-survey" data-code="b-d2b5a">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-8 col-md-offset-2" style="">
+			
+<form id="ltForm8011997" class="lt-normal-form lt-form-inner lt-form   " action="https://vladilen.ru/pl/lite/block-public/process?id=1090970733" method="post" data-open-new-window="0">
+	<input type="hidden" name="formParams[setted_offer_id]" class="external-value offer_id">
+		
+	<div class="form-result-block"></div>
+
+	<div class="form-content">
+		
+<div id="builder7919405" class="builder " data-path="form/items"><div class="has_answer">Ваш ответ на анкету уже сохранен</div></div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder7919405 input[type="radio"]').length == 1 && $('#builder7919405 input[type="radio"]').prop('checked') ) {
+			$('#builder7919405 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+	</div>
+
+	<div class="common-setting-link box-setting-link" data-icon-class="fa fa-adjust" data-param="form/formBox" data-title="Стиль блока" data-setting-editable="true"></div>
+	<div class="common-setting-link form-setting-link" data-icon-class="fa fa-wpforms" data-param="form/handler" data-title="Что делать после заполнения" data-setting-editable="true"></div>
+</form>
+<script>
+	$( function() {
+		$('#ltForm8011997').liteForm();
+	} );
+</script>
+
+
+
+	<style>
+		#ltForm8011997 {
+		;		}
+	</style>
+
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-559');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090970733', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090970733-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625445116" id="lite-block-live-wrapper-1625837066-5953" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-mission-block" data-block-id="1043068450">
+
+<style>
+	#ltBlock1043068450 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068450" data-block-id="1043068450" class="lt-block lt-view lmb1 lt-lesson lt-lesson-mission-block" data-code="ltBlock1043068450">
+	<div class="lt-block-wrapper">
+	
+
+
+
+
+	<div class="container">
+		<div class="row row-section">
+			<div class="col-md-12">
+
+
+				
+
+
+<div>
+	<h3>Задание </h3>
+	<div class="lesson-mission-wrapper">
+					<div class="lesson-mission-text" style="padding: 20px 20px; font-size: 16px">
+				<p>Пройдите тест и вставьте ссылку на выполненное задание</p>			</div>
+		
+		<div class="self-answers">
+											</div>
+
+					
+									<div style="padding-left: 20px; padding-bottom: 20px; padding-top: 20px;">
+						
+<div id="testingWidget8648898" class="testing-widget">
+	<div class="testing-content">
+		
+	<div class="before-start-block" id="startBlock" data-start-questionary-id="4477494">
+		<h3>5. Работа со строками</h3>
+		<div class="before-start-text">
+					</div>
+		<button class="btn start-btn btn-restart" data-questionary-id="4477494">Начать тест</button>
+	</div>
+
+<script>
+	console.log('1');
+</script>
+	</div>
+</div>
+
+<script>
+	$( function() {
+		if (jQuery().testingWidget) {
+			$('#testingWidget8648898').testingWidget({
+				questionaryId:4477494,
+				objectTypeId: 79,
+				objectId: 201179962,
+				showRestartBtnAlways: 0,
+				onQuestion: "$(\".lesson-send-answer-block\").hide(); $(\".lesson-send-answer-block .errorSummary\").hide();",
+				onFinish: "$(\".lesson-send-answer-block\").show()",
+				limitTimeAnswer: 0,
+				scrollToQuestionary: 0			});
+		}
+	});
+</script>					</div>
+				
+				<div class="lesson-send-answer-block">
+					<form id="lessonAnswerForm" action="https://vladilen.ru/pl/teach/control/lesson/view?id=201179962#lessonAnswerForm" method="post">
+<div class="answer-form">
+	<div style="float: left; margin-right: 10px"><img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_profile_50(1).png"></div>
+	<div class="answer-form-inner">
+		<div style="margin-left: 0px; overflow: hidden">
+
+			
+							<div class="answer-textarea-container">
+					<div class="form-group field-lessonanswer-answer_text">
+						<div class="emoji-container">
+							<div class="emoji-container"><textarea id="lessonanswer-answer_text" class="emoji-textarea" name="LessonAnswer[answer_text]" placeholder="ваш ответ" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 100px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+						</div>
+													<div id="queue"></div>
+
+
+
+<div style="overflow: hidden">
+	<div id="uploadifive-file_upload39846" class="uploadifive-button" style="height: 30px; line-height: 30px; overflow: hidden; position: relative; text-align: center; width: 170px;">Добавить файлы<input id="file_upload39846" name="file_upload" type="file" multiple="true" style="display: none;"><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div><div id="uploadifive-file_upload39846-queue" class="uploadifive-queue"></div>
+	<input class="LessonAnswer-fileList--add-file" name="LessonAnswer[fileList][add_files]" type="hidden" multiple="true">
+	<span class="text-muted small">максимальный размер файла - 100мб</span>
+</div>
+
+<script type="text/javascript">
+	    $(function() {
+        $('#file_upload39846').uploadifive({
+            auto: true,
+            width: 170,
+            buttonText: "Добавить файлы",
+            fileSizeLimit: "100MB",
+            multi: true,
+            formData     : {
+                timestamp : '1625837066',
+                userId: '176924602',
+                token     : 'ab530afcc48b6139a3341d7d08cb8107'
+            },
+            uploadScript : '/fileservice/widget/upload',
+            onUploadError: function( file, errorCode, errorMsg ) {
+                alert("ERROR");
+            },
+            onUploadComplete: function( e,res  ) {
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                if ( newVal.length > 0 ) {
+                    newVal += ",";
+                }
+                newVal += res;
+                e.res = res;
+
+                $hiddenInputEl.val( newVal );
+                //location.href = location.href;
+            },
+            onCancel: function( e ) {
+
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                newVal = newVal.replace(e.res, "");
+
+                $hiddenInputEl.val( newVal );
+            }
+        });
+    });
+</script>											</div>
+					<div class="form-group field-lessonanswer-lesson_id required">
+
+<input type="hidden" id="lessonanswer-lesson_id" class="form-control" name="LessonAnswer[lesson_id]" value="201179962">
+
+<div class="help-block"></div>
+</div>				</div>
+			
+						
+			<input type="hidden" name="abc" value="true" class="send-answer-value">
+													<button name="send-answer" class="btn btn-send-answer btn-primary btn-lg">Отправить ответ</button>
+				<button name="send-answer" class="btn btn-link btn-save-draft ">Сохранить черновик</button>
+										<div class="small" style="margin-top:10px;">
+					80 монет за выполнение этого урока 				</div>
+						<br><br>
+		</div>
+	</div>
+
+	</div></form>
+<script>
+	$( function() {
+		$('.answer-form textarea').autosize();
+		$('#lessonAnswerForm').submit( function() {
+			$('.send-answer-value').attr('name', 'send-answer');
+			$('.btn-send-answer, .btn-save-draft').attr('disabled','disabled');
+			return true;
+		});
+		$('.btn-save-draft').click(function() {
+			let isBeforeTestingStage = $('.before-start-block').first().length > 0;
+				if (isBeforeTestingStage) {
+					return false;
+				}
+			$('#lessonAnswerForm').append('<input type="hidden" name="is-draft" value="1" />');
+				return true;
+			});
+	})
+</script>
+
+<style>
+	.answer-form .answer-textarea-container {
+		padding-bottom: 0;
+	}
+</style>
+				</div>
+								
+		
+	</div>
+
+</div>
+
+			</div>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-5953');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068450', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068450-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625445116" id="lite-block-live-wrapper-1625837066-6879" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-comment-block" data-block-id="1043068451">
+
+<style>
+	#ltBlock1043068451 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068451" data-block-id="1043068451" class="lt-block lt-view lesson-comment-block-1 lt-lesson lt-lesson-comment-block" data-code="ltBlock1043068451">
+	<div class="lt-block-wrapper">
+	
+
+
+
+<div class="container">
+	<div class="row row-section">
+		<div class="col-md-12">
+
+			
+							<div class="lesson-answers-title">
+					<div class="pull-right" id="answers">
+
+													<b>старые ответы</b> /
+								<a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179962&amp;sort=desc&amp;mode=answers#answers">новые ответы</a>
+												сначала
+					</div>
+					<h3 style="margin-bottom: 20px;">
+													Комментарии к уроку						
+											</h3>
+				</div>
+			
+								<div class="simple-answer user-answer" data-answers-list-selector=".other-answers" data-lesson-id="201179962">
+		<div class="new-comment new-answer">
+			<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_profile_50(1).png"></div>
+			<div class="answer-comment textarea-block">
+				<div class="emoji-container"><textarea placeholder="добавить комментарий к уроку (ответ на задание здесь давать не нужно)" class="new-comment-textarea emoji-textarea" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 40px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+				<button class="btn btn-primary btn-send">Отправить</button>
+			</div>
+		</div>
+	</div>
+
+																																		
+
+
+
+
+
+<div class="other-answers answers-list">
+
+						
+
+
+	
+
+	<div class=" has-quote-images-settings-container user-answer  lesson-related-data type-free_comment  status-viewed " data-id="145643723" data-object-type-id="8" data-user-id="117573169" data-lesson-id="201179962" data-lesson-name="JavaScript Junior Frontend Developer. Модуль 1. База JavaScript. 5. Работа со строками" data-lesson-ugc-default-tags="">
+		<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+		
+
+		<a class="anchor" name="answer145643723">test</a>
+		<div class="user-image"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131"></div>
+
+		<div class="answer-content ">
+
+			
+			
+			<div class="title">
+				<div class="user-image"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131"></div>
+				<a href="https://vladilen.ru/pl/117573169" data-user-id="117573169" class="user-profile-link"><span class="text">Daniiel Kondratiuk</span></a>								<span class="answer-date">
+				•
+				<a style="white-space: nowrap" href="https://vladilen.ru/teach/control/lesson/view/id/201179962?showAnswer=145643723#answer145643723" title="Время обновления ответа 2021-07-09 15:34:40">49 минут назад</a>
+				<small class="text-muted pl-3" style="font-weight: normal;"> • Ответ создан вчера 02:24</small>				</span>
+			</div>
+
+			
+
+
+			<div class="answer-main-content user-related-data" data-user-id="117573169">
+				<div class="main" data-object-id="145643723" data-object-type-id="8" data-converter-type-id="174" data-to-review-converted="0">
+											<div class="answer-text emoji-text">
+							У кого какая буква получилась в дополнительном задание?						</div>
+					
+					
+
+									</div>
+				<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-145643723-8" id="likes-145643723-8">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="145643723" data-object-type-id="8">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="145643723" data-object-type-id="8"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-145643723-8 ">
+	<span class="button  " data-object-id="145643723" data-object-type-id="8" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>			</div>
+
+			<div class="comments">
+				<div class="comment-list">
+															
+
+<div class=" comments-tree-wrapper">
+	
+	<div class="comments-tree  comments-177331-145643723-8- comments-tree-live   " id="comments-177331-145643723-8--1625837066-6345" data-tree-id="comments-177331-145643723-8-" data-scroll-to-bottom="">
+		<div class="comments-container">
+
+			<div style="">
+						</div>
+							<div class="more hide">
+		<a href="javascript:void(0);" data-clicked="0" data-as-chat="0" data-page="1" data-direction="asc">еще 5 комментариев</a>
+	</div>
+						<div class="comments-top-level comments comments-8-145643723-0">
+				<div class="hide settings settings-level-1">
+					<textarea>{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+				</div>
+
+									<p><a onclick="return window.GcCommentsTreeWidget.moreComments(this);" class="level-1 more-comments" href="javascript:void(0);">Показать еще комментарии (<span class="count">13</span>)</a></p>
+				
+												                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6394 comment-level hide  level-1 comment266979474top gc-user-comment-149358829" data-timestamp="1625714063" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266979474" data-object-id="266979474" data-user-id="149358829" data-id="266979474">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"9a4e7d740da15d9cac9c5fa1c1cc617d","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266979474,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/304"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/149358829" data-user-id="149358829" class="user-profile-link"><span class="text">Валерий Харламов</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266979474" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266979474" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						@Valera5454											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">@Valera5454</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 06:14 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266979474-10" id="likes-266979474-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="266979474" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266979474" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266979474-10 ">
+	<span class="button  " data-object-id="266979474" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266979474-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6394'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6468 comment-level hide  level-1 comment266982502top gc-user-comment-176681983" data-timestamp="1625716241" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266982502" data-object-id="266982502" data-user-id="176681983" data-id="266982502">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"7c6011b23904d84477d864ba99d77923","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266982502,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131(1)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176681983" data-user-id="176681983" class="user-profile-link"><span class="text">Евгений Бобков</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266982502" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266982502" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						У меня "б". Андрей .скинь пожалуйста своё решение и мне ) Интересно посмотреть как у тебя такой результат получился. @evgenybobkov											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 41.0435px;">У меня "б". Андрей .скинь пожалуйста своё решение и мне ) Интересно посмотреть как у тебя такой результат получился. @evgenybobkov</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 06:50 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266982502-10" id="likes-266982502-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="266982502" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266982502" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266982502-10 ">
+	<span class="button  " data-object-id="266982502" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266982502-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6468'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-65 comment-level hide  level-1 comment266984812top gc-user-comment-156638288" data-timestamp="1625717642" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266984812" data-object-id="266984812" data-user-id="156638288" data-id="266984812">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"e0916418d89f4202406e0026ad41ac2d","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266984812,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131(2)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/156638288" data-user-id="156638288" class="user-profile-link"><span class="text">Dmitry Bordyugov</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266984812" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266984812" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						У меня "б" тоже)											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">У меня "б" тоже)</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 07:14 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266984812-10" id="likes-266984812-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="266984812" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266984812" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266984812-10 ">
+	<span class="button  " data-object-id="266984812" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266984812-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-65'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6534 comment-level hide  level-1 comment267058546top gc-user-comment-159710445" data-timestamp="1625734094" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267058546" data-object-id="267058546" data-user-id="159710445" data-id="267058546">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"4e25331154b3d39afd471d94fb449a1e","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267058546,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/82"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/159710445" data-user-id="159710445" class="user-profile-link"><span class="text">Алексей Карпов</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267058546" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267058546" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Аналогично 'б' :)											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">Аналогично 'б' :)</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 11:48 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267058546-10" id="likes-267058546-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267058546" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267058546" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267058546-10 ">
+	<span class="button  " data-object-id="267058546" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267058546-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6534'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6564 comment-level hide  level-1 comment267114304top gc-user-comment-176732603" data-timestamp="1625743486" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267114304" data-object-id="267114304" data-user-id="176732603" data-id="267114304">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"6647bffa568a3e9e513c65452d959548","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267114304,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/402"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176732603" data-user-id="176732603" class="user-profile-link"><span class="text">Виталий Компаниец</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267114304" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267114304" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						у меня 'o')											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">у меня 'o')</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 14:24 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267114304-10" id="likes-267114304-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267114304" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267114304" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267114304-10 ">
+	<span class="button  " data-object-id="267114304" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267114304-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6564'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6595 comment-level hide  level-1 comment267157536top gc-user-comment-179017100" data-timestamp="1625750074" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267157536" data-object-id="267157536" data-user-id="179017100" data-id="267157536">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"cee4af1d5ce6e22a9234f3d014fc1527","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267157536,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131(3)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/179017100" data-user-id="179017100" class="user-profile-link"><span class="text">Ольга Бондаренко</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267157536" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267157536" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						'б'											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">'б'</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 16:14 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267157536-10" id="likes-267157536-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267157536" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267157536" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267157536-10 ">
+	<span class="button  " data-object-id="267157536" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267157536-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6595'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6625 comment-level hide  level-1 comment267174345top gc-user-comment-117475321" data-timestamp="1625753130" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267174345" data-object-id="267174345" data-user-id="117475321" data-id="267174345">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"86ae3a733ceb8469185bb850ffc0d84f","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267174345,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_profile_50(1).png"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/117475321" data-user-id="117475321" class="user-profile-link"><span class="text">Олег Алехин</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267174345" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267174345" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						'б'											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">'б'</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 17:05 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267174345-10" id="likes-267174345-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267174345" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267174345" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267174345-10 ">
+	<span class="button  " data-object-id="267174345" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267174345-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6625'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6655 comment-level hide  level-1 comment267281236top gc-user-comment-178999728" data-timestamp="1625773531" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267281236" data-object-id="267281236" data-user-id="178999728" data-id="267281236">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"1b4f767235b7ea09d555bd2045d9057d","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267281236,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_profile_50(1).png"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/178999728" data-user-id="178999728" class="user-profile-link"><span class="text">Maks Онофрійчук</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267281236" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267281236" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						б											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">б</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 22:45 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267281236-10" id="likes-267281236-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267281236" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267281236" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267281236-10 ">
+	<span class="button  " data-object-id="267281236" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267281236-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6655'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6684 comment-level  level-1 comment267421767top gc-user-comment-176456337" data-timestamp="1625823854" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267421767" data-object-id="267421767" data-user-id="176456337" data-id="267421767">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"6ddd6d23b7b1f71ee19aae3083aed508","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267421767,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131(4)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176456337" data-user-id="176456337" class="user-profile-link"><span class="text">Екатерина Тесля</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267421767" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267421767" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						б											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">б</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">сегодня 12:44 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267421767-10" id="likes-267421767-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267421767" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267421767" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267421767-10 ">
+	<span class="button  " data-object-id="267421767" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267421767-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6684'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6713 comment-level  level-1 comment267479864top gc-user-comment-176857157" data-timestamp="1625834080" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment267479864" data-object-id="267479864" data-user-id="176857157" data-id="267479864">
+			<div class="hide comment-user-settings-json">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"0e93518dac860f10e003e8318653af83","accountUserId":176924602,"values":{"object_type_id":10,"object_id":267479864,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131(5)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176857157" data-user-id="176857157" class="user-profile-link"><span class="text">Владимир Гринько</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="267479864" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="267479864" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						б😊											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">б😊</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">49 минут назад </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-267479864-10" id="likes-267479864-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="267479864" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="267479864" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-267479864-10 ">
+	<span class="button  " data-object-id="267479864" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-267479864-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6713'));
+	});
+</script>												</div>
+						
+			</div>
+
+					
+	<div id="commentReplyForm-145643723-8" class="gc-comment-form comment-form-wrapper" data-access="account" data-submit-on-enter="0">
+		<div class="new-comment contains-uploadify ">
+							<form data-level="1" method="post" enctype="multipart/form-data" action="https://vladilen.ru/cms/comment/add">
+					<div class="user-image-wrapper"><a href="https://vladilen.ru/user/my/profile" target="_blank" style="color: #000000;position: relative;"><span style="">
+<img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_comment_profile_50.png">
+<span style="position: absolute; top: 30%; font-size: 0.7em;left:5%;line-height: 0.7em;">загрузить аватарку</span>
+</span></a></div>
+										<textarea class="hide settings-value" name="GetCourseComment[settings]">{"signature":"2010a4aaa3aefb99f70e97ef4f41eccf","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145643723","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145643723","user-id":"117573169"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+					<div class="textarea-block" style="position: relative">
+						<div class="emoji-container"><textarea placeholder="добавить комментарий к ответу" class="new-comment-textarea new-comment-textarea-level-1 emoji-textarea" name="GetCourseComment[comment_text]" style="max-height: 400px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 28px; min-height: 28px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+
+						
+																			<div class="attach-file-button-container"><div id="uploadifive-comment-upload-button0" class="uploadifive-button" style="height: 20px; line-height: 20px; overflow: hidden; position: relative; text-align: center; width: 15px; background: transparent; color: rgb(153, 153, 153); padding: 0px; font-size: 1em;"><i class="glyphicon glyphicon-paperclip"></i><div class="upload-button" id="comment-upload-button0" style="display: none;"></div><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div></div>
+							<span class="comment-attach-file-link"></span>
+						
+													
+						<button class="btn btn-primary btn-send">
+														<span class="fa fa-send"></span>
+														<span class="text">Отправить</span>
+						</button><div class="file-uploader"><div id="uploadifive-comment-upload-button0-queue" class="uploadifive-queue"></div><input type="hidden" class="upload-value" name="GetCourseComment[files]"></div>
+																													</div>
+				</form>
+					</div>
+	</div>
+
+	
+</div>
+<script>
+	$(function(){
+		GcCommentsTreeWidget.create($('#comments-177331-145643723-8--1625837066-6345'));
+
+					});
+</script>
+</div>
+
+
+
+				</div>
+			</div>
+							<div>
+					
+					
+					
+							</div>
+	
+	</div>
+
+	</div>
+					
+
+
+	
+
+	<div class=" has-quote-images-settings-container user-answer  lesson-related-data type-free_comment  status-viewed " data-id="145647334" data-object-type-id="8" data-user-id="149358829" data-lesson-id="201179962" data-lesson-name="JavaScript Junior Frontend Developer. Модуль 1. База JavaScript. 5. Работа со строками" data-lesson-ugc-default-tags="">
+		<div class="hide comment-user-settings-json">{"signature":"f14b4136a0797672f692bf8617918041","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145647334","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145647334","user-id":"149358829"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+		
+
+		<a class="anchor" name="answer145647334">test</a>
+		<div class="user-image"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/304"></div>
+
+		<div class="answer-content ">
+
+			
+			
+			<div class="title">
+				<div class="user-image"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/304"></div>
+				<a href="https://vladilen.ru/pl/149358829" data-user-id="149358829" class="user-profile-link"><span class="text">Валерий Харламов</span></a>								<span class="answer-date">
+				•
+				<a style="white-space: nowrap" href="https://vladilen.ru/teach/control/lesson/view/id/201179962?showAnswer=145647334#answer145647334" title="Время обновления ответа 2021-07-08 04:45:41">вчера 04:45</a>
+								</span>
+			</div>
+
+			
+
+
+			<div class="answer-main-content user-related-data" data-user-id="149358829">
+				<div class="main" data-object-id="145647334" data-object-type-id="8" data-converter-type-id="174" data-to-review-converted="0">
+											<div class="answer-text emoji-text">
+							заменить все прописные буквы “а” на строчные “А”.<br><br>
+Наоборот )) "прописные буквы “А” на строчные “а”". Или "строчные буквы “а” на прописные “А”."						</div>
+					
+					
+
+									</div>
+				<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-145647334-8" id="likes-145647334-8">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="145647334" data-object-type-id="8">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="145647334" data-object-type-id="8"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-145647334-8 ">
+	<span class="button  " data-object-id="145647334" data-object-type-id="8" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>			</div>
+
+			<div class="comments">
+				<div class="comment-list">
+															
+
+<div class=" comments-tree-wrapper">
+	
+	<div class="comments-tree  comments-177331-145647334-8- comments-tree-live   " id="comments-177331-145647334-8--1625837066-6806" data-tree-id="comments-177331-145647334-8-" data-scroll-to-bottom="">
+		<div class="comments-container">
+
+			<div style="">
+						</div>
+												<div class="comments-top-level comments comments-8-145647334-0">
+				<div class="hide settings settings-level-1">
+					<textarea>{"signature":"f14b4136a0797672f692bf8617918041","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145647334","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145647334","user-id":"149358829"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+				</div>
+
+				
+												                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6807 comment-level  level-1 comment266982932top gc-user-comment-176713013" data-timestamp="1625716570" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266982932" data-object-id="266982932" data-user-id="176713013" data-id="266982932">
+			<div class="hide comment-user-settings-json">{"signature":"f14b4136a0797672f692bf8617918041","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145647334","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145647334","user-id":"149358829"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"a43880e3fb361e34ed0214582c4b7ff4","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266982932,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img loading="lazy" width="50" class="user-profile-image " src="./5. Работа со строками_files/131(6)"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/176713013" data-user-id="176713013" class="user-profile-link"><span class="text">Dmitrii Hromov</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266982932" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266982932" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						Я											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">Я</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 06:56 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266982932-10" id="likes-266982932-10">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="266982932" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266982932" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266982932-10 ">
+	<span class="button  " data-object-id="266982932" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266982932-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6807'));
+	});
+</script>									                    					<div class="gc-comment gc-comment-uniq-class-1625837066-6846 comment-level  level-1 comment266988594top gc-user-comment-137424656" data-timestamp="1625719496" data-level="1" data-direction="asc">
+	<div class="comment-wrapper comments-container has-quote-images-settings-container contains-uploadify">
+		<div class="comment lesson-answer-comment user-related-data  " id="comment266988594" data-object-id="266988594" data-user-id="137424656" data-id="266988594">
+			<div class="hide comment-user-settings-json">{"signature":"f14b4136a0797672f692bf8617918041","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145647334","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145647334","user-id":"149358829"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+			<div class="hide settings">{"signature":"dc0edfd5977203308956c3c275fe108f","accountUserId":176924602,"values":{"object_type_id":10,"object_id":266988594,"max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"","comment_class_callback":null,"data":[],"level_directions":{"1":"desc","2":"asc"},"level_show_send_button_always":{"1":true},"editable_comments":false,"show_online_user_count":true,"collapsible":false,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":false,"disable_links":false,"window_style":null}}</div>
+			<div class="user-image-wrapper"><img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_profile_50(1).png"></div>
+			<div class="title">
+												<a target="_blank" href="https://vladilen.ru/pl/137424656" data-user-id="137424656" class="user-profile-link"><span class="text">Рыбников Андрей Анатольевич</span></a>									<span class="comment-user-type">
+						<span style="position: relative; top: 1px;" class="fa fa-graduation-cap" title="Ученик">
+						</span>
+					</span>
+																												
+				<span data-id="266988594" class="pseudo-link hide comment-delete-link" data-access="admin" data-delete="0">удалить</span>
+			</div>
+
+			<div class="text">
+								<div class="main" data-object-id="266988594" data-object-type-id="10" data-converter-type-id="175" data-to-review-converted="0">
+					<div class="emoji-text text-content edit-comment-inactive-element">
+						не забываем что в строке есть не только а/lat но и а/рус											</div>
+					<div class="edit-comment-active-element hide">
+						<div style="position: relative;width: 95%;">
+							<textarea class="new-comment-textarea edited-comment-text" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 31.9826px;">не забываем что в строке есть не только а/lat но и а/рус</textarea>
+							<div class="edit-attach-file-button-container attach-file-button-container"></div>
+						</div>
+					</div>
+											<div class="files ">
+													</div>
+									</div>
+				<div class="edit-comment-active-element comment-attach-file-for-edit-link hide" style="padding-bottom: 10px;"></div>
+				<div class="edit-comment-active-element hide">
+					<button class="btn btn-primary save-edited-comment-btn" type="button">Сохранить</button> или <a href="javascript:void(0)" class="comment-cancel-edit-link">отменить редактирование</a>
+				</div>
+															<div class="comment-time edit-comment-inactive-element">
+							<span class="value" style="padding-right: 5px; font-size: 0.8em;">вчера 07:44 </span>
+							<span class="word-separator"></span>
+							<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-266988594-10" id="likes-266988594-10">
+	<span class="positive-count " "="" style="cursor:pointer" data-object-id="266988594" data-object-type-id="10">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list">1</a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="266988594" data-object-type-id="10"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-266988594-10 ">
+	<span class="button  " data-object-id="266988594" data-object-type-id="10" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>													</div>
+																		</div>
+						<style>
+				.b-like a {
+					font-size: 1em;
+				}
+			</style>
+		</div>
+
+		<div class="comments   comments-10-266988594-0">
+					</div>
+					<div style="clear:both;">
+							</div>
+			</div>
+</div>
+<script>
+	$(function(){
+		GcCommentWidget.create($('.gc-comment-uniq-class-1625837066-6846'));
+	});
+</script>												</div>
+						
+			</div>
+
+					
+	<div id="commentReplyForm-145647334-8" class="gc-comment-form comment-form-wrapper" data-access="account" data-submit-on-enter="0">
+		<div class="new-comment contains-uploadify ">
+							<form data-level="1" method="post" enctype="multipart/form-data" action="https://vladilen.ru/cms/comment/add">
+					<div class="user-image-wrapper"><a href="https://vladilen.ru/user/my/profile" target="_blank" style="color: #000000;position: relative;"><span style="">
+<img width="50" class="user-profile-image user-default-profile-image " src="./5. Работа со строками_files/default_comment_profile_50.png">
+<span style="position: absolute; top: 30%; font-size: 0.7em;left:5%;line-height: 0.7em;">загрузить аватарку</span>
+</span></a></div>
+										<textarea class="hide settings-value" name="GetCourseComment[settings]">{"signature":"f14b4136a0797672f692bf8617918041","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"145647334","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"145647334","user-id":"149358829"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+					<div class="textarea-block" style="position: relative">
+						<div class="emoji-container"><textarea placeholder="добавить комментарий к ответу" class="new-comment-textarea new-comment-textarea-level-1 emoji-textarea" name="GetCourseComment[comment_text]" style="max-height: 400px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 28px; min-height: 28px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+
+						
+																			<div class="attach-file-button-container"><div id="uploadifive-comment-upload-button2" class="uploadifive-button" style="height: 20px; line-height: 20px; overflow: hidden; position: relative; text-align: center; width: 15px; background: transparent; color: rgb(153, 153, 153); padding: 0px; font-size: 1em;"><i class="glyphicon glyphicon-paperclip"></i><div class="upload-button" id="comment-upload-button2" style="display: none;"></div><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div></div>
+							<span class="comment-attach-file-link"></span>
+						
+													
+						<button class="btn btn-primary btn-send">
+														<span class="fa fa-send"></span>
+														<span class="text">Отправить</span>
+						</button><div class="file-uploader"><div id="uploadifive-comment-upload-button2-queue" class="uploadifive-queue"></div><input type="hidden" class="upload-value" name="GetCourseComment[files]"></div>
+																													</div>
+				</form>
+					</div>
+	</div>
+
+	
+</div>
+<script>
+	$(function(){
+		GcCommentsTreeWidget.create($('#comments-177331-145647334-8--1625837066-6806'));
+
+					});
+</script>
+</div>
+
+
+
+				</div>
+			</div>
+							<div>
+					
+					
+					
+							</div>
+	
+	</div>
+
+	</div>
+	</div>
+
+
+
+
+<script>
+    window.startAnswers = 10;
+    window.answersCount = 2;
+    window.lessonId = 201179962;
+    window.answersPerPage = 10;
+</script>		</div>
+	</div>
+</div></div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1625837066-6879');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068451', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068451-user-176924602', handler);
+		}
+			});
+</script>
+	</div>
+
+
+<style>
+
+	.content-row > div {
+		padding: 0px;
+	}
+
+	.content-row > div {
+		padding-top: 20px;
+	}
+
+	.content-row > div p, .content-row > div ol, .content-row > div ul, .content-row > div h1, .content-row > div h2, .content-row > div h3, .content-row > div h4 {
+		margin-left: 20px;
+	}
+
+	.files-row > div {
+		padding-top: 20px;
+	}
+
+</style>			</div>
+
+</div>
+	</div>
+</div>
+
+
+	</div>
+
+			<script src="./5. Работа со строками_files/gccounter.js.download"></script><img style="position: absolute; left:0;top:0" width="1" height="1" id="gccounterImg" src="./5. Работа со строками_files/counter">
+	
+<style>
+.talks-widget-window {
+ color: #000;
+}
+.lesson-list li.user-state-not_reached .info {
+  background: none !important;
+}
+</style>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(82175713, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/82175713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div id="w43526" class="talks-widget activated-talks-widget"></div>
+
+<script>
+	$( function() {
+		$('#w43526').talksWidget({
+			fullMode: false,
+			allowGuest: false,
+			openedConversationId: null,
+		});
+	} );
+</script>
+
+
+<script src="./5. Работа со строками_files/select2.min.js.download"></script>
+<script src="./5. Работа со строками_files/select2-kv.min.js.download"></script>
+<script src="./5. Работа со строками_files/select2_locale_ru.js.download"></script>
+<script src="./5. Работа со строками_files/replace.js.download"></script>
+<script src="./5. Работа со строками_files/cdnfeedback.js.download"></script>
+<script src="./5. Работа со строками_files/videoplayer.js.download"></script>
+<script src="./5. Работа со строками_files/superlite-block-297e12f47a66cd797c0fad21b2c45ce7.js.download"></script>
+<script src="./5. Работа со строками_files/blueimp-gallery.min.js.download"></script>
+<script src="./5. Работа со строками_files/jquery.blueimp-gallery.min.js.download"></script>
+<script src="./5. Работа со строками_files/blueimp-gallery-indicator.js.download"></script>
+<script src="./5. Работа со строками_files/fabric.min.js.download"></script>
+<script src="./5. Работа со строками_files/editor.js.download"></script>
+<script src="./5. Работа со строками_files/clappr.min.js.download"></script>
+<script src="./5. Работа со строками_files/level-selector.min.js.download"></script>
+<script src="./5. Работа со строками_files/answers.js.download"></script>
+<script src="./5. Работа со строками_files/file_widget.js.download"></script>
+<script src="./5. Работа со строками_files/redactor.js.download"></script>
+<script src="./5. Работа со строками_files/ru.js.download"></script>
+<script src="./5. Работа со строками_files/p2br.js.download"></script>
+<script src="./5. Работа со строками_files/source.js.download"></script>
+<script src="./5. Работа со строками_files/typograph.js.download"></script>
+<script src="./5. Работа со строками_files/iconic.js.download"></script>
+<script src="./5. Работа со строками_files/inlinestyle.js.download"></script>
+<script src="./5. Работа со строками_files/table.js.download"></script>
+<script src="./5. Работа со строками_files/fontcolor.js.download"></script>
+<script src="./5. Работа со строками_files/questions-editor.js.download"></script>
+<script src="./5. Работа со строками_files/questions-editor-button.js.download"></script>
+<script src="./5. Работа со строками_files/testing-widget.js.download"></script>
+<script src="./5. Работа со строками_files/yii.validation.js.download"></script>
+<script src="./5. Работа со строками_files/yii.activeForm.js.download"></script>
+<script src="./5. Работа со строками_files/mission-addfields.js.download"></script>
+<script src="./5. Работа со строками_files/colpick.js.download"></script>
+<script src="./5. Работа со строками_files/tags-3aa0609a20b00cc7e41f55385c6b7d97.js.download"></script>
+<script src="./5. Работа со строками_files/share.js.download"></script>
+<script src="./5. Работа со строками_files/object-front-popup.js.download"></script>
+<script src="./5. Работа со строками_files/light-menu.js.download"></script>
+<script src="./5. Работа со строками_files/tasks-block.js.download"></script>
+<script src="./5. Работа со строками_files/comment_rating_widget.js.download"></script>
+<script src="./5. Работа со строками_files/conversation_widget.js.download"></script>
+<script src="./5. Работа со строками_files/conversation_controls.js.download"></script>
+<script src="./5. Работа со строками_files/talks_widget.js.download"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#lessonAnswerForm').yiiActiveForm([{"id":"lessonanswer-lesson_id","name":"lesson_id","container":".field-lessonanswer-lesson_id","input":"#lessonanswer-lesson_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Не заполнено поле «Lesson»."});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Lesson должен быть целым числом.","skipOnEmpty":1});}}], []);
+});</script>
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;"><div class="slides next-click"></div><h3 class="title"></h3><a class="prev">‹</a><a class="next next-click">›</a><a class="play-pause"></a><ol class="indicator"></ol></div><textarea tabindex="-1" style="position: absolute; inset: -999px auto auto 0px; border: 0px; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; overflow: hidden; transition: none 0s ease 0s; height: 0px !important; min-height: 0px !important; font-family: proxima-nova, Lato, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 18px; width: 614.009px;" class="autosizejs"></textarea><div class="talks-widget-button"><span class="fa comments-icon fa-comments"></span><div class="conversations-counter" style="display: none;">0</div></div><div class="gc-fade-wrapper" style="display: none;"><div class="gc-fade"></div></div><div></div></body></html>
