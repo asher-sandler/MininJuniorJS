@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)https://vladilen.ru/pl/teach/control/lesson/view?id=201179974&editMode=0 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		
+		<title>11. Дата и Время в JavaScript</title>
+			
+<script async="" src="./11. Дата и Время в JavaScript_files/tag.js.download"></script><script>
+	
+	window.accountUserId = 176924602;
+	window.requestIp = "132.64.57.8";
+	window.isSublogined = false;
+	window.accountId = 177331;
+	window.gcSessionId = 1769811106;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2021, 6, 25, 10, 42, 30);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.websocketHost = "s163.getcourse.ru";
+		window.websocketHttpPort = 33081;
+	window.websocketHttpsPort = 33443;
+	window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+	window.fileserviceMainHost = "fs02.getcourse.ru";
+    window.fileserviceUploadHost = "fs03.getcourse.ru";
+    window.fileserviceTusFeatureEnabled = true;
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","AED":"AED","POINTS":""};
+window.accountSafeUserName = "\u05d0\u05e9\u05e8 \u05e1\u05e0\u05d3\u05dc\u05e8";
+window.accountUserThumbnail = "<img width='50' class='user-profile-image user-default-profile-image ' src='\/\/getcourse.ru\/public\/img\/default_profile_50.png'>";
+window.language = "ru";
+window.csrfToken = "MUJIdFR2YmRABAocLgIXAFhxIBFmDjI2Xw4DBBszLzFZdC04HD40PQ==";
+window.requestTime = 1627198950;
+window.requestSimpleSign = "592734bcc1b6006d3e8f528f430f7cee";
+window.gcUniqId = "185016967060fd15e64b5d40.58254245.1627198950.3087";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.globalCheckboxEnabled = false;
+window.globalCheckboxText = "\u042f \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d \u043d\u0430&nbsp;\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043c\u043e\u0438\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432&nbsp;\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438&nbsp;\u0441&nbsp;<a href=\"https:\/\/vladilen.ru\/policy\">\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u043c\u0438<\/a>";
+window.persodataConfirm = 1;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = false;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.webinarWebsocketHost = "ws02.getcourse.ru";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+</script>
+
+<script type="text/javascript">
+
+		    
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+	<link href="./11. Дата и Время в JavaScript_files/filelist.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/jquery-ui.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/bootstrap.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/select2.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/select2-kv.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/videoplayer.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/uploadifive.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/superlite-block-367ce03d0a62da6d6e7d92f9e70fddeb.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/css" rel="stylesheet" async="async">
+<link href="./11. Дата и Время в JavaScript_files/css(1)" rel="stylesheet" async="async">
+<link href="./11. Дата и Время в JavaScript_files/bootstrap-datepicker3.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/datepicker-kv.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/datetimepicker-kv.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/tags-a4ffab408734cc692f9c956be7634162.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/widget.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/custom-form-dd508755e58e719cfee0f4aa4a2cc48f.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/jquery.toast.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/jquery.emojiarea.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/emoji.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/blueimp-gallery.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/blueimp-gallery-indicator.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/editor.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/answers.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/like-and-subscribe-notifications.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/like.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/subscribe.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/audio-comments.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/proxima.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/user-form.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/comments.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/comment_reply_open.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/redactor.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/questions-editor.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/testing-widget.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/mission-addfields.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/colpick.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/menu.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/statuses.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/standard.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/modal.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/global.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/font-awesome.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/font-viber.min.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/main.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/jquery.toast.min(1).css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/tasks-block.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/comment_rating_widget.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/conversation_widget.css" rel="stylesheet">
+<link href="./11. Дата и Время в JavaScript_files/talks_widget.css" rel="stylesheet">
+<script src="./11. Дата и Время в JavaScript_files/jquery.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery-ui.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/yii.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/bootstrap.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.uploadifive.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/uploadifive-rewrite.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/JsTrans.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/dictionary-gen-320758bd60713880002dadf36304247055714462.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/bootstrap-datepicker.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/datepicker-kv.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.autosize.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.toast.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.form.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.emojiarea.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/emoji.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/user-form-def.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/like.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/subscribe.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/dictionary-gen-e03473f2b8cb5b198fc92541b01d47038a744ca1.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/audio-comments.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/RecordRTC.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/react.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/user-form.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/socket.io.slim.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/socket.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/websocket.global.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/comments.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/comment_reply_open.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/comment_template_dialog.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/modal.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.sticky.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/no-conflict.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/main.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.inputmask.bundle.js.download"></script>	</head>
+<body class="gc-user-logined">
+	<div id="gcAccountUserMenu"><div class="gc-account-leftbar"><a href="javascript:void(0)" class="toggle-link without-icon"><img src="./11. Дата и Время в JavaScript_files/bars.png" width="35"></a><div class="gc-account-user-submenu-bar" style="display: none;"></div><ul class="gc-account-user-menu"><li class="menu-item menu-item-profile"><a href="javascript:void(0)" title="Профиль"><img class="menu-item-icon" src="./11. Дата и Время в JavaScript_files/default_profile_50.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications_button_small"><a href="javascript:void(0)" title=""><img class="menu-item-icon" src="./11. Дата и Время в JavaScript_files/notifications_button_small.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-teach active"><a href="javascript:void(0)" title="Обучение"><img class="menu-item-icon" src="./11. Дата и Время в JavaScript_files/teach_active.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications"><a href="javascript:void(0)" title="Сообщения"><img class="menu-item-icon" src="./11. Дата и Время в JavaScript_files/notifications.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-sales"><a href="javascript:void(0)" title="Покупки"><img class="menu-item-icon" src="./11. Дата и Время в JavaScript_files/sales.png"><span class="notify-count" style="display: block;">1</span></a></li></ul></div></div>
+
+								<script>
+						window.gcAccountUserMenu = {"items":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/default_profile_50.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/default_profile_50.png","subitems":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/service\/profile.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/profile_active.png","subitems":[],"url":"\/user\/my\/profile","params":{},"target":null},{"id":"notifications","label":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[],"url":"\/pl\/notifications\/settings\/my","params":{},"target":null},{"id":"change_password","label":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","iconUrl":"\/public\/img\/service\/change_password.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/change_password_active.png","subitems":[],"url":"\/user\/my\/changePassword","params":{},"target":null},{"id":"logout","label":"\u0412\u044b\u0439\u0442\u0438","iconUrl":"\/public\/img\/service\/logout.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/logout_active.png","subitems":[],"url":"\/user\/my\/logout","params":{},"target":null},{"id":"myAccounts","label":"\u041c\u043e\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","iconUrl":"\/public\/img\/service\/myAccounts.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/myAccounts_active.png","subitems":[],"url":"\/pl\/help\/launcher","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications_button_small","label":"","iconUrl":"\/public\/img\/service\/notifications_button_small.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_button_small_active.png","subitems":[],"url":null,"params":{},"target":null},{"id":"teach","label":"\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/teach.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/teach_active.png","subitems":[{"id":"trainings","label":"\u0422\u0440\u0435\u043d\u0438\u043d\u0433\u0438","iconUrl":"\/public\/img\/service\/trainings.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/trainings_active.png","subitems":[],"url":"\/teach\/control\/stream","params":{},"target":null},{"id":"schedule","label":"\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/schedule.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/schedule_active.png","subitems":[],"url":"\/teach\/control\/schedule","params":{},"target":null},{"id":"answers","label":"\u041b\u0435\u043d\u0442\u0430 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","iconUrl":"\/public\/img\/service\/answers.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/answers_active.png","subitems":[],"url":"\/teach\/control\/answers\/my","params":{},"target":null},{"id":"questionary","label":"\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/questionary.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/questionary_active.png","subitems":[],"url":"\/user\/control\/user\/questionary","params":{},"target":null},{"id":"search","label":"\u041f\u043e\u0438\u0441\u043a","iconUrl":"\/public\/img\/service\/search.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/search_active.png","subitems":[],"url":"\/c\/s\/search","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications","label":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[{"id":"my","label":"\u041c\u043e\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/my.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_active.png","subitems":[],"url":"\/pl\/talks\/conversation","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"sales","label":"\u041f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/sales.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/sales_active.png","subitems":[{"id":"my_deals","label":"\u041c\u043e\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/my_deals.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_deals_active.png","subitems":[],"url":"\/sales\/control\/userProduct\/my","params":{},"target":null}],"url":null,"params":{},"target":null}],"activeItem":"teach","navMenuItems":null};
+					</script>
+					
+
+	<div class="gc-main-content gc-both-main-content no-menu  account-page-content with-left-menu gc-user-logined gc-user-user">
+		
+
+<div class="container">
+
+	<div class="standard-logo">
+		<a href="https://vladilen.ru/" class="logo-link">
+							<span class="logo-text">
+					Vladilen Inc				</span>
+					</a>
+	</div>
+
+	
+
+	<div class="standard-page-content">
+					<ul class="breadcrumb"><li><a href="https://vladilen.ru/teach/control/stream/index">Список тренингов</a></li>
+<li><a href="https://vladilen.ru/teach/control/stream/view?id=374179241">JavaScript Junior Frontend Developer</a></li>
+</ul>				<link rel="stylesheet" type="text/css" href="./11. Дата и Время в JavaScript_files/common.css">
+
+<script>
+    window.defenceEnabled = 'true';
+    window.totalAllowedSize = '250 ГБ';
+    window.usedSize = '101,605 ГБ';
+    window.usedSizePercent = '41 %';
+</script>
+<style>
+
+	
+    /*
+	.block-set .container  {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	*/
+
+	.block-set {
+		font-size: 14px;
+        font-weight: normal;
+		font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+	}
+    .block-set .f-text {
+        font-family: inherit;
+        font-weight: inherit;
+    }
+    .questionary-title-wrapper {
+        display: none;
+    }
+    .question-number {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .testing-widget  .question .question-title-big {
+        font-size: 24px;
+
+    }
+    .testing-widget .before-start-block h3 {
+        display: none;
+    }
+    .lesson-mission-text {
+        border-bottom: 1px solid #eee;
+    }
+
+	.gc-main-content.with-left-menu .container .container {
+				width: 100% !important;
+				margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="page-header">
+					<div class="page-actions" style="float: right">
+				
+			</div>
+				<h1>
+			<a href="https://vladilen.ru/teach/control/stream/view/id/374179244">Модуль 1. База JavaScript</a>			
+		</h1>
+	</div>
+	<div class="center-block " style="max-width: 870px;margin-left: 0px; margin-bottom: 60px;width: auto;">
+		<div class="lesson-header-block row-section" style="background: #FAFAFA;border-bottom: 1px solid #ddd;padding: 0px 15px;">
+
+			<div class="row header-view">
+				<div class="col-md-12 text-center" style="padding-top: 20px;">
+					<h2 class="lesson-title-value">11. Дата и Время в JavaScript</h2>
+					<span class="lesson-description-value"></span>
+									</div>
+			</div>
+
+
+			
+
+				<div class="row lesson-navigation" style="padding-top: 20px; padding-bottom: 10px; overflow: hidden; ">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tbody><tr>
+							<td width="25%" class="" style="padding-left: 19px;">
+																																													<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179972"><span class="fui fui-arrow-left"></span> Предыдущий урок</a>
+										<div class="hidden-xs" style="font-weight: normal; font-size: 1em; line-height: 16px "> 10. Объекты</div>
+																											</td>
+							<td width="50%" class="text-center hidden-xs">
+								<span>
+									14 из 25 уроков								</span>
+								<div class="user-state-reached">
+									<div style="font-weight: normal; font-size: 1.2em" class="user-state-label">Доступен</div>
+								</div>
+							</td>
+							<td width="25%" class="text-right" style="padding-right:17px;">
+																																														<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=211059755">Следующий урок <span class="fui fui-arrow-right"></span> </a>
+											<div class="hidden-xs" style="font-size: 1em; line-height: 16px; font-weight: normal">Как дойти до намеченной цели</div>
+																											</td>
+						</tr>
+					</tbody></table>
+				</div>
+					</div>
+
+
+
+					
+<div class="lite-page block-set">
+				<div data-updated="1625869305" id="lite-block-live-wrapper-1627198950-1418" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-image" data-block-id="1096898283">
+
+<style>
+	#ltBlock1096898283 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096898283" data-block-id="1096898283" class="lt-block lt-view lessonImg01 lt-lesson lt-lesson-image" data-code="b-a211e">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div class="image-box image-style-">
+	<div data-main-class="image-wrapper" class="image-wrapper">
+		<img data-main-class="lt-image-common" data-hash="3e08e8bbbd027fe56ef629416ca478dc.png" data-image-editable="true" data-param="image" class="lt-image-common" src="./11. Дата и Время в JavaScript_files/299">
+	</div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-1418');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096898283', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096898283-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625869243" id="lite-block-live-wrapper-1627198950-1433" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1090790733">
+
+<style>
+	#ltBlock1090790733 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1090790733" data-block-id="1090790733" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-8ec02">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><p><br></p>
+<hr>
+<p><br></p>
+<div style="font-size: 18px; color: #686B71;">
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Цель урока:&nbsp;</strong><br>Вы научитесь работать с датами и временем в JavaScript, а также считать разницу между двумя датами, чтобы вычислить конкретный отрезок времени.</p>
+<p><br></p>
+<p><strong style="color: #0f141e;">Содержание урока:</strong><br>1. Создание дат и использование объекта Date.<br>2. Подсчет разницы во времени между двумя датами.</p>
+<p><strong class="redactor-inline-converted"><br></strong></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Дополнительные материалы:</strong><br>Дата в JavaScript: <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date">https://developer.mozilla.org/...</a></p>
+</div>
+<p><br></p></div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-1433');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090790733', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090790733-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625869369" id="lite-block-live-wrapper-1627198950-1474" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1096897326">
+
+<style>
+	#ltBlock1096897326 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 30px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096897326" data-block-id="1096897326" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-f9f46">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./11. Дата и Время в JavaScript_files/573211173.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-1474');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096897326', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096897326-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625869243" id="lite-block-live-wrapper-1627198950-1496" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1096897734">
+
+<style>
+	#ltBlock1096897734 .lt-block-wrapper {
+		padding-top: 60px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096897734" data-block-id="1096897734" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-205c3">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder9444996" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field40749" data-item-name="field40749" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-image ">
+	
+<div id="image4849967" class="image-box" data-img-title="" data-img-src="//fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/74758a10e3bba5573f93664bb536acf3.png/s/s1200x/a/177331/sc/147">
+	<img class=" lazyloaded" src="./11. Дата и Время в JavaScript_files/147" data-param="items/parts/field40749/inner/image" data-hash="74758a10e3bba5573f93664bb536acf3.png" data-image-editable="true" title="" alt="" style="">
+	<div data-editable="true" data-param="items/parts/field40749/inner/image/caption" class="lt-image-caption">
+			</div>
+</div>
+
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder9444996 input[type="radio"]').length == 1 && $('#builder9444996 input[type="radio"]').prop('checked') ) {
+			$('#builder9444996 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-1496');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096897734', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096897734-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626428461" id="lite-block-live-wrapper-1627198950-1509" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-text" data-block-id="1090790736">
+
+<style>
+	#ltBlock1090790736 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1090790736" data-block-id="1090790736" class="lt-block lt-view lessonTxt01 lt-lesson lt-lesson-text" data-code="b-ba484">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div data-main-class="text" class="text f-text">
+	<div data-editable="true" data-param="text"><div style="font-size: 18px; color: #686B71;">
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 1</strong><br></p>
+<p>Часто мы записываем даты в следующем формате “день.месяц.год”. Сейчас вам необходимо создать функцию <strong class="redactor-inline-converted">getDateFormat</strong>, которая будет принимать 2 параметра:</p>
+<ol><li>date. объект даты, который нужно перевести в данный текстовый формат “день.месяц.год”.</li><li>separator. Разделитель дня, месяца и года. По умолчанию он должен быть равен точке “.”. Если в качестве разделителя будет передано тире “-”, то формат уже должен быть таким “день-месяц-год”.</li></ol>
+<p><span><br></span></p>
+<p><span><strong class="redactor-inline-converted">Также</strong>, учтите, что день месяца в JavaScript считается с 0 до 11. Кроме этого, если день либо месяц возвращают однозначное число, то вам к нему необходимо добавить 0. То есть результат должен быть не таким “5.5.2001”, а “05.05.2001”.</span></p>
+<p><strong class="redactor-inline-converted"><br></strong></p><hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 2</strong></p>
+<p>День рождения - это знаменательный праздник для каждого человека. А когда день рождения у вас? Уверен, что вы помните эту дату. А сколько дней осталось до вашего дня рождения? А вот это уже посложнее.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Сейчас ваша задача состоит в том</strong>, чтобы создать функцию <strong class="redactor-inline-converted">getDaysBeforeBirthday</strong>, которая будет возвращать количество дней до следующего дня рождения. Данная функция должна принимать 1 параметр <strong class="redactor-inline-converted">nextBirthdayDate</strong>, который является объектом даты и указывает на дату вашего ближайшего дня рождения. Год стоит указывать ближайший к текущей дате, а не год вашего рождения.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Также&nbsp;рекомендуюется</strong> создать вспомогательную функцию <strong class="redactor-inline-converted">convertMsToDays</strong>, которая переводит миллисекунды в дни. Для округления итогового числа используйте <strong class="redactor-inline-converted">Math.round</strong>.</p>
+<p><br></p><hr>
+<p><br></p>
+<p><strong class="redactor-inline-converted" style="color: #0f141e;">Задание 3</strong></p>
+<p>В JavaScript объект даты может принимать в себя timestamp, т.е. количество миллисекунд с 1 января 1970 года 00:00:00 по UTC. По данному количеству миллисекунд генерируется объект даты.</p>
+<p><br></p>
+<p>Благодаря этому, чтобы добавить определенное число миллисекунд, можно использовать следующую запись: <strong class="redactor-inline-converted">new Date(Date.now() + 5000)</strong>, где 5000 - это миллисекунды. В итоге мы получим дату, которая на 5000 миллисекунд больше текущей.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Используя эти знания</strong><strong class="redactor-inline-converted">,</strong><strong class="redactor-inline-converted"> вам необходимо</strong> создать функцию addDays, которая принимает в себя 2 параметра:</p>
+<ol><li>date. Объект даты.</li><li>days. Количество дней, тип данных number, по умолчания данный параметр должен быть равен единице.</li></ol>
+<p><span style="font-family: inherit; font-weight: inherit;"><br></span></p>
+<p><span style="font-family: inherit; font-weight: inherit;"><strong class="redactor-inline-converted">Вам необходимо</strong> к параметру <strong class="redactor-inline-converted">date</strong> прибавить определенное количество дней, которое передается в параметр <strong class="redactor-inline-converted">days</strong>. Функция <strong class="redactor-inline-converted">addDays</strong> должна возвращать обновленную дату.</span></p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Подсказка:</strong> не забывайте, что <strong class="redactor-inline-converted">timestamp</strong>, который передается в date, должен измеряться в миллисекундах.</p>
+<p><strong class="redactor-inline-converted"><br></strong></p><hr>
+<p><br></p>
+<p><strong style="color: #0f141e;" class="redactor-inline-converted">Дополнительное задание</strong></p>
+<p>Ваш заказчик - визовый центр. У них есть база данных клиентов, но нету скрипта, который бы автоматизировал процесс выдачи виз. Поэтому визовый центр попросил помочь вас как веб-разработчика взять эту задачу на себя.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Вам необходимо</strong> создать функцию <strong class="redactor-inline-converted">allowVisa</strong>, которая принимает в себя массив клиентов визового центра. <strong class="redactor-inline-converted">Каждый клиент</strong> - это объект с параметрами <strong class="redactor-inline-converted">firstName</strong> (имя клиента), <strong class="redactor-inline-converted">lastName</strong> (фамилия клиента), <strong class="redactor-inline-converted">criminalRecord</strong> (тип данных boolean, есть ли судимость),<strong class="redactor-inline-converted"> passportExpiration</strong> (тип данных string, дата истечения срока действия паспорта).</p>
+<p><br></p>
+<p>Функция <strong class="redactor-inline-converted">allowVisa</strong> должна возвращать отфильтрованный массив <strong class="redactor-inline-converted">people</strong>, чтобы он удовлетворял следующим условиям:</p>
+<ol><li>Текущая дата должна быть меньше свойства passportExpiration.</li><li>У клиента не должно быть судимости, т.е. значение свойства criminalRecord должно равняться false.</li></ol>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Для теста</strong> <strong>функции</strong> используйте данный код:<br></p><p>const peopleWithVisa = [<br>&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;firstName: 'Stasia',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lastName: 'Ward',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;criminalRecord: true,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passportExpiration: '19.06.2023',<br>&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;firstName: 'Elliot',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lastName: 'Baker',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;criminalRecord: false,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passportExpiration: '04.06.2021',<br>&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;firstName: 'Leighann',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lastName: 'Scott',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;criminalRecord: true,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passportExpiration: '31.07.2022',<br>&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;firstName: 'Nick',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lastName: 'Pop',<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;criminalRecord: false,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;passportExpiration: '31.12.2021',<br>&nbsp;&nbsp;&nbsp;},<br>];<br>&nbsp;<br>const result = allowVisa(peopleWithVisa);<br>console.log('result', result);</p>
+<p><br></p>
+<p><br></p></div>
+</div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-1509');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090790736', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1090790736-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626091498" id="lite-block-live-wrapper-1627198950-1688" class="lite-block-live-wrapper o-lt-form o-lt-form-survey" data-block-id="1096897824">
+	<style>
+		#ltBlock1096897824 .btn1 button{background: #EB5F84!important;
+    border-radius: 10px!important;
+    font-size: 14px!important;
+    text-transform: uppercase!important;
+    box-shadow: 0 0 15px 1px #EB5F84!important;
+    transition: all 0.3s;
+}	</style>
+
+<style>
+	#ltBlock1096897824 .lt-block-wrapper {
+		padding-top: 75px; padding-bottom: 75px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1096897824" data-block-id="1096897824" data-has-css="true" class="lt-block lt-view survey01 lt-form lt-form-survey" data-code="b-e6da3">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-8 col-md-offset-2" style="">
+			
+<form id="ltForm6487159" class="lt-normal-form lt-form-inner lt-form   " action="https://vladilen.ru/pl/lite/block-public/process?id=1096897824" method="post" data-open-new-window="0">
+	<input type="hidden" name="formParams[setted_offer_id]" class="external-value offer_id">
+		
+	<div class="form-result-block"></div>
+
+	<div class="form-content">
+		
+<div id="builder3147922" class="builder " data-path="form/items">
+	
+			<div data-param="form/items/parts/field88593" data-item-name="field88593" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  text-center">
+	<div data-editable="true" data-param="form/items/parts/field88593/inner/text" class="f-header f-header-20"><p>Ваша оценка урока</p></div></div>
+<style>
+	</style>			<div data-param="form/items/parts/field12845" data-item-name="field12845" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-surveyFields ">
+	<div id="surveyFields9576299">
+							
+
+<div class="custom-form without-help-elems" id="widget7191">
+	
+	<input type="hidden" name="surveyData" id="widgetValue3793" value="{&quot;714834&quot;:&quot;1. Hello World&quot;,&quot;714835&quot;:&quot;10&quot;,&quot;714836&quot;:&quot;&quot;,&quot;726029&quot;:null}">
+	<div class="fields"><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-714834"><span class="label-value">Урок</span><span class="required-sign">*</span></label><div class="field-input-block"><select id="field-input-714834" class="form-control"><option value="1. Hello World">1. Hello World</option><option value="2. Синтаксис">2. Синтаксис</option><option value="3. Типы Данных">3. Типы Данных</option><option value="4. Приведение типов в JavaScript">4. Приведение типов в JavaScript</option><option value="5. Работа со строками">5. Работа со строками</option><option value="6. Введение в основы JavaScript">6. Введение в основы JavaScript</option><option value="7. Debug">7. Debug</option><option value="8. Функции">8. Функции</option><option value="9. Массивы">9. Массивы</option><option value="10. Объекты">10. Объекты</option><option value="Как дойти до намеченной цели">Как дойти до намеченной цели</option><option value="11. Дата и Время в JavaScript">11. Дата и Время в JavaScript</option><option value="12. Ключевое слово «this»">12. Ключевое слово «this»</option><option value="13. Классы + ООП">13. Классы + ООП</option><option value="14. Работа с DOM">14. Работа с DOM</option><option value="15. Асинхронность (Promise + fetch)">15. Асинхронность (Promise + fetch)</option><option value="16. Асинхронность (Async Await)">16. Асинхронность (Async Await)</option><option value="17. Callback + Event Loop">17. Callback + Event Loop</option><option value="18. Webpack, rollup">18. Webpack, rollup</option><option value="19. Es6 import export">19. Es6 import export</option></select></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-714835"><span class="label-value">Пожалуйста оцените данный урок от 1 до 10</span><span class="required-sign">*</span></label><div class="field-input-block"><select id="field-input-714835" class="form-control"><option value="10">10</option><option value="9">9</option><option value="8">8</option><option value="7">7</option><option value="6">6</option><option value="5">5</option><option value="4">4</option><option value="3">3</option><option value="2">2</option><option value="1">1</option><option value="0">0</option></select></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-726029"><span class="label-value">Порекомендовали бы Вы этот урок? </span><span class="required-sign">*</span></label><div class="field-input-block"><label><input type="radio" name="field-value-726029" value="Да">Да</label><label><input type="radio" name="field-value-726029" value="Нет">Нет</label></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-text"><label class="field-label" for="field-input-714836"><span class="label-value">Напишите свои пожелания к уроку. Что-то нужно добавить/изменить?</span><span class="required-sign">*</span></label><div class="field-input-block"><textarea id="field-input-714836" placeholder="" class="form-control" rows="3"></textarea></div><div class="field-description-block" style="display: none;"></div></div></div></div>
+</div>
+<script>
+	$( function() {
+		$('#widget7191').customForm({
+			form: {"fields":[{"id":714834,"label":"\u0423\u0440\u043e\u043a","type":"select","required":true,"settings":{"valueList":"1. Hello World\n2. \u0421\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\n3. \u0422\u0438\u043f\u044b \u0414\u0430\u043d\u043d\u044b\u0445\n4. \u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0442\u0438\u043f\u043e\u0432 \u0432 JavaScript\n5. \u0420\u0430\u0431\u043e\u0442\u0430 \u0441\u043e \u0441\u0442\u0440\u043e\u043a\u0430\u043c\u0438\n6. \u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043e\u0441\u043d\u043e\u0432\u044b JavaScript\n7. Debug\n8. \u0424\u0443\u043d\u043a\u0446\u0438\u0438\n9. \u041c\u0430\u0441\u0441\u0438\u0432\u044b\n10. \u041e\u0431\u044a\u0435\u043a\u0442\u044b\n\u041a\u0430\u043a \u0434\u043e\u0439\u0442\u0438 \u0434\u043e \u043d\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u043e\u0439 \u0446\u0435\u043b\u0438\n11. \u0414\u0430\u0442\u0430 \u0438 \u0412\u0440\u0435\u043c\u044f \u0432 JavaScript\n12. \u041a\u043b\u044e\u0447\u0435\u0432\u043e\u0435 \u0441\u043b\u043e\u0432\u043e \u00abthis\u00bb\n13. \u041a\u043b\u0430\u0441\u0441\u044b + \u041e\u041e\u041f\n14. \u0420\u0430\u0431\u043e\u0442\u0430 \u0441 DOM\n15. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0441\u0442\u044c (Promise + fetch)\n16. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0441\u0442\u044c (Async Await)\n17. Callback + Event Loop\n18. Webpack, rollup\n19. Es6 import export","showAllValues":false,"emptyValueText":""},"description":"","show_in_table":true},{"id":714835,"label":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u043e\u0446\u0435\u043d\u0438\u0442\u0435 \u0434\u0430\u043d\u043d\u044b\u0439 \u0443\u0440\u043e\u043a \u043e\u0442 1 \u0434\u043e 10","type":"select","required":true,"settings":{"valueList":"10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0","showAllValues":false,"emptyValueText":""},"description":"","show_in_table":true},{"id":726029,"label":"\u041f\u043e\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043b\u0438 \u0431\u044b \u0412\u044b \u044d\u0442\u043e\u0442 \u0443\u0440\u043e\u043a? ","type":"select","required":true,"settings":{"valueList":"\u0414\u0430\n\u041d\u0435\u0442","showAllValues":true,"emptyValueText":""},"description":"","show_in_table":true},{"id":714836,"label":"\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0441\u0432\u043e\u0438 \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f \u043a \u0443\u0440\u043e\u043a\u0443. \u0427\u0442\u043e-\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c\/\u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c?","type":"text","required":false,"settings":{"placeholder":"","cols":"49","rows":"3"},"description":"","show_in_table":false}]},
+			valueSet: null,
+			valueEl: $('#widgetValue3793')
+					});
+	});
+</script>
+			</div>
+
+</div>
+<style>
+	</style>			<div data-param="form/items/parts/field67222" data-item-name="field67222" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-button  btn1 text-center">
+	
+
+<button type="submit" id="button6936730" class="btn f-btn  button-md btn-success" style="color: ; background-color: ; ">
+	Отправить</button>
+
+<style>
+	.btn.f-btn.button-sm {
+		padding-left: 35px;
+		padding-right: 35px;
+		font-size: 14px;
+		min-height: 46px;
+	}
+
+	.btn.f-btn.button-lg {
+		padding-left: 70px;
+		padding-right: 70px;
+		min-height: 74px;
+		font-size: 20px;
+	}
+
+	.btn.f-btn.button-md {
+		padding-left: 60px;
+		padding-right: 60px;
+		min-height: 60px;
+		font-size: 16px;
+	}
+
+	.lt-menu .btn.f-btn.button-md {
+		padding-left: 10px;
+		padding-right: 10px;
+		min-height: 20px;
+		font-size: 14px;
+	}
+
+	.lt-menu .btn.f-btn.button-sm {
+		padding-left: 8px;
+		padding-right: 8px;
+		font-size: 12px;
+		min-height: 18px;
+	}
+
+	.lt-menu .btn.f-btn.button-lg {
+		padding-left: 40px;
+		padding-right: 40px;
+		min-height: 47px;
+		font-size: 18px;
+	}
+</style>
+
+<script>
+$( function() {
+	var disableButton = function (e) {
+		if (window['prsbutton6936730']) {
+			e.preventDefault();
+			return false;
+		} else {
+			$('#button6936730').addClass('disabled');
+			window['prsbutton6936730'] = true;
+			setTimeout(function(){window['prsbutton6936730'] = false;$('#button6936730').removeClass('disabled');}, 6000);
+		}
+		return true;
+	};
+	$( '#button6936730' ).click( function(e) {
+		//disableButton(e);
+			} );
+});
+</script>
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder3147922 input[type="radio"]').length == 1 && $('#builder3147922 input[type="radio"]').prop('checked') ) {
+			$('#builder3147922 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+	</div>
+
+	<div class="common-setting-link box-setting-link" data-icon-class="fa fa-adjust" data-param="form/formBox" data-title="Стиль блока" data-setting-editable="true"></div>
+	<div class="common-setting-link form-setting-link" data-icon-class="fa fa-wpforms" data-param="form/handler" data-title="Что делать после заполнения" data-setting-editable="true"></div>
+</form>
+<script>
+	$( function() {
+		$('#ltForm6487159').liteForm();
+	} );
+</script>
+
+
+
+	<style>
+		#ltForm6487159 {
+		;		}
+	</style>
+
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-1688');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096897824', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1096897824-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625869243" id="lite-block-live-wrapper-1627198950-2633" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-mission-block" data-block-id="1043068512">
+
+<style>
+	#ltBlock1043068512 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068512" data-block-id="1043068512" class="lt-block lt-view lmb1 lt-lesson lt-lesson-mission-block" data-code="ltBlock1043068512">
+	<div class="lt-block-wrapper">
+	
+
+
+
+
+	<div class="container">
+		<div class="row row-section">
+			<div class="col-md-12">
+
+
+				
+
+
+<div>
+	<h3>Задание </h3>
+	<div class="lesson-mission-wrapper">
+					<div class="lesson-mission-text" style="padding: 20px 20px; font-size: 16px">
+				<p>Пройдите тест и вставьте ссылку на выполненное задание</p>			</div>
+		
+		<div class="self-answers">
+																					
+
+
+	
+
+	<div class=" has-quote-images-settings-container user-answer  lesson-related-data type-mission_answer_no_check  status-new " data-id="147798812" data-object-type-id="8" data-user-id="176924602" data-lesson-id="201179974" data-lesson-name="JavaScript Junior Frontend Developer. Модуль 1. База JavaScript. 11. Дата и Время в JavaScript" data-lesson-ugc-default-tags="">
+		<div class="hide comment-user-settings-json">{"signature":"9337796c5febc3afe4b5170e536a2e85","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"147798812","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"147798812","user-id":"176924602"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+		
+
+		<a class="anchor" name="answer147798812">test</a>
+		<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./11. Дата и Время в JavaScript_files/default_profile_50(1).png"></div>
+
+		<div class="answer-content ">
+
+							<div class="answer-status">
+										
+					<div class="answer-status-label">
+						Без проверки											</div>
+
+											<div class="public-level-block user-can-hide-answer" data-answer-id="147798812">
+							<span class="glyphicon glyphicon-eye-close"></span> этот ответ не виден другим ученикам													</div>
+					
+											<br>
+						<a href="https://vladilen.ru/teach/control/answers/edit?id=147798812">Редактировать ответ</a>&nbsp;&nbsp;
+					
+				</div>
+			
+			
+			<div class="title">
+				<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./11. Дата и Время в JavaScript_files/default_profile_50(1).png"></div>
+				<a href="https://vladilen.ru/pl/176924602" data-user-id="176924602" class="user-profile-link"><span class="text">אשר סנדלר</span></a>								<span class="answer-date">
+				•
+				<a style="white-space: nowrap" href="https://vladilen.ru/teach/control/lesson/view/id/201179974?showAnswer=147798812#answer147798812" title="Время обновления ответа 2021-07-19 13:35:54">Пн 19 Июл 13:35</a>
+								</span>
+			</div>
+
+												<div>
+						Результат тестирования: <b>6 баллов из 6</b>					</div>
+												
+
+
+			<div class="answer-main-content user-related-data" data-user-id="176924602">
+				<div class="main" data-object-id="147798812" data-object-type-id="8" data-converter-type-id="174" data-to-review-converted="0">
+					
+					
+
+																				</div>
+				<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-147798812-8" id="likes-147798812-8">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="147798812" data-object-type-id="8">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="147798812" data-object-type-id="8"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-147798812-8 ">
+	<span class="button  " data-object-id="147798812" data-object-type-id="8" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>			</div>
+
+			<div class="comments">
+				<div class="comment-list">
+															
+
+<div class=" comments-tree-wrapper">
+	
+	<div class="comments-tree  comments-177331-147798812-8- comments-tree-live   " id="comments-177331-147798812-8--1627198950-1962" data-tree-id="comments-177331-147798812-8-" data-scroll-to-bottom="">
+		<div class="comments-container">
+
+			<div style="">
+						</div>
+												<div class="comments-top-level comments comments-8-147798812-0">
+				<div class="hide settings settings-level-1">
+					<textarea>{"signature":"9337796c5febc3afe4b5170e536a2e85","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"147798812","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"147798812","user-id":"176924602"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+				</div>
+
+				
+															</div>
+						
+			</div>
+
+					
+	<div id="commentReplyForm-147798812-8" class="gc-comment-form comment-form-wrapper" data-access="account" data-submit-on-enter="0">
+		<div class="new-comment contains-uploadify ">
+							<form data-level="1" method="post" enctype="multipart/form-data" action="https://vladilen.ru/cms/comment/add">
+					<div class="user-image-wrapper"><a href="https://vladilen.ru/user/my/profile" target="_blank" style="color: #000000;position: relative;"><span style="">
+<img width="50" class="user-profile-image user-default-profile-image " src="./11. Дата и Время в JavaScript_files/default_comment_profile_50.png">
+<span style="position: absolute; top: 30%; font-size: 0.7em;left:5%;line-height: 0.7em;">загрузить аватарку</span>
+</span></a></div>
+										<textarea class="hide settings-value" name="GetCourseComment[settings]">{"signature":"9337796c5febc3afe4b5170e536a2e85","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"147798812","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"147798812","user-id":"176924602"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+					<div class="textarea-block" style="position: relative">
+						<div class="emoji-container"><textarea placeholder="добавить комментарий к ответу" class="new-comment-textarea new-comment-textarea-level-1 emoji-textarea" name="GetCourseComment[comment_text]" style="max-height: 400px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 28px; min-height: 28px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+
+						
+																			<div class="attach-file-button-container"><div id="uploadifive-comment-upload-button0" class="uploadifive-button" style="height: 20px; line-height: 20px; overflow: hidden; position: relative; text-align: center; width: 15px; background: transparent; color: rgb(153, 153, 153); padding: 0px; font-size: 1em;"><i class="glyphicon glyphicon-paperclip"></i><div class="upload-button" id="comment-upload-button0" style="display: none;"></div><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div></div>
+							<span class="comment-attach-file-link"></span>
+						
+													
+						<button class="btn btn-primary btn-send">
+														<span class="fa fa-send"></span>
+														<span class="text">Отправить</span>
+						</button><div class="file-uploader"><div id="uploadifive-comment-upload-button0-queue" class="uploadifive-queue"></div><input type="hidden" class="upload-value" name="GetCourseComment[files]"></div>
+																													</div>
+				</form>
+					</div>
+	</div>
+
+	
+</div>
+<script>
+	$(function(){
+		GcCommentsTreeWidget.create($('#comments-177331-147798812-8--1627198950-1962'));
+
+					});
+</script>
+</div>
+
+
+
+				</div>
+			</div>
+							<div>
+					
+					
+					
+							</div>
+	
+	</div>
+
+	</div>
+					</div>
+
+					
+									<div style="padding-left: 20px; padding-bottom: 20px; padding-top: 20px;">
+						
+<div id="testingWidget9072725" class="testing-widget">
+	<div class="testing-content">
+		
+
+									<script type="text/javascript">
+				if ( $('.editor-control-panel').length === 0 && $('.gc-share-links').length > 0 ) {
+					window.location.href = window.location.href + ( window.location.search ? '&' : '?' ) + 'qrid=' + 36251673;
+				}
+			</script>
+										<div class="stat-block">
+					<div class="row">
+						<div class="col-md-12 stat-title">
+							Ваш результат						</div>
+					</div>
+										<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<div class="stat-str">
+																	6 из 6															</div>
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+																					<div class="row">
+							<div class="col-md-12" style="text-align: center">
+								<button type="button" class="btn btn-default btn-restart" data-questionary-id="4483310"> <span class="fa fa-refresh"></span> Начать заново</button>
+							</div>
+						</div>
+					
+					
+				</div>
+
+				<script>
+					window.shareUrlAppend = "?qrid=36251673";
+					window.shareTitle = "6 правильных ответов из 6 вопросов";
+				</script>
+			
+							<script>
+					$( function() {
+						$(".lesson-send-answer-block").show()					})
+				</script>
+						
+<script>
+	console.log('');
+</script>
+	</div>
+</div>
+
+<script>
+	$( function() {
+		if (jQuery().testingWidget) {
+			$('#testingWidget9072725').testingWidget({
+				questionaryId:4483310,
+				objectTypeId: 79,
+				objectId: 201179974,
+				showRestartBtnAlways: 0,
+				onQuestion: "$(\".lesson-send-answer-block\").hide(); $(\".lesson-send-answer-block .errorSummary\").hide();",
+				onFinish: "$(\".lesson-send-answer-block\").show()",
+				limitTimeAnswer: 0,
+				scrollToQuestionary: 0			});
+		}
+	});
+</script>					</div>
+				
+				<div class="lesson-send-answer-block">
+					<form id="lessonAnswerForm" action="https://vladilen.ru/pl/teach/control/lesson/view?id=201179974&amp;editMode=0#lessonAnswerForm" method="post">
+<div class="answer-form">
+	<div style="float: left; margin-right: 10px"><img width="50" class="user-profile-image user-default-profile-image " src="./11. Дата и Время в JavaScript_files/default_profile_50(1).png"></div>
+	<div class="answer-form-inner">
+		<div style="margin-left: 0px; overflow: hidden">
+
+			
+							<div class="answer-textarea-container">
+					<div class="form-group field-lessonanswer-answer_text">
+						<div class="emoji-container">
+							<div class="emoji-container"><textarea id="lessonanswer-answer_text" class="emoji-textarea" name="LessonAnswer[answer_text]" placeholder="ваш ответ" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 100px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+						</div>
+													<div id="queue"></div>
+
+
+
+<div style="overflow: hidden">
+	<div id="uploadifive-file_upload29785" class="uploadifive-button" style="height: 30px; line-height: 30px; overflow: hidden; position: relative; text-align: center; width: 170px;">Добавить файлы<input id="file_upload29785" name="file_upload" type="file" multiple="true" style="display: none;"><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div><div id="uploadifive-file_upload29785-queue" class="uploadifive-queue"></div>
+	<input class="LessonAnswer-fileList--add-file" name="LessonAnswer[fileList][add_files]" type="hidden" multiple="true">
+	<span class="text-muted small">максимальный размер файла - 100мб</span>
+</div>
+
+<script type="text/javascript">
+	    $(function() {
+        $('#file_upload29785').uploadifive({
+            auto: true,
+            width: 170,
+            buttonText: "Добавить файлы",
+            fileSizeLimit: "100MB",
+            multi: true,
+            formData     : {
+                timestamp : '1627198950',
+                userId: '176924602',
+                token     : 'd47f1a584760c287379705a5c914c3d5'
+            },
+            uploadScript : '/fileservice/widget/upload',
+            onUploadError: function( file, errorCode, errorMsg ) {
+                alert("ERROR");
+            },
+            onUploadComplete: function( e,res  ) {
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                if ( newVal.length > 0 ) {
+                    newVal += ",";
+                }
+                newVal += res;
+                e.res = res;
+
+                $hiddenInputEl.val( newVal );
+                //location.href = location.href;
+            },
+            onCancel: function( e ) {
+
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                newVal = newVal.replace(e.res, "");
+
+                $hiddenInputEl.val( newVal );
+            }
+        });
+    });
+</script>											</div>
+					<div class="form-group field-lessonanswer-lesson_id required">
+
+<input type="hidden" id="lessonanswer-lesson_id" class="form-control" name="LessonAnswer[lesson_id]" value="201179974">
+
+<div class="help-block"></div>
+</div>				</div>
+			
+						
+			<input type="hidden" name="abc" value="true" class="send-answer-value">
+													<button name="send-answer" class="btn btn-send-answer btn-primary btn-lg">Отправить ответ</button>
+				<button name="send-answer" class="btn btn-link btn-save-draft ">Сохранить черновик</button>
+										<div class="small" style="margin-top:10px;">
+					80 монет за выполнение этого урока 				</div>
+						<br><br>
+		</div>
+	</div>
+
+	</div></form>
+<script>
+	$( function() {
+		$('.answer-form textarea').autosize();
+		$('#lessonAnswerForm').submit( function() {
+			$('.send-answer-value').attr('name', 'send-answer');
+			$('.btn-send-answer, .btn-save-draft').attr('disabled','disabled');
+			return true;
+		});
+		$('.btn-save-draft').click(function() {
+			let isBeforeTestingStage = $('.before-start-block').first().length > 0;
+				if (isBeforeTestingStage) {
+					return false;
+				}
+			$('#lessonAnswerForm').append('<input type="hidden" name="is-draft" value="1" />');
+				return true;
+			});
+	})
+</script>
+
+<style>
+	.answer-form .answer-textarea-container {
+		padding-bottom: 0;
+	}
+</style>
+				</div>
+								
+		
+	</div>
+
+</div>
+
+			</div>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-2633');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068512', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068512-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1625869243" id="lite-block-live-wrapper-1627198950-2901" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-comment-block" data-block-id="1043068513">
+
+<style>
+	#ltBlock1043068513 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068513" data-block-id="1043068513" class="lt-block lt-view lesson-comment-block-1 lt-lesson lt-lesson-comment-block" data-code="ltBlock1043068513">
+	<div class="lt-block-wrapper">
+	
+
+
+
+<div class="container">
+	<div class="row row-section">
+		<div class="col-md-12">
+
+			
+							<div class="lesson-answers-title">
+					<div class="pull-right" id="answers">
+
+													<b>старые ответы</b> /
+								<a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179974&amp;sort=desc&amp;mode=answers#answers">новые ответы</a>
+												сначала
+					</div>
+					<h3 style="margin-bottom: 20px;">
+													Комментарии к уроку						
+											</h3>
+				</div>
+			
+								<div class="simple-answer user-answer" data-answers-list-selector=".other-answers" data-lesson-id="201179974">
+		<div class="new-comment new-answer">
+			<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./11. Дата и Время в JavaScript_files/default_profile_50(1).png"></div>
+			<div class="answer-comment textarea-block">
+				<div class="emoji-container"><textarea placeholder="добавить комментарий к уроку (ответ на задание здесь давать не нужно)" class="new-comment-textarea emoji-textarea" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 40px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+				<button class="btn btn-primary btn-send">Отправить</button>
+			</div>
+		</div>
+	</div>
+
+																					
+
+
+
+
+
+<div class="other-answers answers-list">
+
+							</div>
+
+
+
+
+<script>
+    window.startAnswers = 10;
+    window.answersCount = 1;
+    window.lessonId = 201179974;
+    window.answersPerPage = 10;
+</script>		</div>
+	</div>
+</div></div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627198950-2901');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068513', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068513-user-176924602', handler);
+		}
+			});
+</script>
+	</div>
+
+
+<style>
+
+	.content-row > div {
+		padding: 0px;
+	}
+
+	.content-row > div {
+		padding-top: 20px;
+	}
+
+	.content-row > div p, .content-row > div ol, .content-row > div ul, .content-row > div h1, .content-row > div h2, .content-row > div h3, .content-row > div h4 {
+		margin-left: 20px;
+	}
+
+	.files-row > div {
+		padding-top: 20px;
+	}
+
+</style>			</div>
+
+</div>
+	</div>
+</div>
+
+
+	</div>
+
+			<script src="./11. Дата и Время в JavaScript_files/gccounter.js.download"></script><img style="position: absolute; left:0;top:0" width="1" height="1" id="gccounterImg" src="./11. Дата и Время в JavaScript_files/counter">
+	
+<style>
+.talks-widget-window {
+ color: #000;
+}
+.lesson-list li.user-state-not_reached .info {
+  background: none !important;
+}
+</style>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(82175713, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/82175713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div id="w39058" class="talks-widget activated-talks-widget"></div>
+
+<script>
+	$( function() {
+		$('#w39058').talksWidget({
+			fullMode: false,
+			allowGuest: false,
+			openedConversationId: null,
+		});
+	} );
+</script>
+
+
+<script src="./11. Дата и Время в JavaScript_files/select2.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/select2-kv.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/select2_locale_ru.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/replace.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/cdnfeedback.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/videoplayer.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/superlite-block-297e12f47a66cd797c0fad21b2c45ce7.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/bootstrap-datetimepicker.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/tags-3aa0609a20b00cc7e41f55385c6b7d97.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/widget.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/checkbox.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/date.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/numeric.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/select.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/select_object.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/string.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/dateshift.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/custom-form-7732a6796257c2ff5ec921774c5788d0.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/blueimp-gallery.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/jquery.blueimp-gallery.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/blueimp-gallery-indicator.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/fabric.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/editor.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/clappr.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/level-selector.min.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/answers.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/file_widget.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/redactor.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/ru.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/p2br.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/source.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/typograph.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/iconic.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/inlinestyle.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/table.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/fontcolor.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/questions-editor.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/questions-editor-button.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/testing-widget.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/yii.validation.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/yii.activeForm.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/mission-addfields.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/colpick.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/light-menu.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/tasks-block.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/comment_rating_widget.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/conversation_widget.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/conversation_controls.js.download"></script>
+<script src="./11. Дата и Время в JavaScript_files/talks_widget.js.download"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#lessonAnswerForm').yiiActiveForm([{"id":"lessonanswer-lesson_id","name":"lesson_id","container":".field-lessonanswer-lesson_id","input":"#lessonanswer-lesson_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Не заполнено поле «Lesson»."});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Lesson должен быть целым числом.","skipOnEmpty":1});}}], []);
+});</script>
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;"><div class="slides next-click"></div><h3 class="title"></h3><a class="prev">‹</a><a class="next next-click">›</a><a class="play-pause"></a><ol class="indicator"></ol></div><textarea tabindex="-1" style="position: absolute; inset: -999px auto auto 0px; border: 0px; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; overflow: hidden; transition: none 0s ease 0s; height: 0px !important; min-height: 0px !important; font-family: proxima-nova, Lato, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 21.7px; width: 612px;" class="autosizejs"></textarea><div class="talks-widget-button"><span class="fa comments-icon fa-comments"></span><div class="conversations-counter" style="display: none;">0</div></div><div class="gc-fade-wrapper" style="display: none;"><div class="gc-fade"></div></div><div></div></body></html>
