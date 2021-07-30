@@ -1,0 +1,2158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://vladilen.ru/pl/teach/control/lesson/view?id=201179978 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		
+		<title>13. Классы + ООП</title>
+			
+<script async="" src="./13. Классы + ООП_files/tag.js.download"></script><script>
+	
+	window.accountUserId = 176924602;
+	window.requestIp = "87.71.119.248";
+	window.isSublogined = false;
+	window.accountId = 177331;
+	window.gcSessionId = 1728178545;
+	window.controllerId = "control/lesson";
+	window.actionId = "view";
+    window.nowTime = new Date(2021, 6, 30, 17, 57, 30);
+    window.dateOffset = 3;
+	window.userInfo = {"isAdmin":false,"isInAccount":true,"isTeacher":false};
+	window.websocketHost = "s163.getcourse.ru";
+		window.websocketHttpPort = 33081;
+	window.websocketHttpsPort = 33443;
+	window.fileserviceThumbnailHost = "fs-thb01.getcourse.ru";
+	window.fileserviceMainHost = "fs02.getcourse.ru";
+    window.fileserviceUploadHost = "fs03.getcourse.ru";
+    window.fileserviceTusFeatureEnabled = true;
+	window.currencyLabels = {"RUB":"RUB","USD":"USD","EUR":"EUR","GBP":"GBP","BYR":"BYR","BYN":"BYN","KZT":"KZT","UAH":"UAH","AUD":"AUD","DKK":"DKK","CHF":"CHF","SEK":"SEK","ZAR":"ZAR","AMD":"AMD","RON":"RON","BRL":"BRL","ILS":"ILS","MYR":"MYR","SGD":"SGD","KGS":"KGS","CAD":"CAD","MXN":"MXN","JPY":"JPY","UZS":"UZS","PLN":"PLN","AZN":"AZN","AED":"AED","POINTS":""};
+window.accountSafeUserName = "\u05d0\u05e9\u05e8 \u05e1\u05e0\u05d3\u05dc\u05e8";
+window.accountUserThumbnail = "<img width='50' class='user-profile-image user-default-profile-image ' src='\/\/getcourse.ru\/public\/img\/default_profile_50.png'>";
+window.language = "ru";
+window.csrfToken = "QmFKS2pOLVYWDBssPzZ4NQkXZ38mI2wfF0wDJhl9eGE3Fgw.AwN.Zw==";
+window.requestTime = 1627657050;
+window.requestSimpleSign = "4c5c80aa5210ff238fd69962a07a293c";
+window.gcUniqId = "2845670356104135ae64420.98129352.1627657050.9432";
+window.mailingVisibility = 0;
+window.isSupportChatEnabled = false;
+window.disableCaptchaForConfirmPhone = true;
+window.globalCheckboxEnabled = false;
+window.globalCheckboxText = "\u042f \u0441\u043e\u0433\u043b\u0430\u0441\u0435\u043d \u043d\u0430&nbsp;\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u043c\u043e\u0438\u0445 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432&nbsp;\u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0438&nbsp;\u0441&nbsp;<a href=\"https:\/\/vladilen.ru\/policy\">\u0423\u0441\u043b\u043e\u0432\u0438\u044f\u043c\u0438<\/a>";
+window.persodataConfirm = 1;
+window.params_52 = 0;
+window.isSessionLocalStorageEnabled = false;
+window.isWhatsappIconEnabled = false;
+window.file_upload_blocking = false;
+window.storage_usage_percent = null;
+window.used_storage_size = null;
+window.max_storage_size = null;
+window.webinarWebsocketHost = "ws02.getcourse.ru";
+window.webSocketHost = "ws04.getcourse.ru";
+window.fdsrevEnabled12 = true;
+</script>
+
+<script type="text/javascript">
+
+		    
+	window.userInfo = {"isAdmin":false,"isManager":false,"isInAccount":true,"isTeacher":false,"canCms":false,"canEditHelp":false,"isHumanDesign":"0"};
+
+</script>
+	<link href="./13. Классы + ООП_files/filelist.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/jquery-ui.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/bootstrap.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/select2.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/select2-kv.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/videoplayer.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/uploadifive.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/superlite-block-367ce03d0a62da6d6e7d92f9e70fddeb.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/css" rel="stylesheet" async="async">
+<link href="./13. Классы + ООП_files/css(1)" rel="stylesheet" async="async">
+<link href="./13. Классы + ООП_files/bootstrap-datepicker3.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/datepicker-kv.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/datetimepicker-kv.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/tags-a4ffab408734cc692f9c956be7634162.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/widget.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/custom-form-dd508755e58e719cfee0f4aa4a2cc48f.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/jquery.toast.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/jquery.emojiarea.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/emoji.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/blueimp-gallery.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/blueimp-gallery-indicator.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/editor.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/answers.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/like-and-subscribe-notifications.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/like.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/subscribe.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/audio-comments.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/proxima.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/user-form.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/comments.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/comment_reply_open.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/redactor.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/questions-editor.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/testing-widget.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/mission-addfields.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/colpick.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/menu.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/statuses.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/standard.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/modal.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/global.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/font-awesome.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/font-viber.min.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/main.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/jquery.toast.min(1).css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/tasks-block.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/comment_rating_widget.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/conversation_widget.css" rel="stylesheet">
+<link href="./13. Классы + ООП_files/talks_widget.css" rel="stylesheet">
+<script src="./13. Классы + ООП_files/jquery.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery-ui.min.js.download"></script>
+<script src="./13. Классы + ООП_files/yii.js.download"></script>
+<script src="./13. Классы + ООП_files/bootstrap.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.uploadifive.min.js.download"></script>
+<script src="./13. Классы + ООП_files/uploadifive-rewrite.js.download"></script>
+<script src="./13. Классы + ООП_files/JsTrans.min.js.download"></script>
+<script src="./13. Классы + ООП_files/dictionary-gen-56ee4b8cc99aeeeeb838e4849cb4de55d3bb6f20.js.download"></script>
+<script src="./13. Классы + ООП_files/bootstrap-datepicker.min.js.download"></script>
+<script src="./13. Классы + ООП_files/datepicker-kv.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.autosize.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.toast.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.form.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.emojiarea.js.download"></script>
+<script src="./13. Классы + ООП_files/emoji.js.download"></script>
+<script src="./13. Классы + ООП_files/user-form-def.js.download"></script>
+<script src="./13. Классы + ООП_files/like.js.download"></script>
+<script src="./13. Классы + ООП_files/subscribe.js.download"></script>
+<script src="./13. Классы + ООП_files/dictionary-gen-e03473f2b8cb5b198fc92541b01d47038a744ca1.js.download"></script>
+<script src="./13. Классы + ООП_files/audio-comments.js.download"></script>
+<script src="./13. Классы + ООП_files/RecordRTC.min.js.download"></script>
+<script src="./13. Классы + ООП_files/react.min.js.download"></script>
+<script src="./13. Классы + ООП_files/user-form.js.download"></script>
+<script src="./13. Классы + ООП_files/socket.io.slim.js.download"></script>
+<script src="./13. Классы + ООП_files/socket.js.download"></script>
+<script src="./13. Классы + ООП_files/websocket.global.js.download"></script>
+<script src="./13. Классы + ООП_files/comments.js.download"></script>
+<script src="./13. Классы + ООП_files/comment_reply_open.js.download"></script>
+<script src="./13. Классы + ООП_files/comment_template_dialog.js.download"></script>
+<script src="./13. Классы + ООП_files/modal.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.sticky.js.download"></script>
+<script src="./13. Классы + ООП_files/no-conflict.js.download"></script>
+<script src="./13. Классы + ООП_files/main.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.inputmask.bundle.js.download"></script>	<link rel="stylesheet" type="text/css" href="./13. Классы + ООП_files/prettify.css"></head>
+<body class="gc-user-logined">
+	<div id="gcAccountUserMenu"><div class="gc-account-leftbar"><a href="javascript:void(0)" class="toggle-link without-icon"><img src="./13. Классы + ООП_files/bars.png" width="35"></a><div class="gc-account-user-submenu-bar" style="display: none;"></div><ul class="gc-account-user-menu"><li class="menu-item menu-item-profile"><a href="javascript:void(0)" title="Профиль"><img class="menu-item-icon" src="./13. Классы + ООП_files/default_profile_50.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications_button_small"><a href="javascript:void(0)" title=""><img class="menu-item-icon" src="./13. Классы + ООП_files/notifications_button_small.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-teach active"><a href="javascript:void(0)" title="Обучение"><img class="menu-item-icon" src="./13. Классы + ООП_files/teach_active.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-notifications"><a href="javascript:void(0)" title="Сообщения"><img class="menu-item-icon" src="./13. Классы + ООП_files/notifications.png"><span class="notify-count" style="display: none;"></span></a></li><li class="menu-item menu-item-sales"><a href="javascript:void(0)" title="Покупки"><img class="menu-item-icon" src="./13. Классы + ООП_files/sales.png"><span class="notify-count" style="display: block;">1</span></a></li></ul></div></div>
+
+								<script>
+						window.gcAccountUserMenu = {"items":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/default_profile_50.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/default_profile_50.png","subitems":[{"id":"profile","label":"\u041f\u0440\u043e\u0444\u0438\u043b\u044c","iconUrl":"\/public\/img\/service\/profile.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/profile_active.png","subitems":[],"url":"\/user\/my\/profile","params":{},"target":null},{"id":"notifications","label":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[],"url":"\/pl\/notifications\/settings\/my","params":{},"target":null},{"id":"change_password","label":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c","iconUrl":"\/public\/img\/service\/change_password.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/change_password_active.png","subitems":[],"url":"\/user\/my\/changePassword","params":{},"target":null},{"id":"logout","label":"\u0412\u044b\u0439\u0442\u0438","iconUrl":"\/public\/img\/service\/logout.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/logout_active.png","subitems":[],"url":"\/user\/my\/logout","params":{},"target":null},{"id":"myAccounts","label":"\u041c\u043e\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","iconUrl":"\/public\/img\/service\/myAccounts.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/myAccounts_active.png","subitems":[],"url":"\/pl\/help\/launcher","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications_button_small","label":"","iconUrl":"\/public\/img\/service\/notifications_button_small.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_button_small_active.png","subitems":[],"url":null,"params":{},"target":null},{"id":"teach","label":"\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/teach.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/teach_active.png","subitems":[{"id":"trainings","label":"\u0422\u0440\u0435\u043d\u0438\u043d\u0433\u0438","iconUrl":"\/public\/img\/service\/trainings.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/trainings_active.png","subitems":[],"url":"\/teach\/control\/stream","params":{},"target":null},{"id":"schedule","label":"\u0420\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","iconUrl":"\/public\/img\/service\/schedule.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/schedule_active.png","subitems":[],"url":"\/teach\/control\/schedule","params":{},"target":null},{"id":"answers","label":"\u041b\u0435\u043d\u0442\u0430 \u043e\u0442\u0432\u0435\u0442\u043e\u0432","iconUrl":"\/public\/img\/service\/answers.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/answers_active.png","subitems":[],"url":"\/teach\/control\/answers\/my","params":{},"target":null},{"id":"questionary","label":"\u0422\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/questionary.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/questionary_active.png","subitems":[],"url":"\/user\/control\/user\/questionary","params":{},"target":null},{"id":"search","label":"\u041f\u043e\u0438\u0441\u043a","iconUrl":"\/public\/img\/service\/search.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/search_active.png","subitems":[],"url":"\/c\/s\/search","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"notifications","label":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/notifications.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/notifications_active.png","subitems":[{"id":"my","label":"\u041c\u043e\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f","iconUrl":"\/public\/img\/service\/my.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_active.png","subitems":[],"url":"\/pl\/talks\/conversation","params":{},"target":null}],"url":null,"params":{},"target":null},{"id":"sales","label":"\u041f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/sales.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/sales_active.png","subitems":[{"id":"my_deals","label":"\u041c\u043e\u0438 \u043f\u043e\u043a\u0443\u043f\u043a\u0438","iconUrl":"\/public\/img\/service\/my_deals.png","subIconHtml":null,"activeIconUrl":"\/public\/img\/service\/my_deals_active.png","subitems":[],"url":"\/sales\/control\/userProduct\/my","params":{},"target":null}],"url":null,"params":{},"target":null}],"activeItem":"teach","navMenuItems":null};
+					</script>
+					
+
+	<div class="gc-main-content gc-both-main-content no-menu  account-page-content with-left-menu gc-user-logined gc-user-user">
+		
+
+<div class="container">
+
+	<div class="standard-logo">
+		<a href="https://vladilen.ru/" class="logo-link">
+							<span class="logo-text">
+					Vladilen Inc				</span>
+					</a>
+	</div>
+
+	
+
+	<div class="standard-page-content">
+					<ul class="breadcrumb"><li><a href="https://vladilen.ru/teach/control/stream/index">Список тренингов</a></li>
+<li><a href="https://vladilen.ru/teach/control/stream/view?id=374179241">JavaScript Junior Frontend Developer</a></li>
+</ul>				<link rel="stylesheet" type="text/css" href="./13. Классы + ООП_files/common.css">
+
+<script>
+    window.defenceEnabled = 'true';
+    window.totalAllowedSize = '250 ГБ';
+    window.usedSize = '101,701 ГБ';
+    window.usedSizePercent = '41 %';
+</script>
+<style>
+
+	
+    /*
+	.block-set .container  {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	*/
+
+	.block-set {
+		font-size: 14px;
+        font-weight: normal;
+		font-family: "proxima-nova", "Lato", Helvetica, Arial, sans-serif;
+	}
+    .block-set .f-text {
+        font-family: inherit;
+        font-weight: inherit;
+    }
+    .questionary-title-wrapper {
+        display: none;
+    }
+    .question-number {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .testing-widget  .question .question-title-big {
+        font-size: 24px;
+
+    }
+    .testing-widget .before-start-block h3 {
+        display: none;
+    }
+    .lesson-mission-text {
+        border-bottom: 1px solid #eee;
+    }
+
+	.gc-main-content.with-left-menu .container .container {
+				width: 100% !important;
+				margin-left: 0px;
+	}
+</style>
+<div>
+	<div class="page-header">
+					<div class="page-actions" style="float: right">
+				
+			</div>
+				<h1>
+			<a href="https://vladilen.ru/teach/control/stream/view/id/374179244">Модуль 1. База JavaScript</a>			
+		</h1>
+	</div>
+	<div class="center-block " style="max-width: 870px;margin-left: 0px; margin-bottom: 60px;width: auto;">
+		<div class="lesson-header-block row-section" style="background: #FAFAFA;border-bottom: 1px solid #ddd;padding: 0px 15px;">
+
+			<div class="row header-view">
+				<div class="col-md-12 text-center" style="padding-top: 20px;">
+					<h2 class="lesson-title-value">13. Классы + ООП</h2>
+					<span class="lesson-description-value"></span>
+									</div>
+			</div>
+
+
+			
+
+				<div class="row lesson-navigation" style="padding-top: 20px; padding-bottom: 10px; overflow: hidden; ">
+					<table cellpadding="0" cellspacing="0" width="100%">
+						<tbody><tr>
+							<td width="25%" class="" style="padding-left: 19px;">
+																																													<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179976"><span class="fui fui-arrow-left"></span> Предыдущий урок</a>
+										<div class="hidden-xs" style="font-weight: normal; font-size: 1em; line-height: 16px "> 12. Ключевое слово «this»</div>
+																											</td>
+							<td width="50%" class="text-center hidden-xs">
+								<span>
+									17 из 29 уроков								</span>
+								<div class="user-state-reached">
+									<div style="font-weight: normal; font-size: 1.2em" class="user-state-label">Доступен</div>
+								</div>
+							</td>
+							<td width="25%" class="text-right" style="padding-right:17px;">
+																																														<a target="_self" href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179980">Следующий урок <span class="fui fui-arrow-right"></span> </a>
+											<div class="hidden-xs" style="font-size: 1em; line-height: 16px; font-weight: normal">14. Работа с DOM</div>
+																											</td>
+						</tr>
+					</tbody></table>
+				</div>
+					</div>
+
+
+
+					
+<div class="lite-page block-set">
+				<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-7705" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-image" data-block-id="1103879571">
+
+<style>
+	#ltBlock1103879571 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103879571" data-block-id="1103879571" class="lt-block lt-view lessonImg01 lt-lesson lt-lesson-image" data-code="b-792b7">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			<div class="image-box image-style-">
+	<div data-main-class="image-wrapper" class="image-wrapper">
+		<img data-main-class="lt-image-common" data-hash="c28b3d106cb403c81cc4585925c4f062.png" data-image-editable="true" data-param="image" class="lt-image-common" src="./13. Классы + ООП_files/86">
+	</div>
+</div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7705');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103879571', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103879571-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-7742" class="lite-block-live-wrapper o-lt-raw o-lt-raw-css o-lt-system-block o-lt-invisible-block" data-block-id="1103650853">
+
+<style>
+	#ltBlock1103650853 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103650853" data-block-id="1103650853" class="lt-block lt-view raw-css lt-raw lt-raw-css lt-system-block lt-invisible-block" data-code="b-9bf59">
+	<div class="lt-block-wrapper">
+	<style id="rawCss2668634">/*Заголовок*/
+.z p{
+	font-size: 18px;
+    color: #0f141e;
+    text-align: left;
+}
+/*Основной текст*/
+.text-normal.f-text {
+    font-size: 18px;
+    color: #686B71;
+}
+/*Code*/
+code{color:#37352F;line-height: 40px; }
+</style>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7742');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103650853', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103650853-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545950" id="lite-block-live-wrapper-1627657050-7784" class="lite-block-live-wrapper o-lt-raw o-lt-raw-html" data-block-id="1104849071">
+
+<style>
+	#ltBlock1104849071 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1104849071" data-block-id="1104849071" class="lt-block lt-view raw-html lt-raw lt-raw-html" data-code="b-36b84">
+	<div class="lt-block-wrapper">
+	<div id="rawHtml88035" data-raw-editable="true" data-param="rawValue" data-mode="text/html">
+			
+		</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7784');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1104849071', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1104849071-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-7834" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1103650953">
+
+<style>
+	#ltBlock1103650953 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103650953" data-block-id="1103650953" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-49b8b">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder9011172" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field36192" data-item-name="field36192" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Цель урока:</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1" data-item-name="text1" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1/inner/text" data-editable="true"><p>Вы узнаете все 4 принципа ООП и научитесь применять их на практике. Также в уроке будут рассмотрены способы работы с классами в JavaScript.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_70" data-item-name="field36192_87_70" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_70/inner/text" class="f-header f-header-36"><p>Содержание урока:&nbsp;</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1_43" data-item-name="text1_43" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1_43/inner/text" data-editable="true"><ol><li>Что такое ООП?</li><li>Как использовать классы в JavaScript (class и function)?</li><li>4 основных принципа ООП: инкапсуляция, наследование, полиморфизм, абстракция.</li><li>Статические методы и свойства.</li></ol></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87" data-item-name="field36192_87" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87/inner/text" class="f-header f-header-36"><p>Дополнительные материалы:&nbsp;</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1_43_48" data-item-name="text1_43_48" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1_43_48/inner/text" data-editable="true"><ol><li><p>Классы в JavaScript: <a href="https://learn.javascript.ru/classes">https://learn.javascript.ru/classes</a></p></li><li><p>Про ООП простыми словами: <a href="https://habr.com/ru/post/345658/">https://habr.com/ru/post/345658/</a></p></li><li><p>Конструкторы, создание объектов через new: <a href="https://learn.javascript.ru/constructor-new">https://learn.javascript.ru/constructor-new</a></p></li><li><p>Урок 7. JavaScript. Все о ES6 Классах (+ Практическое Применение): <a href="https://youtu.be/uLY9GXGMXaA">https://youtu.be/uLY9GXGMXaA</a></p></li></ol></div></div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder9011172 input[type="radio"]').length == 1 && $('#builder9011172 input[type="radio"]').prop('checked') ) {
+			$('#builder9011172 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7834');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103650953', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103650953-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-7876" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1103884059">
+
+<style>
+	#ltBlock1103884059 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103884059" data-block-id="1103884059" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-e8d89">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><strong>Создание экземпляров объекта при помощи function и class</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7876');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103884059', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103884059-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-7935" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1103883920">
+
+<style>
+	#ltBlock1103883920 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103883920" data-block-id="1103883920" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-92b5e">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./13. Классы + ООП_files/575801285.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7935');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103883920', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103883920-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-7975" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1103884106">
+
+<style>
+	#ltBlock1103884106 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103884106" data-block-id="1103884106" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-eed5a">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p><p><strong>4 принципа ООП. Наследование</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-7975');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103884106', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103884106-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8017" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1103884042">
+
+<style>
+	#ltBlock1103884042 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103884042" data-block-id="1103884042" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-e9deb">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./13. Классы + ООП_files/575803911.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8017');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103884042', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103884042-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8059" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1103885165">
+
+<style>
+	#ltBlock1103885165 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885165" data-block-id="1103885165" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-7a405">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p><p><strong>4 принципа ООП. Инкапсуляция</strong><br></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8059');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885165', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885165-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8099" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1103885176">
+
+<style>
+	#ltBlock1103885176 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885176" data-block-id="1103885176" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-1affd">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./13. Классы + ООП_files/575804042.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8099');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885176', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885176-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8139" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1103885198">
+
+<style>
+	#ltBlock1103885198 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885198" data-block-id="1103885198" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-dc597">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p><p><strong>4 принципа ООП. Полиморфизм</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8139');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885198', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885198-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8186" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1103885209">
+
+<style>
+	#ltBlock1103885209 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885209" data-block-id="1103885209" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-6a3b6">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./13. Классы + ООП_files/575804162.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8186');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885209', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885209-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8227" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1103885219">
+
+<style>
+	#ltBlock1103885219 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885219" data-block-id="1103885219" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-9de0d">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p><p><strong>4 принципа ООП. Абстракция</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8227');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885219', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885219-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8272" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1103885224">
+
+<style>
+	#ltBlock1103885224 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885224" data-block-id="1103885224" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-4675c">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./13. Классы + ООП_files/575804221.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8272');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885224', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885224-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8313" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-header" data-block-id="1103885227">
+
+<style>
+	#ltBlock1103885227 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885227" data-block-id="1103885227" class="lt-block lt-view lessonHdr01 lt-lesson lt-lesson-header" data-code="b-dbe3b">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div data-main-class="header" class="header f-header f-lesson-header-1" data-editable="true" data-param="header"><p><br></p>
+<hr>
+<p><br></p><p><strong>Статические поля и методы&nbsp;</strong></p></div>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8313');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885227', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885227-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8356" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-video" data-block-id="1103885228">
+
+<style>
+	#ltBlock1103885228 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885228" data-block-id="1103885228" class="lt-block lt-view lessonVid01 lt-lesson lt-lesson-video" data-code="b-76012">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12" style="">
+			
+
+
+	<div class="clearfix videoWrapper">
+		<iframe src="./13. Классы + ООП_files/575804285.html" width="100%" height="540px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>	</div>
+
+
+<style>
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 52.25%;
+		padding-top: 4%;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8356');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885228', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885228-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8404" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1103885646">
+
+<style>
+	#ltBlock1103885646 .lt-block-wrapper {
+		padding-top: 60px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103885646" data-block-id="1103885646" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-941cd">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder7697890" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field40749" data-item-name="field40749" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-image ">
+	
+<div id="image170441" class="image-box" data-img-title="" data-img-src="//fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/74758a10e3bba5573f93664bb536acf3.png/s/s1200x/a/177331/sc/147">
+	<img class="lazyload" src="./13. Классы + ООП_files/147" data-param="items/parts/field40749/inner/image" data-hash="74758a10e3bba5573f93664bb536acf3.png" data-image-editable="true" title="" alt="" style="border-radius:  !important; ">
+	<div data-editable="true" data-param="items/parts/field40749/inner/image/caption" class="lt-image-caption">
+			</div>
+</div>
+
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder7697890 input[type="radio"]').length == 1 && $('#builder7697890 input[type="radio"]').prop('checked') ) {
+			$('#builder7697890 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8404');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885646', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103885646-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1627030623" id="lite-block-live-wrapper-1627657050-8463" class="lite-block-live-wrapper o-lt-onecolumn o-lt-onecolumn-common" data-block-id="1103651264">
+
+<style>
+	#ltBlock1103651264 .lt-block-wrapper {
+		padding-top: 15px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103651264" data-block-id="1103651264" class="lt-block lt-view bld01 lt-onecolumn lt-onecolumn-common" data-code="b-94cb0">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-12 text-left" style="">
+			
+<div id="builder9311164" class="builder  animated-block" data-path="items" data-animation-order="in-turn">
+	
+			<div data-param="items/parts/field36192" data-item-name="field36192" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192/inner/text" class="f-header f-header-36"></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87" data-item-name="field36192_87" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87/inner/text" class="f-header f-header-36"></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75" data-item-name="field36192_87_75" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75/inner/text" class="f-header f-header-36"><p>Задание 1</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/text1_43" data-item-name="text1_43" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/text1_43/inner/text" data-editable="true"><p>Вам дана функция-конструктор, с помощью которой можно создавать экземпляры объектов.</p>
+<p><br></p>
+<p><strong>В</strong><span><strong>аша задача</strong> состоит в том, чтобы переписать данную функцию на класс (class).</span></p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>function Student(name, age) {</p>
+<p>&nbsp;&nbsp;&nbsp;this.name = name;</p>
+<p>&nbsp;&nbsp;&nbsp;this.age = age;</p>
+<p>&nbsp;&nbsp;&nbsp;this.technologies = [];</p>
+<p>&nbsp;&nbsp;&nbsp;this.status = 'Junior';</p>
+<p>&nbsp;&nbsp;&nbsp;this.setTechnologies = function(technologies) {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.technologies = [</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...this.technologies,</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...technologies,</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;];</p>
+<p>&nbsp;&nbsp;&nbsp;}</p>
+<p>&nbsp;&nbsp;&nbsp;this.setNewStatus = function(newStatus) {</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.status = newStatus;</p>
+<p>&nbsp;&nbsp;&nbsp;}</p>
+<p>}</p>
+<p>const student = new Student('Maxim', 20);</p>
+<p>student.setTechnologies(['HTML', 'CSS', 'JavaScript']);</p>
+<p>student.setNewStatus('Middle');</p>
+<p>console.log(student);</p></div></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75_48" data-item-name="field36192_87_75_48" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75_48/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Задание 2</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field82828" data-item-name="field82828" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field82828/inner/text" data-editable="true"><p><span><strong class="redactor-inline-converted">Вам необходимо</strong> создать класс <strong class="redactor-inline-converted">Person</strong>, конструктор которого будет принимать 2 параметра:</span><br></p>
+<ol><li>name. Имя человека.</li><li>age. Количество полных лет.</li></ol>
+<p>&nbsp;<br><strong class="redactor-inline-converted">Также вам необходимо</strong> реализовать метод <strong class="redactor-inline-converted">compareAge</strong> в классе <strong class="redactor-inline-converted">Person</strong>. <strong class="redactor-inline-converted">compareAge</strong> принимает в себя экземпляр класса <strong class="redactor-inline-converted">Person</strong> и сравнивает значения полных лет.<br>&nbsp;<br>Данный код должен возвращать результат в следующем формате. Если у одного <strong class="redactor-inline-converted">Person</strong> количество лет больше либо равно, чем у другого, то выводите сообщение через alert “name1 старше, чем name2”. Иначе же “name1 младше, чем name2”.<br>&nbsp;<br><strong class="redactor-inline-converted">Запускайте данный код </strong>для теста работы вашего класса <strong>Person</strong></p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>const person1 = new Person('Максим', 24);<br>const person2 = new Person('Светлана', 36);<br>const person3 = new Person('Ирина', 23);<br>&nbsp;<br>person1.compareAge(person2); // Максим младше, чем Светлана</p><p>person2.compareAge(person3); // Светлана старше, чем Ирина<br>person3.compareAge(person1); // Ирина младше, чем Максим</p></div></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75_48_52" data-item-name="field36192_87_75_48_52" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75_48_52/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Задание 3</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field56784" data-item-name="field56784" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field56784/inner/text" data-editable="true"><p>Ваш друг Артем является владельцем автосервиса. Сейчас все заявки на ремонт машин обрабатывается вручную, что конечно же не очень удобно. Поэтому Артем попросил вас как веб-разработчика помочь в автоматизации данного процесса.<br>&nbsp;<br></p>
+<p><strong class="redactor-inline-converted">Вам необходимо</strong> создать класс <strong class="redactor-inline-converted">CarService</strong>, в конструктор которого будут переданы 2 параметра:</p>
+<ol><li>name. Название автосервиса.</li><li>workingHours. Объект, в котором хранятся ключи from и till. from означает время начала рабочего дня для автосервиса, till - время конца рабочего дня. Значения времени записываются в формате “h:mm” (например, 9:00).</li></ol>
+<p>&nbsp;<br><strong class="redactor-inline-converted">Инициализируйте данные параметры</strong> с помощью <strong class="redactor-inline-converted">this</strong>. Также, параметр <strong class="redactor-inline-converted">workingHours</strong> является необязательным. Поэтому создайте значение (тип данных <strong class="redactor-inline-converted">object</strong>) по умолчанию. Данный объект должен называться <strong class="redactor-inline-converted">DefaultWorkingHours</strong> и быть статическим (static). Если параметр <strong class="redactor-inline-converted">workingHours</strong> не был передан, то подставьте в <strong class="redactor-inline-converted">this.workingHours</strong> значение из <strong class="redactor-inline-converted">DefaultWorkingHours</strong>, которое равно:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>static DefaultWorkingHours = {<br>&nbsp; &nbsp;from: '9:00',<br>&nbsp; &nbsp;till: '20:00',<br>}</p></div>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Добавьте в класс</strong><span> метод под названием </span><strong class="redactor-inline-converted">repairCar</strong><span>, который должен принимать в себя 1 параметр </span><strong class="redactor-inline-converted">carName</strong><span> (имя машины для ремонта, тип данных </span><strong class="redactor-inline-converted">string</strong><span>).</span></p>
+<p>Если <strong class="redactor-inline-converted">carName</strong> не был передан, то отобразите ошибку “Вам необходимо указать название машины, чтобы ее отремонтировать” в консоли через <strong class="redactor-inline-converted">console.error</strong>. На этом выполнение функции должно заканчиваться.<br>&nbsp;<br>Если же параметр <strong class="redactor-inline-converted">carName</strong> был передан в<strong class="redactor-inline-converted"> repairCar</strong>, то вам необходимо сравнить текущее часы с временем работы автосервиса. Если текущее время (часы) не входит в диапазон работы автосервиса, то отобразите через alert сообщение “К сожалению, мы сейчас закрыты. Приходите завтра”. Иначе же выводите сообщение “Сейчас отремонтируем вашу машину carName! Ожидайте, пожалуйста” (carName - параметр метода repairCar).<br>&nbsp;<br><strong class="redactor-inline-converted">Примечание:</strong> при сравнении времени берите в учет только часы, на минуты не обращайте внимание. Пусть минуты всегда будут строкой “00”.<br>&nbsp;<br><strong>Для теста работоспособности</strong> класса <strong class="redactor-inline-converted">CarService</strong> используйте данный код:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>const carService = new CarService('RepairCarNow', { from: '8:00', till: '20:00' });<br>carService.repairCar('BMW');</p></div>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Подсказка 1:</strong> для того, чтобы извлечь и строки “8:00” значение часов, вы можете использовать .split(‘:’), получить первый элемент из полученного массива и преобразовать его к числу.</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75_48_52_37" data-item-name="field36192_87_75_48_52_37" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75_48_52_37/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Задание 4</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field93803" data-item-name="field93803" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field93803/inner/text" data-editable="true"><p>Вам поручили задачу на проекте. Необходимо разработать словарь, в который можно добавлять слова с их описанием, удалять слова и получать их.<br>&nbsp;<br><strong class="redactor-inline-converted">Для начала</strong> создайте класс <strong class="redactor-inline-converted">Dictionary</strong>, конструктор которого принимает 1 параметр <strong class="redactor-inline-converted">name</strong>. Инициализируйте данное значение при помощи <strong class="redactor-inline-converted">this</strong>. Также в конструкторе должно объявляться поле <strong class="redactor-inline-converted">words</strong>, которое по умолчанию должно быть пустым объектом.<br>&nbsp;<br><strong class="redactor-inline-converted">Вам необходимо</strong> в класс <strong class="redactor-inline-converted">Dictionary</strong> добавить 3 метода:<br>1. add. Данный метод принимает в себя 2 параметра: word - слово, тип данных строка; description - описание слова, тип данных строка. Присвойте объекту words по ключу word (параметр метода add) значение объекта, в котором будут храниться данные о слове и его описание. Пример такого объекта:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>{<br>&nbsp; &nbsp;word: 'word',<br>&nbsp; &nbsp;description: 'description',<br>}</p>
+</div>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Если слово</strong><span> уже существует в объекте </span><strong class="redactor-inline-converted">words</strong><span>, то не нужно перезаписывать слово, которое уже было сохранено ранее.</span><br></p>
+<p>&nbsp;<br>2. remove. Данный метод принимает в себя ключ из объекта words, по которому нужно удалить слово и удаляет это слово из объекта.</p>
+<p>3. get. Данный метод принимает в себя ключ из объекта words. Необходимо возвратить из метода найденное слово по переданному параметру ключа.</p>
+<p>4. showAllWords. Данный метод не принимает в себя никаких параметров. Его задача состоит в том, чтобы вывести все слова, которые есть в объекте words, в консоль в формате “word - description” (word - само слово, description - описание слова).</p>
+<p>&nbsp;<br><strong>Для тестирования написанного класса</strong> используйте данный код:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>const dictionary = new Dictionary('Толковый словарь');<br>dictionary.add('JavaScript', 'популярный язык программирования');<br>dictionary.add('Веб-разработчик', 'Человек, который создает новые сервисы и сайты или поддерживает и дополняет существующие');<br>&nbsp;<br>dictionary.remove('JavaScript');<br>dictionary.showAllWords();<br>// Веб-разработчик - Человек, который создает новые сервисы и сайты или поддерживает и дополняет существующие</p></div></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75_48_52_37_2" data-item-name="field36192_87_75_48_52_37_2" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75_48_52_37_2/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Задание 5</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field68364" data-item-name="field68364" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field68364/inner/text" data-editable="true"><p>В прошлом задании вы создали словарь. Заказчик доволен проделанной работой и команда разработки тоже. Так как вы уже хорошо разобрались с технологией словаря, то вас попросили реализовать еще один словарь. Заказчик хочет создать новую категорию слов “Сложные слова”.</p>
+<p>&nbsp;</p>
+<p><strong class="redactor-inline-converted">Используйте код</strong>, написанный в прошлом задании. Вам необходимо создать дочерний класс <strong class="redactor-inline-converted">HardWordsDictionary</strong> от класса <strong class="redactor-inline-converted">Dictionary</strong>. Конструктор у <strong class="redactor-inline-converted">HardWordsDictionary</strong> принимает в себя также параметр name и вызывает конструктор родительского класса.</p>
+<p>&nbsp;</p>
+<p>Все методы, которые есть в <strong class="redactor-inline-converted">Dictionary</strong>, должны остаться без изменений в <strong class="redactor-inline-converted">HardWordsDictionary</strong>, кроме одного. Вам необходимо переопределить метод <strong class="redactor-inline-converted">add</strong>, который должен работать по той же логике, что и <strong class="redactor-inline-converted">add</strong> у <strong class="redactor-inline-converted">Dictionary</strong>, только объект слова должен выглядеть следующим образом:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>{<br>&nbsp;&nbsp;&nbsp;word: 'word',<br>&nbsp;&nbsp;&nbsp;description: 'description',<br>&nbsp;&nbsp;&nbsp;isDifficult: true,<br>}</p></div>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Для теста</strong> <strong class="redactor-inline-converted">класса</strong> <strong class="redactor-inline-converted">HardWordsDictionary</strong> используйте данный код:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>const hardWordsDictionary = new HardWordsDictionary('Сложные слова');<br>hardWordsDictionary.add('дилетант', 'Тот, кто занимается наукой или искусством без специальной подготовки, обладая только поверхностными знаниями.');<br><span class="redactor-inline-converted">hardWordsDictionary.add</span>('неологизм', 'Новое слово или выражение, а также новое значение старого слова.');<br>hardWordsDictionary.add('квант', 'Неделимая часть какой-либо величины в физике.');<br>&nbsp;<br>hardWordsDictionary.remove('неологизм');<br>hardWordsDictionary.showAllWords();<br>&nbsp;<br>// дилетант - Тот, кто занимается наукой или искусством без специальной подготовки, обладая только поверхностными знаниями.<br>// квант - Неделимая часть какой-либо величины в физике.</p></div></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75_48_52_37_2_21" data-item-name="field36192_87_75_48_52_37_2_21" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75_48_52_37_2_21/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Задание 6</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field81227" data-item-name="field81227" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field81227/inner/text" data-editable="true"><p><strong class="redactor-inline-converted">Вы молодец!</strong> Вы реализовали логику для двух словарей и они работают прекрасно. Но тут к вам приходит старший разработчик и говорит, что вам необходимо использовать инкапсуляцию в вашем коде, так как это важный принцип ООП.</p>
+<p>&nbsp;</p>
+<p>Вы конечно же соглашаетесь со старшим разработчиком. Он вам посоветовал сделать поля <strong class="redactor-inline-converted">name</strong> и <strong class="redactor-inline-converted">words</strong> приватными. Реализуйте это с помощью знака решетки “#”.</p>
+<p>&nbsp;</p>
+<p><strong class="redactor-inline-converted">Теперь вам необходимо </strong>добавить геттеры и сеттеры для полей words и name в класс <strong class="redactor-inline-converted">Dictionary</strong>. Для name назовите геттер <strong class="redactor-inline-converted">mainName</strong>, а сеттер - <strong class="redactor-inline-converted">setMainName</strong>. Для <strong class="redactor-inline-converted">words</strong> назовите геттер <strong class="redactor-inline-converted">allWords</strong>, а сеттер - <strong class="redactor-inline-converted">addNewWord</strong>. <strong class="redactor-inline-converted">mainName</strong>, <strong class="redactor-inline-converted">setMainName</strong> и <strong class="redactor-inline-converted">allWords </strong>должны быть определены при помощи ключевых слов <strong class="redactor-inline-converted">set </strong>или <strong class="redactor-inline-converted">get</strong>.&nbsp;</p>
+<p><br></p>
+<p>А вот <strong class="redactor-inline-converted">addNewWord</strong> необходимо создать как обычный метод, который принимает в себя 2 параметра: <strong class="redactor-inline-converted">word</strong> - слово, тип данных строка; <strong class="redactor-inline-converted">description</strong> - описание слова, тип данных строка. Метод <strong class="redactor-inline-converted">addNewWord</strong> должен создавать новое слово в объекте <strong class="redactor-inline-converted">words</strong> без каких либо проверок. <strong class="redactor-inline-converted">addNewWord</strong> реализуется без <strong class="redactor-inline-converted">set</strong>, потому что <strong class="redactor-inline-converted">set</strong> не может принимать в себя больше 1-го параметра.</p>
+<p>&nbsp;</p>
+<p>После того, как вы сделали поля приватными и создали геттеры и сеттеры, вам необходимо исправить логику для классов <strong class="redactor-inline-converted">Dictionary</strong> и <strong class="redactor-inline-converted">HardWordsDictionary</strong>.</p>
+<p>&nbsp;</p>
+<p><strong>Итоговый код тестируйте</strong> на данном примере:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>const hardWordsDictionary = new HardWordsDictionary('Сложные слова');<br>hardWordsDictionary.add('дилетант', 'Тот, кто занимается наукой или искусством без специальной подготовки, обладая только поверхностными знаниями.');<br>hardWordsDictionary.add('неологизм', 'Новое слово или выражение, а также новое значение старого слова.');<br>hardWordsDictionary.add('квант', 'Неделимая часть какой-либо величины в физике.');<br>&nbsp;<br>hardWordsDictionary.remove('неологизм');<br>hardWordsDictionary.showAllWords();<br>&nbsp;<br>console.log(hardWordsDictionary.mainName); // Сложные слова<br>hardWordsDictionary.setMainName = 'Новый Словарь';<br>console.log(hardWordsDictionary.mainName); // Новый Словарь<br>console.log(hardWordsDictionary.allWords); // выводит объект в котором есть слова дилетант и квант</p></div></div></div>
+<style>
+	</style>			<div data-param="items/parts/field36192_87_75_48_52_37_2_21_12" data-item-name="field36192_87_75_48_52_37_2_21_12" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 10px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  z">
+	<div data-editable="true" data-param="items/parts/field36192_87_75_48_52_37_2_21_12/inner/text" class="f-header f-header-36"><p><br></p>
+<hr>
+<p><br></p><p>Задание 7</p></div></div>
+<style>
+	</style>			<div data-param="items/parts/field25840" data-item-name="field25840" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-text ">
+	<div style="" class="text-normal f-text" data-param="items/parts/field25840/inner/text" data-editable="true"><p>Ваша компания создает внутренний продукт для облегчения контроля за ростом своих разработчиков. Вам поручили задачу реализовать такой продукт.</p>
+<p>&nbsp;</p>
+<p><strong class="redactor-inline-converted">Для начала вам необходимо</strong> создать класс <strong class="redactor-inline-converted">Developer</strong>, конструктор которого будет принимать 3 параметра:</p>
+<ol><li><p>fullName. Имя разработчика.</p></li><li><p>age. Возраст разработчика.</p></li><li><p>position. Текущая позиция разработчика в компании (например, Junior, Middle, Senior).</p></li></ol>
+<p>&nbsp;</p>
+<p><strong class="redactor-inline-converted">Инициализируйте все параметры</strong> при помощи <strong class="redactor-inline-converted">this</strong>. Также создайте внутри конструктора поле <strong class="redactor-inline-converted">technologies</strong>, которое по умолчанию будет равно пустому массиву.</p>
+<p>Кроме этого в классе <strong class="redactor-inline-converted">Developer</strong> вам необходимо создать 2 метода:</p>
+<ol><li><p>code. Метод, у которого тело изначально пустое (в фигурных скобках ничего нет).</p></li><li><p>learnNewTechnology. Данный метод принимает в себя 1 параметр technology, который должен добавляться в конец массива technologies.</p></li></ol>
+<p>&nbsp;</p>
+<p><strong class="redactor-inline-converted">После проделанных действий</strong> у вас должен получиться шаблон <strong class="redactor-inline-converted">Developer</strong>, благодаря которому вы будете создавать дочерние классы.</p>
+<p><br></p>
+<p><strong class="redactor-inline-converted">Вам сейчас необходимо</strong> создать 3 дочерних класса от класса <strong class="redactor-inline-converted">Developer</strong>:</p>
+<ol><li><p>JuniorDeveloper. Конструктор данного класса принимает 2 параметра: fullName и age. Вызовите конструктор родительского класса и передайте туда эти 2 параметра. В качестве 3-го у нас выступает position. Вам необходимо его указать по умолчанию. Напишите значение “Junior” в качестве 3-го параметра вызова родительского конструктора. Кроме этого переопределить метод code, чтобы он выводил в консоль строку “Junior разработчик пишет код...”. Массив technologies должен содержать следующие технологии: 'HTML', 'CSS', 'JavaScript'.</p></li><li><p>MiddleDeveloper. Проделайте ту же самую работу в конструкторе, что и JuniorDeveloper. Только на место position передавайте значение “Middle”. Метод code у класса MiddleDeveloper должен выводить в консоль строку “Middle разработчик пишет код...”. Массив technologies должен содержать следующие технологии: 'HTML', 'CSS', 'JavaScript', ‘React’.</p></li><li><p>SeniorDeveloper. Проделайте ту же самую работу в конструкторе, что и JuniorDeveloper. Только на место position передавайте значение “Senior”. Метод code у класса SeniorDeveloper должен выводить в консоль строку “Senior разработчик пишет код...”. Массив technologies должен содержать следующие технологии: 'HTML', 'CSS', 'JavaScript', ‘React’, ‘NodeJS’.</p></li></ol>
+<p>&nbsp;</p>
+<p><strong class="redactor-inline-converted">Примечание:</strong> когда вы переопределите метод <strong class="redactor-inline-converted">code</strong> в дочерних классах, то вы используете принцип Полиморфизм.</p>
+<p>&nbsp;</p>
+<p><strong>Тестируйте написанные классы</strong> с помощью этого кода:</p>
+<p><br></p>
+<div style="font-family:monospace; line-height:-10; font-size:15px; color: #37352F; background: #F7F6F3; padding-left:20px; padding-top:20px;padding-bottom:20px">
+<p>juniorDeveloper.code(); // Junior разработчик пишет код...<br>middleDeveloper.code(); // Middle разработчик пишет код...<br>seniorDeveloper.code(); // Senior разработчик пишет код...<br>&nbsp;<br>console.log(juniorDeveloper.fullName, juniorDeveloper.age,&nbsp;</p><p>juniorDeveloper.position); // 'Анастасия', 20, 'Junior'<br>console.log(middleDeveloper.fullName, middleDeveloper.age,&nbsp;</p><p>middleDeveloper.position); // 'Игорь', 25, 'Middle'<br>console.log(seniorDeveloper.fullName, seniorDeveloper.age,&nbsp;</p><p>seniorDeveloper.position); // 'Максим', 30, 'Senior'</p></div></div></div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder9311164 input[type="radio"]').length == 1 && $('#builder9311164 input[type="radio"]').prop('checked') ) {
+			$('#builder9311164 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8463');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103651264', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103651264-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-8737" class="lite-block-live-wrapper o-lt-form o-lt-form-survey" data-block-id="1103654240">
+	<style>
+		#ltBlock1103654240 .btn1 button{background: #EB5F84!important;
+    border-radius: 10px!important;
+    font-size: 14px!important;
+    text-transform: uppercase!important;
+    box-shadow: 0 0 15px 1px #EB5F84!important;
+    transition: all 0.3s;
+}	</style>
+
+<style>
+	#ltBlock1103654240 .lt-block-wrapper {
+		padding-top: 75px; padding-bottom: 75px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1103654240" data-block-id="1103654240" data-has-css="true" class="lt-block lt-view survey01 lt-form lt-form-survey" data-code="b-7451a">
+	<div class="lt-block-wrapper">
+	<div class="container">
+	<div class="row">
+		<div class="modal-block-content block-box col-md-8 col-md-offset-2" style="">
+			
+<form id="ltForm1397764" class="lt-normal-form lt-form-inner lt-form   " action="https://vladilen.ru/pl/lite/block-public/process?id=1103654240" method="post" data-open-new-window="0">
+	<input type="hidden" name="formParams[setted_offer_id]" class="external-value offer_id">
+		
+	<div class="form-result-block"></div>
+
+	<div class="form-content">
+		
+<div id="builder3856170" class="builder " data-path="form/items">
+	
+			<div data-param="form/items/parts/field88593" data-item-name="field88593" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-header  text-center">
+	<div data-editable="true" data-param="form/items/parts/field88593/inner/text" class="f-header f-header-20"><p>Ваша оценка урока</p></div></div>
+<style>
+	</style>			<div data-param="form/items/parts/field12845" data-item-name="field12845" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-surveyFields ">
+	<div id="surveyFields691842">
+							
+
+<div class="custom-form without-help-elems" id="widget7251">
+	
+	<input type="hidden" name="surveyData" id="widgetValue5914" value="{&quot;714834&quot;:&quot;1. Hello World&quot;,&quot;714835&quot;:&quot;10&quot;,&quot;714836&quot;:&quot;&quot;,&quot;726029&quot;:null}">
+	<div class="fields"><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-714834"><span class="label-value">Урок</span><span class="required-sign">*</span></label><div class="field-input-block"><select id="field-input-714834" class="form-control"><option value="1. Hello World">1. Hello World</option><option value="2. Синтаксис">2. Синтаксис</option><option value="3. Типы Данных">3. Типы Данных</option><option value="4. Приведение типов в JavaScript">4. Приведение типов в JavaScript</option><option value="5. Работа со строками">5. Работа со строками</option><option value="6. Введение в основы JavaScript">6. Введение в основы JavaScript</option><option value="7. Debug">7. Debug</option><option value="8. Функции">8. Функции</option><option value="9. Массивы">9. Массивы</option><option value="10. Объекты">10. Объекты</option><option value="Как дойти до намеченной цели">Как дойти до намеченной цели</option><option value="11. Дата и Время в JavaScript">11. Дата и Время в JavaScript</option><option value="12. Ключевое слово «this»">12. Ключевое слово «this»</option><option value="13. Классы + ООП">13. Классы + ООП</option><option value="14. Работа с DOM">14. Работа с DOM</option><option value="15. Асинхронность (Promise + fetch)">15. Асинхронность (Promise + fetch)</option><option value="16. Асинхронность (Async Await)">16. Асинхронность (Async Await)</option><option value="17. Callback + Event Loop">17. Callback + Event Loop</option><option value="18. Webpack, rollup">18. Webpack, rollup</option><option value="19. Es6 import export">19. Es6 import export</option></select></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-714835"><span class="label-value">Пожалуйста оцените данный урок от 1 до 10</span><span class="required-sign">*</span></label><div class="field-input-block"><select id="field-input-714835" class="form-control"><option value="10">10</option><option value="9">9</option><option value="8">8</option><option value="7">7</option><option value="6">6</option><option value="5">5</option><option value="4">4</option><option value="3">3</option><option value="2">2</option><option value="1">1</option><option value="0">0</option></select></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-select required"><label class="field-label" for="field-input-726029"><span class="label-value">Порекомендовали бы Вы этот урок? </span><span class="required-sign">*</span></label><div class="field-input-block"><label><input type="radio" name="field-value-726029" value="Да">Да</label><label><input type="radio" name="field-value-726029" value="Нет">Нет</label></div><div class="field-description-block" style="display: none;"></div></div></div><div class="field-wrapper"><div class="field custom-field type-text"><label class="field-label" for="field-input-714836"><span class="label-value">Напишите свои пожелания к уроку. Что-то нужно добавить/изменить?</span><span class="required-sign">*</span></label><div class="field-input-block"><textarea id="field-input-714836" placeholder="" class="form-control" rows="3"></textarea></div><div class="field-description-block" style="display: none;"></div></div></div></div>
+</div>
+<script>
+	$( function() {
+		$('#widget7251').customForm({
+			form: {"fields":[{"id":714834,"label":"\u0423\u0440\u043e\u043a","type":"select","required":true,"settings":{"valueList":"1. Hello World\n2. \u0421\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0441\n3. \u0422\u0438\u043f\u044b \u0414\u0430\u043d\u043d\u044b\u0445\n4. \u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0442\u0438\u043f\u043e\u0432 \u0432 JavaScript\n5. \u0420\u0430\u0431\u043e\u0442\u0430 \u0441\u043e \u0441\u0442\u0440\u043e\u043a\u0430\u043c\u0438\n6. \u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0432 \u043e\u0441\u043d\u043e\u0432\u044b JavaScript\n7. Debug\n8. \u0424\u0443\u043d\u043a\u0446\u0438\u0438\n9. \u041c\u0430\u0441\u0441\u0438\u0432\u044b\n10. \u041e\u0431\u044a\u0435\u043a\u0442\u044b\n\u041a\u0430\u043a \u0434\u043e\u0439\u0442\u0438 \u0434\u043e \u043d\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u043e\u0439 \u0446\u0435\u043b\u0438\n11. \u0414\u0430\u0442\u0430 \u0438 \u0412\u0440\u0435\u043c\u044f \u0432 JavaScript\n12. \u041a\u043b\u044e\u0447\u0435\u0432\u043e\u0435 \u0441\u043b\u043e\u0432\u043e \u00abthis\u00bb\n13. \u041a\u043b\u0430\u0441\u0441\u044b + \u041e\u041e\u041f\n14. \u0420\u0430\u0431\u043e\u0442\u0430 \u0441 DOM\n15. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0441\u0442\u044c (Promise + fetch)\n16. \u0410\u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0441\u0442\u044c (Async Await)\n17. Callback + Event Loop\n18. Webpack, rollup\n19. Es6 import export","showAllValues":false,"emptyValueText":""},"description":"","show_in_table":true},{"id":714835,"label":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u043e\u0446\u0435\u043d\u0438\u0442\u0435 \u0434\u0430\u043d\u043d\u044b\u0439 \u0443\u0440\u043e\u043a \u043e\u0442 1 \u0434\u043e 10","type":"select","required":true,"settings":{"valueList":"10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0","showAllValues":false,"emptyValueText":""},"description":"","show_in_table":true},{"id":726029,"label":"\u041f\u043e\u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043b\u0438 \u0431\u044b \u0412\u044b \u044d\u0442\u043e\u0442 \u0443\u0440\u043e\u043a? ","type":"select","required":true,"settings":{"valueList":"\u0414\u0430\n\u041d\u0435\u0442","showAllValues":true,"emptyValueText":""},"description":"","show_in_table":true},{"id":714836,"label":"\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0441\u0432\u043e\u0438 \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u044f \u043a \u0443\u0440\u043e\u043a\u0443. \u0427\u0442\u043e-\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c\/\u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c?","type":"text","required":false,"settings":{"placeholder":"","cols":"49","rows":"3"},"description":"","show_in_table":false}]},
+			valueSet: null,
+			valueEl: $('#widgetValue5914')
+					});
+	});
+</script>
+			</div>
+
+</div>
+<style>
+	</style>			<div data-param="form/items/parts/field67222" data-item-name="field67222" data-title="Элемент" data-animation-mode="no" style="margin-bottom: 25px; border-radius: ; " data-setting-editable="true" class="builder-item part-button  btn1 text-center">
+	
+
+<button type="submit" id="button3718671" class="btn f-btn  button-md btn-success" style="color: ; background-color: ; ">
+	Отправить</button>
+
+<style>
+	.btn.f-btn.button-sm {
+		padding-left: 35px;
+		padding-right: 35px;
+		font-size: 14px;
+		min-height: 46px;
+	}
+
+	.btn.f-btn.button-lg {
+		padding-left: 70px;
+		padding-right: 70px;
+		min-height: 74px;
+		font-size: 20px;
+	}
+
+	.btn.f-btn.button-md {
+		padding-left: 60px;
+		padding-right: 60px;
+		min-height: 60px;
+		font-size: 16px;
+	}
+
+	.lt-menu .btn.f-btn.button-md {
+		padding-left: 10px;
+		padding-right: 10px;
+		min-height: 20px;
+		font-size: 14px;
+	}
+
+	.lt-menu .btn.f-btn.button-sm {
+		padding-left: 8px;
+		padding-right: 8px;
+		font-size: 12px;
+		min-height: 18px;
+	}
+
+	.lt-menu .btn.f-btn.button-lg {
+		padding-left: 40px;
+		padding-right: 40px;
+		min-height: 47px;
+		font-size: 18px;
+	}
+</style>
+
+<script>
+$( function() {
+	var disableButton = function (e) {
+		if (window['prsbutton3718671']) {
+			e.preventDefault();
+			return false;
+		} else {
+			$('#button3718671').addClass('disabled');
+			window['prsbutton3718671'] = true;
+			setTimeout(function(){window['prsbutton3718671'] = false;$('#button3718671').removeClass('disabled');}, 6000);
+		}
+		return true;
+	};
+	$( '#button3718671' ).click( function(e) {
+		//disableButton(e);
+			} );
+});
+</script>
+</div>
+<style>
+	</style>	</div>
+
+
+
+
+
+<script>
+	$( function() {
+
+		if( $('#builder3856170 input[type="radio"]').length == 1 && $('#builder3856170 input[type="radio"]').prop('checked') ) {
+			$('#builder3856170 input[type="radio"]').hide();
+		}
+
+		if ($('.animated-block').animatedBlock) {
+            $('.animated-block').animatedBlock();
+		}
+	} );
+</script>
+	</div>
+
+	<div class="common-setting-link box-setting-link" data-icon-class="fa fa-adjust" data-param="form/formBox" data-title="Стиль блока" data-setting-editable="true"></div>
+	<div class="common-setting-link form-setting-link" data-icon-class="fa fa-wpforms" data-param="form/handler" data-title="Что делать после заполнения" data-setting-editable="true"></div>
+</form>
+<script>
+	$( function() {
+		$('#ltForm1397764').liteForm();
+	} );
+</script>
+
+
+
+	<style>
+		#ltForm1397764 {
+		;		}
+	</style>
+
+		</div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-8737');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103654240', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1103654240-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-9149" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-mission-block" data-block-id="1043068532">
+
+<style>
+	#ltBlock1043068532 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 0px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068532" data-block-id="1043068532" class="lt-block lt-view lmb1 lt-lesson lt-lesson-mission-block" data-code="ltBlock1043068532">
+	<div class="lt-block-wrapper">
+	
+
+
+
+
+	<div class="container">
+		<div class="row row-section">
+			<div class="col-md-12">
+
+
+				
+
+
+<div>
+	<h3>Задание </h3>
+	<div class="lesson-mission-wrapper">
+					<div class="lesson-mission-text" style="padding: 20px 20px; font-size: 16px">
+				<p>Пройдите тест и вставьте ссылку на выполненное задание</p>			</div>
+		
+		<div class="self-answers">
+																					
+
+
+	
+
+	<div class=" has-quote-images-settings-container user-answer  lesson-related-data type-mission_answer_no_check  status-new " data-id="149887677" data-object-type-id="8" data-user-id="176924602" data-lesson-id="201179978" data-lesson-name="JavaScript Junior Frontend Developer. Модуль 1. База JavaScript. 13. Классы + ООП" data-lesson-ugc-default-tags="">
+		<div class="hide comment-user-settings-json">{"signature":"fe78613dc0e6a7081380558a1609f259","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"149887677","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"149887677","user-id":"176924602"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</div>
+		
+
+		<a class="anchor" name="answer149887677">test</a>
+		<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./13. Классы + ООП_files/default_profile_50(1).png"></div>
+
+		<div class="answer-content ">
+
+							<div class="answer-status">
+										
+					<div class="answer-status-label">
+						Без проверки											</div>
+
+											<div class="public-level-block user-can-hide-answer" data-answer-id="149887677">
+							<span class="glyphicon glyphicon-eye-close"></span> этот ответ не виден другим ученикам													</div>
+					
+											<br>
+						<a href="https://vladilen.ru/teach/control/answers/edit?id=149887677">Редактировать ответ</a>&nbsp;&nbsp;
+					
+				</div>
+			
+			
+			<div class="title">
+				<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./13. Классы + ООП_files/default_profile_50(1).png"></div>
+				<a href="https://vladilen.ru/pl/176924602" data-user-id="176924602" class="user-profile-link"><span class="text">אשר סנדלר</span></a>								<span class="answer-date">
+				•
+				<a style="white-space: nowrap" href="https://vladilen.ru/teach/control/lesson/view/id/201179978?showAnswer=149887677#answer149887677" title="Время обновления ответа 2021-07-30 15:04:26">сегодня 15:04</a>
+								</span>
+			</div>
+
+												<div>
+						Результат тестирования: <b>11 баллов из 11</b>					</div>
+												
+
+
+			<div class="answer-main-content user-related-data" data-user-id="176924602">
+				<div class="main" data-object-id="149887677" data-object-type-id="8" data-converter-type-id="174" data-to-review-converted="0">
+					
+					
+
+																				</div>
+				<span class="b-like-and-subscribe-notifications">
+<span class="b-like like-149887677-8" id="likes-149887677-8">
+	<span class="positive-count hide" "="" style="cursor:pointer" data-object-id="149887677" data-object-type-id="8">
+		<i class="icon fa fa-thumbs-o-up"></i>
+
+		<span class="value"><a class="like_users_list"></a></span>
+			<span class="word-separator">•</span>
+		</span>
+		<span class="button positive  " data-object-id="149887677" data-object-type-id="8"><span class="html">Нравится</span></span>		</span>				<span class="word-separator">•</span>
+		<span class="b-notifications-subscribe subscribe-149887677-8 ">
+	<span class="button  " data-object-id="149887677" data-object-type-id="8" data-msg-subscribe="Подписаться" data-msg-unsubscribe="Отменить подписку">Подписаться</span>
+</span>
+	</span>			</div>
+
+			<div class="comments">
+				<div class="comment-list">
+															
+
+<div class=" comments-tree-wrapper">
+	
+	<div class="comments-tree  comments-177331-149887677-8- comments-tree-live   " id="comments-177331-149887677-8--1627657050-8961" data-tree-id="comments-177331-149887677-8-" data-scroll-to-bottom="">
+		<div class="comments-container">
+
+			<div style="">
+						</div>
+												<div class="comments-top-level comments comments-8-149887677-0">
+				<div class="hide settings settings-level-1">
+					<textarea>{"signature":"fe78613dc0e6a7081380558a1609f259","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"149887677","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"149887677","user-id":"176924602"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+				</div>
+
+				
+															</div>
+						
+			</div>
+
+					
+	<div id="commentReplyForm-149887677-8" class="gc-comment-form comment-form-wrapper" data-access="account" data-submit-on-enter="0">
+		<div class="new-comment contains-uploadify ">
+							<form data-level="1" method="post" enctype="multipart/form-data" action="https://vladilen.ru/cms/comment/add">
+					<div class="user-image-wrapper"><a href="https://vladilen.ru/user/my/profile" target="_blank" style="color: #000000;position: relative;"><span style="">
+<img width="50" class="user-profile-image user-default-profile-image " src="./13. Классы + ООП_files/default_comment_profile_50.png">
+<span style="position: absolute; top: 30%; font-size: 0.7em;left:5%;line-height: 0.7em;">загрузить аватарку</span>
+</span></a></div>
+										<textarea class="hide settings-value" name="GetCourseComment[settings]">{"signature":"fe78613dc0e6a7081380558a1609f259","accountUserId":176924602,"values":{"object_type_id":8,"object_id":"149887677","max_level":1,"level":1,"page_size":10,"disable_comments":false,"disable_new_comment":false,"edit_mode":false,"group":null,"params":[],"comment_class":"lesson-answer-comment user-related-data ","comment_class_callback":{},"data":{"id":"149887677","user-id":"176924602"},"level_directions":{"1":"asc"},"level_show_send_button_always":{"1":false},"editable_comments":true,"show_online_user_count":false,"collapsible":true,"object_attributes":[],"level_form_submit_on_enter":{"1":false,"2":true},"own_user_id":null,"invert_own_user":false,"enable_subscribe":true,"disable_links":false,"window_style":null}}</textarea>
+					<div class="textarea-block" style="position: relative">
+						<div class="emoji-container"><textarea placeholder="добавить комментарий к ответу" class="new-comment-textarea new-comment-textarea-level-1 emoji-textarea" name="GetCourseComment[comment_text]" style="max-height: 400px; overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 28px; min-height: 28px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+
+						
+																			<div class="attach-file-button-container"><div id="uploadifive-comment-upload-button0" class="uploadifive-button" style="height: 20px; line-height: 20px; overflow: hidden; position: relative; text-align: center; width: 15px; background: transparent; color: rgb(153, 153, 153); padding: 0px; font-size: 1em;"><i class="glyphicon glyphicon-paperclip"></i><div class="upload-button" id="comment-upload-button0" style="display: none;"></div><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div></div>
+							<span class="comment-attach-file-link"></span>
+						
+													
+						<button class="btn btn-primary btn-send">
+														<span class="fa fa-send"></span>
+														<span class="text">Отправить</span>
+						</button><div class="file-uploader"><div id="uploadifive-comment-upload-button0-queue" class="uploadifive-queue"></div><input type="hidden" class="upload-value" name="GetCourseComment[files]"></div>
+																													</div>
+				</form>
+					</div>
+	</div>
+
+	
+</div>
+<script>
+	$(function(){
+		GcCommentsTreeWidget.create($('#comments-177331-149887677-8--1627657050-8961'));
+
+					});
+</script>
+</div>
+
+
+
+				</div>
+			</div>
+							<div>
+					
+					
+					
+							</div>
+	
+	</div>
+
+	</div>
+					</div>
+
+					
+									<div style="padding-left: 20px; padding-bottom: 20px; padding-top: 20px;">
+						
+<div id="testingWidget6009943" class="testing-widget">
+	<div class="testing-content">
+		
+
+									<script type="text/javascript">
+				if ( $('.editor-control-panel').length === 0 && $('.gc-share-links').length > 0 ) {
+					window.location.href = window.location.href + ( window.location.search ? '&' : '?' ) + 'qrid=' + 36736235;
+				}
+			</script>
+										<div class="stat-block">
+					<div class="row">
+						<div class="col-md-12 stat-title">
+							Ваш результат						</div>
+					</div>
+										<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<div class="stat-str">
+																	11 из 11															</div>
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+																					<div class="row">
+							<div class="col-md-12" style="text-align: center">
+								<button type="button" class="btn btn-default btn-restart" data-questionary-id="4501019"> <span class="fa fa-refresh"></span> Начать заново</button>
+							</div>
+						</div>
+					
+					
+				</div>
+
+				<script>
+					window.shareUrlAppend = "?qrid=36736235";
+					window.shareTitle = "11 правильных ответов из 11 вопросов";
+				</script>
+			
+							<script>
+					$( function() {
+						$(".lesson-send-answer-block").show()					})
+				</script>
+						
+<script>
+	console.log('');
+</script>
+	</div>
+</div>
+
+<script>
+	$( function() {
+		if (jQuery().testingWidget) {
+			$('#testingWidget6009943').testingWidget({
+				questionaryId:4501019,
+				objectTypeId: 79,
+				objectId: 201179978,
+				showRestartBtnAlways: 0,
+				onQuestion: "$(\".lesson-send-answer-block\").hide(); $(\".lesson-send-answer-block .errorSummary\").hide();",
+				onFinish: "$(\".lesson-send-answer-block\").show()",
+				limitTimeAnswer: 0,
+				scrollToQuestionary: 0			});
+		}
+	});
+</script>					</div>
+				
+				<div class="lesson-send-answer-block">
+					<form id="lessonAnswerForm" action="https://vladilen.ru/pl/teach/control/lesson/view?id=201179978#lessonAnswerForm" method="post">
+<div class="answer-form">
+	<div style="float: left; margin-right: 10px"><img width="50" class="user-profile-image user-default-profile-image " src="./13. Классы + ООП_files/default_profile_50(1).png"></div>
+	<div class="answer-form-inner">
+		<div style="margin-left: 0px; overflow: hidden">
+
+			
+							<div class="answer-textarea-container">
+					<div class="form-group field-lessonanswer-answer_text">
+						<div class="emoji-container">
+							<div class="emoji-container"><textarea id="lessonanswer-answer_text" class="emoji-textarea" name="LessonAnswer[answer_text]" placeholder="ваш ответ" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 100px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+						</div>
+													<div id="queue"></div>
+
+
+
+<div style="overflow: hidden">
+	<div id="uploadifive-file_upload44188" class="uploadifive-button" style="height: 30px; line-height: 30px; overflow: hidden; position: relative; text-align: center; width: 170px;">Добавить файлы<input id="file_upload44188" name="file_upload" type="file" multiple="true" style="display: none;"><input type="file" style="font-size: 30px; opacity: 0; position: absolute; right: -3px; top: -3px; z-index: 999;" multiple="multiple"></div><div id="uploadifive-file_upload44188-queue" class="uploadifive-queue"></div>
+	<input class="LessonAnswer-fileList--add-file" name="LessonAnswer[fileList][add_files]" type="hidden" multiple="true">
+	<span class="text-muted small">максимальный размер файла - 100мб</span>
+</div>
+
+<script type="text/javascript">
+	    $(function() {
+        $('#file_upload44188').uploadifive({
+            auto: true,
+            width: 170,
+            buttonText: "Добавить файлы",
+            fileSizeLimit: "100MB",
+            multi: true,
+            formData     : {
+                timestamp : '1627657050',
+                userId: '176924602',
+                token     : '3219770fc98990398abf7beb5821cb73'
+            },
+            uploadScript : '/fileservice/widget/upload',
+            onUploadError: function( file, errorCode, errorMsg ) {
+                alert("ERROR");
+            },
+            onUploadComplete: function( e,res  ) {
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                if ( newVal.length > 0 ) {
+                    newVal += ",";
+                }
+                newVal += res;
+                e.res = res;
+
+                $hiddenInputEl.val( newVal );
+                //location.href = location.href;
+            },
+            onCancel: function( e ) {
+
+                $hiddenInputEl = $( '.LessonAnswer-fileList--add-file' );
+                oldVal = $hiddenInputEl.val();
+                newVal = oldVal;
+                newVal = newVal.replace(e.res, "");
+
+                $hiddenInputEl.val( newVal );
+            }
+        });
+    });
+</script>											</div>
+					<div class="form-group field-lessonanswer-lesson_id required">
+
+<input type="hidden" id="lessonanswer-lesson_id" class="form-control" name="LessonAnswer[lesson_id]" value="201179978">
+
+<div class="help-block"></div>
+</div>				</div>
+			
+						
+			<input type="hidden" name="abc" value="true" class="send-answer-value">
+													<button name="send-answer" class="btn btn-send-answer btn-primary btn-lg">Отправить ответ</button>
+				<button name="send-answer" class="btn btn-link btn-save-draft ">Сохранить черновик</button>
+										<div class="small" style="margin-top:10px;">
+					20 монет за выполнение этого урока 				</div>
+						<br><br>
+		</div>
+	</div>
+
+	</div></form>
+<script>
+	$( function() {
+		$('.answer-form textarea').autosize();
+		$('#lessonAnswerForm').submit( function() {
+			$('.send-answer-value').attr('name', 'send-answer');
+			$('.btn-send-answer, .btn-save-draft').attr('disabled','disabled');
+			return true;
+		});
+		$('.btn-save-draft').click(function() {
+			let isBeforeTestingStage = $('.before-start-block').first().length > 0;
+				if (isBeforeTestingStage) {
+					return false;
+				}
+			$('#lessonAnswerForm').append('<input type="hidden" name="is-draft" value="1" />');
+				return true;
+			});
+	})
+</script>
+
+<style>
+	.answer-form .answer-textarea-container {
+		padding-bottom: 0;
+	}
+</style>
+				</div>
+								
+		
+	</div>
+
+</div>
+
+			</div>
+		</div>
+	</div>
+
+</div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-9149');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068532', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068532-user-176924602', handler);
+		}
+			});
+</script>
+			<div data-updated="1626545938" id="lite-block-live-wrapper-1627657050-9327" class="lite-block-live-wrapper o-lt-lesson o-lt-lesson-comment-block" data-block-id="1043068533">
+
+<style>
+	#ltBlock1043068533 .lt-block-wrapper {
+		padding-top: 0px; padding-bottom: 15px	}
+
+			
+			</style>
+
+
+<div id="ltBlock1043068533" data-block-id="1043068533" class="lt-block lt-view lesson-comment-block-1 lt-lesson lt-lesson-comment-block" data-code="ltBlock1043068533">
+	<div class="lt-block-wrapper">
+	
+
+
+
+<div class="container">
+	<div class="row row-section">
+		<div class="col-md-12">
+
+			
+							<div class="lesson-answers-title">
+					<div class="pull-right" id="answers">
+
+													<b>старые ответы</b> /
+								<a href="https://vladilen.ru/pl/teach/control/lesson/view?id=201179978&amp;sort=desc&amp;mode=answers#answers">новые ответы</a>
+												сначала
+					</div>
+					<h3 style="margin-bottom: 20px;">
+													Комментарии к уроку						
+											</h3>
+				</div>
+			
+								<div class="simple-answer user-answer" data-answers-list-selector=".other-answers" data-lesson-id="201179978">
+		<div class="new-comment new-answer">
+			<div class="user-image"><img width="50" class="user-profile-image user-default-profile-image " src="./13. Классы + ООП_files/default_profile_50(1).png"></div>
+			<div class="answer-comment textarea-block">
+				<div class="emoji-container"><textarea placeholder="добавить комментарий к уроку (ответ на задание здесь давать не нужно)" class="new-comment-textarea emoji-textarea" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 40px;"></textarea><div class="emoji-button"><span class="fa fa-smile-o fa-lg"></span></div></div>
+				<button class="btn btn-primary btn-send">Отправить</button>
+			</div>
+		</div>
+	</div>
+
+																					
+
+
+
+
+
+<div class="other-answers answers-list">
+
+							</div>
+
+
+
+
+<script>
+    window.startAnswers = 10;
+    window.answersCount = 1;
+    window.lessonId = 201179978;
+    window.answersPerPage = 10;
+</script>		</div>
+	</div>
+</div></div></div>
+
+
+
+</div><script>
+	$(function() {
+		var updateBlock = function (content, updated) {
+			// console.log(json);
+			var $el = $('#lite-block-live-wrapper-1627657050-9327');
+			$el.html(content);
+			$el.data('updated', updated);
+		};
+		if (window.accountUserWebSocketConnection) {
+			var handler = function(message, json) {
+				updateBlock(json.content, json.updated);
+			};
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068533', handler);
+			window.accountUserWebSocketConnection.subscribeChannel('update-lite-block-1043068533-user-176924602', handler);
+		}
+			});
+</script>
+	</div>
+
+
+<style>
+
+	.content-row > div {
+		padding: 0px;
+	}
+
+	.content-row > div {
+		padding-top: 20px;
+	}
+
+	.content-row > div p, .content-row > div ol, .content-row > div ul, .content-row > div h1, .content-row > div h2, .content-row > div h3, .content-row > div h4 {
+		margin-left: 20px;
+	}
+
+	.files-row > div {
+		padding-top: 20px;
+	}
+
+</style>			</div>
+
+</div>
+	</div>
+</div>
+
+
+	</div>
+
+			<script src="./13. Классы + ООП_files/gccounter.js.download"></script><img style="position: absolute; left:0;top:0" width="1" height="1" id="gccounterImg" src="./13. Классы + ООП_files/counter">
+	
+<style>
+.talks-widget-window {
+ color: #000;
+}
+.lesson-list li.user-state-not_reached .info {
+  background: none !important;
+}
+</style>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(82175713, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/82175713" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div id="w39151" class="talks-widget activated-talks-widget"></div>
+
+<script>
+	$( function() {
+		$('#w39151').talksWidget({
+			fullMode: false,
+			allowGuest: false,
+			openedConversationId: null,
+		});
+	} );
+</script>
+
+
+<script src="./13. Классы + ООП_files/select2.min.js.download"></script>
+<script src="./13. Классы + ООП_files/select2-kv.min.js.download"></script>
+<script src="./13. Классы + ООП_files/select2_locale_ru.js.download"></script>
+<script src="./13. Классы + ООП_files/replace.js.download"></script>
+<script src="./13. Классы + ООП_files/cdnfeedback.js.download"></script>
+<script src="./13. Классы + ООП_files/videoplayer.js.download"></script>
+<script src="./13. Классы + ООП_files/superlite-block-297e12f47a66cd797c0fad21b2c45ce7.js.download"></script>
+<script src="./13. Классы + ООП_files/bootstrap-datetimepicker.min.js.download"></script>
+<script src="./13. Классы + ООП_files/tags-3aa0609a20b00cc7e41f55385c6b7d97.js.download"></script>
+<script src="./13. Классы + ООП_files/widget.js.download"></script>
+<script src="./13. Классы + ООП_files/checkbox.js.download"></script>
+<script src="./13. Классы + ООП_files/date.js.download"></script>
+<script src="./13. Классы + ООП_files/numeric.js.download"></script>
+<script src="./13. Классы + ООП_files/select.js.download"></script>
+<script src="./13. Классы + ООП_files/select_object.js.download"></script>
+<script src="./13. Классы + ООП_files/string.js.download"></script>
+<script src="./13. Классы + ООП_files/dateshift.js.download"></script>
+<script src="./13. Классы + ООП_files/custom-form-7732a6796257c2ff5ec921774c5788d0.js.download"></script>
+<script src="./13. Классы + ООП_files/blueimp-gallery.min.js.download"></script>
+<script src="./13. Классы + ООП_files/jquery.blueimp-gallery.min.js.download"></script>
+<script src="./13. Классы + ООП_files/blueimp-gallery-indicator.js.download"></script>
+<script src="./13. Классы + ООП_files/fabric.min.js.download"></script>
+<script src="./13. Классы + ООП_files/editor.js.download"></script>
+<script src="./13. Классы + ООП_files/clappr.min.js.download"></script>
+<script src="./13. Классы + ООП_files/level-selector.min.js.download"></script>
+<script src="./13. Классы + ООП_files/answers.js.download"></script>
+<script src="./13. Классы + ООП_files/file_widget.js.download"></script>
+<script src="./13. Классы + ООП_files/redactor.js.download"></script>
+<script src="./13. Классы + ООП_files/ru.js.download"></script>
+<script src="./13. Классы + ООП_files/p2br.js.download"></script>
+<script src="./13. Классы + ООП_files/source.js.download"></script>
+<script src="./13. Классы + ООП_files/typograph.js.download"></script>
+<script src="./13. Классы + ООП_files/iconic.js.download"></script>
+<script src="./13. Классы + ООП_files/inlinestyle.js.download"></script>
+<script src="./13. Классы + ООП_files/table.js.download"></script>
+<script src="./13. Классы + ООП_files/fontcolor.js.download"></script>
+<script src="./13. Классы + ООП_files/questions-editor.js.download"></script>
+<script src="./13. Классы + ООП_files/questions-editor-button.js.download"></script>
+<script src="./13. Классы + ООП_files/testing-widget.js.download"></script>
+<script src="./13. Классы + ООП_files/yii.validation.js.download"></script>
+<script src="./13. Классы + ООП_files/yii.activeForm.js.download"></script>
+<script src="./13. Классы + ООП_files/mission-addfields.js.download"></script>
+<script src="./13. Классы + ООП_files/colpick.js.download"></script>
+<script src="./13. Классы + ООП_files/light-menu.js.download"></script>
+<script src="./13. Классы + ООП_files/tasks-block.js.download"></script>
+<script src="./13. Классы + ООП_files/comment_rating_widget.js.download"></script>
+<script src="./13. Классы + ООП_files/conversation_widget.js.download"></script>
+<script src="./13. Классы + ООП_files/conversation_controls.js.download"></script>
+<script src="./13. Классы + ООП_files/talks_widget.js.download"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#lessonAnswerForm').yiiActiveForm([{"id":"lessonanswer-lesson_id","name":"lesson_id","container":".field-lessonanswer-lesson_id","input":"#lessonanswer-lesson_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Не заполнено поле «Lesson»."});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"Lesson должен быть целым числом.","skipOnEmpty":1});}}], []);
+});</script>
+
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;"><div class="slides next-click"></div><h3 class="title"></h3><a class="prev">‹</a><a class="next next-click">›</a><a class="play-pause"></a><ol class="indicator"></ol></div><textarea tabindex="-1" style="position: absolute; inset: -999px auto auto 0px; border: 0px; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; overflow: hidden; transition: none 0s ease 0s; height: 0px !important; min-height: 0px !important; font-family: proxima-nova, Lato, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 21.7px; width: 614.005px;" class="autosizejs"></textarea><div class="talks-widget-button"><span class="fa comments-icon fa-comments"></span><div class="conversations-counter" style="display: none;">0</div></div><div class="gc-fade-wrapper" style="display: none;"><div class="gc-fade"></div></div><div></div></body></html>
